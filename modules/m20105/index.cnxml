@@ -1,0 +1,1127 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML">
+  <title>Векторски производ на два вектора</title>
+<metadata xmlns:md="http://cnx.rice.edu/mdml">
+  <md:content-id>m20105</md:content-id>
+  <md:title>Векторски производ на два вектора</md:title>
+  <md:abstract>Се дефинира векторски производ на два вектора и неговите својства.
+Cross product and properties</md:abstract>
+  <md:uuid>256b8d68-0c7d-43da-9bed-7018f2d6e502</md:uuid>
+</metadata>
+
+<content>
+    <section id="id1166264650672">
+      <title>ВЕКТОРСКИ ПРОИЗВОД НА ДВА ВЕКТОРА</title>
+      <para id="id1166263237494">За решавање на проблеми во кои се бара да се определи вектор кој ќе биде нормален на два дадени вектора, се дефинира друг вид на производ кој е векторска величина и се нарекува векторски производ и дефинира со:</para>
+      <para id="id1166263004798"><emphasis><emphasis effect="italics">Дефиницијa</emphasis></emphasis><emphasis effect="italics">.</emphasis><term> Векторски</term><term> производ</term> на векторите 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mover><m:mi>a</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mo stretchy="false">→</m:mo></m:mrow></m:mstyle></m:mover></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ {a}  cSup { size 8{ rightarrow } } } {}</m:annotation></m:semantics></m:math> и 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mover><m:mi>b</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mo stretchy="false">→</m:mo></m:mrow></m:mstyle></m:mover></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ {b}  cSup { size 8{ rightarrow } } } {}</m:annotation></m:semantics></m:math> е вектор 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mover><m:mi>c</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mo stretchy="false">→</m:mo></m:mrow></m:mstyle></m:mover></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ {c}  cSup { size 8{ rightarrow } } } {}</m:annotation></m:semantics></m:math> кој се означува со  </para>
+      <para id="id1166259214950">
+        <emphasis effect="bold"/>
+        <emphasis effect="italics"/>
+        <m:math>
+          <m:semantics>
+            <m:mrow>
+              <m:mstyle fontsize="12pt">
+                <m:mrow>
+                  <m:mrow>
+                    <m:mover>
+                      <m:mi>c</m:mi>
+                      <m:mstyle fontsize="8pt">
+                        <m:mrow>
+                          <m:mo stretchy="false">→</m:mo>
+                        </m:mrow>
+                      </m:mstyle>
+                    </m:mover>
+                    <m:mo stretchy="false">=</m:mo>
+                    <m:mrow>
+                      <m:mover>
+                        <m:mi>a</m:mi>
+                        <m:mstyle fontsize="8pt">
+                          <m:mrow>
+                            <m:mo stretchy="false">→</m:mo>
+                          </m:mrow>
+                        </m:mstyle>
+                      </m:mover>
+                      <m:mo stretchy="false">×</m:mo>
+                      <m:mover>
+                        <m:mi>b</m:mi>
+                        <m:mstyle fontsize="8pt">
+                          <m:mrow>
+                            <m:mo stretchy="false">→</m:mo>
+                          </m:mrow>
+                        </m:mstyle>
+                      </m:mover>
+                    </m:mrow>
+                  </m:mrow>
+                </m:mrow>
+              </m:mstyle>
+              <m:mrow/>
+            </m:mrow>
+            <m:annotation encoding="StarMath 5.0"> size 12{ {c}  cSup { size 8{ rightarrow } } = {a}  cSup { size 8{ rightarrow } }  times  {b}  cSup { size 8{ rightarrow } } } {}</m:annotation>
+          </m:semantics>
+        </m:math>
+      </para>
+      <para id="id8825606">и е определен со:</para>
+      <para id="id1166265472483">- <term>должина</term>|
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mover><m:mi>c</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mo stretchy="false">→</m:mo></m:mrow></m:mstyle></m:mover></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ {c}  cSup { size 8{ rightarrow } } } {}</m:annotation></m:semantics></m:math>| = |
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mover><m:mi>a</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mo stretchy="false">→</m:mo></m:mrow></m:mstyle></m:mover></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ {a}  cSup { size 8{ rightarrow } } } {}</m:annotation></m:semantics></m:math>||
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mover><m:mi>b</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mo stretchy="false">→</m:mo></m:mrow></m:mstyle></m:mover></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ {b}  cSup { size 8{ rightarrow } } } {}</m:annotation></m:semantics></m:math>| sin
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mi>∠</m:mi></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{∠} {}</m:annotation></m:semantics></m:math>(
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mover><m:mi>a</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mo stretchy="false">→</m:mo></m:mrow></m:mstyle></m:mover></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ {a}  cSup { size 8{ rightarrow } } } {}</m:annotation></m:semantics></m:math>,
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mover><m:mi>b</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mo stretchy="false">→</m:mo></m:mrow></m:mstyle></m:mover></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ {b}  cSup { size 8{ rightarrow } } } {}</m:annotation></m:semantics></m:math>) ;</para>
+      <para id="id1166256918015"><emphasis effect="italics">- </emphasis><term>правец</term> кој е нормален на рамнината во која лежат векторите 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mover><m:mi>a</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mo stretchy="false">→</m:mo></m:mrow></m:mstyle></m:mover></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ {a}  cSup { size 8{ rightarrow } } } {}</m:annotation></m:semantics></m:math> и 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mover><m:mi>b</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mo stretchy="false">→</m:mo></m:mrow></m:mstyle></m:mover></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ {b}  cSup { size 8{ rightarrow } } } {}</m:annotation></m:semantics></m:math>, односно </para>
+      <para id="id1166263144637"><emphasis effect="bold"/><m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mover><m:mi>c</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mo stretchy="false">→</m:mo></m:mrow></m:mstyle></m:mover></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ {c}  cSup { size 8{ rightarrow } } } {}</m:annotation></m:semantics></m:math>⊥
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mover><m:mi>a</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mo stretchy="false">→</m:mo></m:mrow></m:mstyle></m:mover></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ {a}  cSup { size 8{ rightarrow } } } {}</m:annotation></m:semantics></m:math> и 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mover><m:mi>c</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mo stretchy="false">→</m:mo></m:mrow></m:mstyle></m:mover></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ {c}  cSup { size 8{ rightarrow } } } {}</m:annotation></m:semantics></m:math>⊥
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mover><m:mi>b</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mo stretchy="false">→</m:mo></m:mrow></m:mstyle></m:mover></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ {b}  cSup { size 8{ rightarrow } } } {}</m:annotation></m:semantics></m:math>;</para>
+      <para id="id1166257542463">- <term>насоката</term> на 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mover><m:mi>c</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mo stretchy="false">→</m:mo></m:mrow></m:mstyle></m:mover></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ {c}  cSup { size 8{ rightarrow } } } {}</m:annotation></m:semantics></m:math><emphasis effect="italics"/>е таква што векторите 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mover><m:mi>a</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mo stretchy="false">→</m:mo></m:mrow></m:mstyle></m:mover></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ {a}  cSup { size 8{ rightarrow } } } {}</m:annotation></m:semantics></m:math>,
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mover><m:mi>b</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mo stretchy="false">→</m:mo></m:mrow></m:mstyle></m:mover></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ {b}  cSup { size 8{ rightarrow } } } {}</m:annotation></m:semantics></m:math> и
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mover><m:mi>c</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mo stretchy="false">→</m:mo></m:mrow></m:mstyle></m:mover></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ {c}  cSup { size 8{ rightarrow } } } {}</m:annotation></m:semantics></m:math> образуваат десна тројка вектори, односно се однесуваат по правилото на десен винт (Сл. 1.8.). </para>
+      <para id="id1166263119823">
+        <table id="id1166262546156" summary="">
+          <tgroup cols="1">
+            <colspec colnum="1" colname="c1"/>
+            <tbody>
+              <row>
+                <entry>
+                  <media id="id1166262457510" alt="">
+                    <image mime-type="image/jpg" src="../../media/graphics1-66d8.jpg"/>
+                  </media>
+                </entry>
+              </row>
+              <row>
+                <entry>Слика 1.8. Правило на десен винт</entry>
+              </row>
+            </tbody>
+          </tgroup>
+        </table>
+      </para>
+      <para id="id8546007"/>
+      <section id="id1166257893542">
+        <title>Својства на векторскиот производ</title>
+        <para id="id1166261616543">Од дефиницијата за векторски производ следуваат следните негови својства:</para>
+        <para id="id1166261622575">1.   
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mover><m:mi>a</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mo stretchy="false">→</m:mo></m:mrow></m:mstyle></m:mover><m:mo stretchy="false">×</m:mo><m:mover><m:mi>b</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mo stretchy="false">→</m:mo></m:mrow></m:mstyle></m:mover></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ {a}  cSup { size 8{ rightarrow } }  times  {b}  cSup { size 8{ rightarrow } } } {}</m:annotation></m:semantics></m:math>=
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mrow><m:mo stretchy="false">−</m:mo><m:mover><m:mi>b</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mo stretchy="false">→</m:mo></m:mrow></m:mstyle></m:mover></m:mrow><m:mo stretchy="false">×</m:mo><m:mover><m:mi>a</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mo stretchy="false">→</m:mo></m:mrow></m:mstyle></m:mover></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ -  {b}  cSup { size 8{ rightarrow } }  times  {a}  cSup { size 8{ rightarrow } } } {}</m:annotation></m:semantics></m:math>      (антикомутативен закон)</para>
+        <para id="id1166259126107">2. <emphasis effect="italics"/><m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mrow><m:mover><m:mi>a</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mo stretchy="false">→</m:mo></m:mrow></m:mstyle></m:mover><m:mo stretchy="false">×</m:mo><m:mo stretchy="false">(</m:mo></m:mrow><m:mrow><m:mover><m:mi>b</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mo stretchy="false">→</m:mo></m:mrow></m:mstyle></m:mover><m:mo stretchy="false">+</m:mo><m:mover><m:mi>c</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mo stretchy="false">→</m:mo></m:mrow></m:mstyle></m:mover></m:mrow><m:mrow><m:mo stretchy="false">)</m:mo><m:mo stretchy="false">=</m:mo><m:mrow><m:mrow><m:mover><m:mi>a</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mo stretchy="false">→</m:mo></m:mrow></m:mstyle></m:mover><m:mo stretchy="false">×</m:mo><m:mover><m:mi>b</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mo stretchy="false">→</m:mo></m:mrow></m:mstyle></m:mover></m:mrow><m:mo stretchy="false">+</m:mo><m:mrow><m:mover><m:mi>a</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mo stretchy="false">→</m:mo></m:mrow></m:mstyle></m:mover><m:mo stretchy="false">×</m:mo><m:mover><m:mi>c</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mo stretchy="false">→</m:mo></m:mrow></m:mstyle></m:mover></m:mrow></m:mrow></m:mrow></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ {a}  cSup { size 8{ rightarrow } }  times  \(  {b}  cSup { size 8{ rightarrow } } + {c}  cSup { size 8{ rightarrow } }  \) = {a}  cSup { size 8{ rightarrow } }  times  {b}  cSup { size 8{ rightarrow } } + {a}  cSup { size 8{ rightarrow } }  times  {c}  cSup { size 8{ rightarrow } } } {}</m:annotation></m:semantics></m:math><emphasis effect="italics"/>(дистрибутивен закон)</para>
+        <para id="id1166261620197">3. <sup/>λ(
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mover><m:mi>a</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mo stretchy="false">→</m:mo></m:mrow></m:mstyle></m:mover><m:mo stretchy="false">×</m:mo><m:mover><m:mi>b</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mo stretchy="false">→</m:mo></m:mrow></m:mstyle></m:mover></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ {a}  cSup { size 8{ rightarrow } }  times  {b}  cSup { size 8{ rightarrow } } } {}</m:annotation></m:semantics></m:math>) = (λ
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mover><m:mi>a</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mo stretchy="false">→</m:mo></m:mrow></m:mstyle></m:mover></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ {a}  cSup { size 8{ rightarrow } } } {}</m:annotation></m:semantics></m:math>)<emphasis effect="italics"/>×
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mover><m:mi>b</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mo stretchy="false">→</m:mo></m:mrow></m:mstyle></m:mover></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ {b}  cSup { size 8{ rightarrow } } } {}</m:annotation></m:semantics></m:math>= 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mover><m:mi>a</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mo stretchy="false">→</m:mo></m:mrow></m:mstyle></m:mover></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ {a}  cSup { size 8{ rightarrow } } } {}</m:annotation></m:semantics></m:math><emphasis effect="italics"/>× (λ
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mover><m:mi>b</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mo stretchy="false">→</m:mo></m:mrow></m:mstyle></m:mover></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ {b}  cSup { size 8{ rightarrow } } } {}</m:annotation></m:semantics></m:math>)  (множење со скалар λ)</para>
+        <para id="id1166259499524">4.  Ако 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mover><m:mi>a</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mo stretchy="false">→</m:mo></m:mrow></m:mstyle></m:mover><m:mo stretchy="false">≠</m:mo><m:mover><m:mn>0</m:mn><m:mstyle fontsize="8pt"><m:mrow><m:mo stretchy="false">→</m:mo></m:mrow></m:mstyle></m:mover></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ {a}  cSup { size 8{ rightarrow } }  &lt;&gt;  {0}  cSup { size 8{ rightarrow } } } {}</m:annotation></m:semantics></m:math> и 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mover><m:mi>b</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mo stretchy="false">→</m:mo></m:mrow></m:mstyle></m:mover><m:mo stretchy="false">≠</m:mo><m:mover><m:mn>0</m:mn><m:mstyle fontsize="8pt"><m:mrow><m:mo stretchy="false">→</m:mo></m:mrow></m:mstyle></m:mover></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ {b}  cSup { size 8{ rightarrow } }  &lt;&gt;  {0}  cSup { size 8{ rightarrow } } } {}</m:annotation></m:semantics></m:math> тогаш,</para>
+        <para id="id8604429"><emphasis effect="italics"/><m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mrow><m:mover><m:mi>a</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mo stretchy="false">→</m:mo></m:mrow></m:mstyle></m:mover><m:mo stretchy="false">×</m:mo><m:mover><m:mi>b</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mo stretchy="false">→</m:mo></m:mrow></m:mstyle></m:mover></m:mrow><m:mo stretchy="false">=</m:mo><m:mover><m:mn>0</m:mn><m:mstyle fontsize="8pt"><m:mrow><m:mo stretchy="false">→</m:mo></m:mrow></m:mstyle></m:mover></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ {a}  cSup { size 8{ rightarrow } }  times  {b}  cSup { size 8{ rightarrow } } = {0}  cSup { size 12{ rightarrow } } } {}</m:annotation></m:semantics></m:math><emphasis effect="italics"/>⇔<emphasis effect="italics"/><m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mover><m:mi>a</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mo stretchy="false">→</m:mo></m:mrow></m:mstyle></m:mover></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ {a}  cSup { size 8{ rightarrow } } } {}</m:annotation></m:semantics></m:math> и 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mover><m:mi>b</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mo stretchy="false">→</m:mo></m:mrow></m:mstyle></m:mover></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ {b}  cSup { size 8{ rightarrow } } } {}</m:annotation></m:semantics></m:math> се колинеарни вектори (
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mover><m:mi>a</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mo stretchy="false">→</m:mo></m:mrow></m:mstyle></m:mover></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ {a}  cSup { size 8{ rightarrow } } } {}</m:annotation></m:semantics></m:math><emphasis effect="italics"/>|| 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mover><m:mi>b</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mo stretchy="false">→</m:mo></m:mrow></m:mstyle></m:mover></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ {b}  cSup { size 8{ rightarrow } } } {}</m:annotation></m:semantics></m:math>).</para>
+        <para id="id1166264038629"/>
+        <para id="id1166265440425">5.  Векторскиот производ меѓу единичните вектори е:</para>
+        <para id="id1166263168997"><m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mrow><m:mover><m:mi>i</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mo stretchy="false">→</m:mo></m:mrow></m:mstyle></m:mover><m:mo stretchy="false">×</m:mo><m:mover><m:mi>j</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mo stretchy="false">→</m:mo></m:mrow></m:mstyle></m:mover></m:mrow><m:mo stretchy="false">=</m:mo><m:mover><m:mi>k</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mo stretchy="false">→</m:mo></m:mrow></m:mstyle></m:mover></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ {i}  cSup { size 8{ rightarrow } }  times  {j}  cSup { size 8{ rightarrow } } = {k}  cSup { size 8{ rightarrow } } } {}</m:annotation></m:semantics></m:math>,   
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mrow><m:mover><m:mi>j</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mo stretchy="false">→</m:mo></m:mrow></m:mstyle></m:mover><m:mo stretchy="false">×</m:mo><m:mover><m:mi>k</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mo stretchy="false">→</m:mo></m:mrow></m:mstyle></m:mover></m:mrow><m:mo stretchy="false">=</m:mo><m:mover><m:mi>i</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mo stretchy="false">→</m:mo></m:mrow></m:mstyle></m:mover></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ {j}  cSup { size 8{ rightarrow } }  times  {k}  cSup { size 8{ rightarrow } } = {i}  cSup { size 8{ rightarrow } } } {}</m:annotation></m:semantics></m:math>,   
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mrow><m:mover><m:mi>k</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mo stretchy="false">→</m:mo></m:mrow></m:mstyle></m:mover><m:mo stretchy="false">×</m:mo><m:mover><m:mi>i</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mo stretchy="false">→</m:mo></m:mrow></m:mstyle></m:mover></m:mrow><m:mo stretchy="false">=</m:mo><m:mover><m:mi>j</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mo stretchy="false">→</m:mo></m:mrow></m:mstyle></m:mover></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ {k}  cSup { size 8{ rightarrow } }  times  {i}  cSup { size 8{ rightarrow } } = {j}  cSup { size 8{ rightarrow } } } {}</m:annotation></m:semantics></m:math>,</para>
+        <para id="id7093767"><m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mrow><m:mover><m:mi>i</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mo stretchy="false">→</m:mo></m:mrow></m:mstyle></m:mover><m:mo stretchy="false">×</m:mo><m:mover><m:mi>i</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mo stretchy="false">→</m:mo></m:mrow></m:mstyle></m:mover></m:mrow><m:mo stretchy="false">=</m:mo><m:mover><m:mn>0</m:mn><m:mstyle fontsize="8pt"><m:mrow><m:mo stretchy="false">→</m:mo></m:mrow></m:mstyle></m:mover></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ {i}  cSup { size 8{ rightarrow } }  times  {i}  cSup { size 8{ rightarrow } } = {0}  cSup { size 8{ rightarrow } } } {}</m:annotation></m:semantics></m:math>,   
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mrow><m:mover><m:mi>j</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mo stretchy="false">→</m:mo></m:mrow></m:mstyle></m:mover><m:mo stretchy="false">×</m:mo><m:mover><m:mi>j</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mo stretchy="false">→</m:mo></m:mrow></m:mstyle></m:mover></m:mrow><m:mo stretchy="false">=</m:mo><m:mover><m:mn>0</m:mn><m:mstyle fontsize="8pt"><m:mrow><m:mo stretchy="false">→</m:mo></m:mrow></m:mstyle></m:mover></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ {j}  cSup { size 8{ rightarrow } }  times  {j}  cSup { size 8{ rightarrow } } = {0}  cSup { size 8{ rightarrow } } } {}</m:annotation></m:semantics></m:math>,   
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mrow><m:mover><m:mi>k</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mo stretchy="false">→</m:mo></m:mrow></m:mstyle></m:mover><m:mo stretchy="false">×</m:mo><m:mover><m:mi>k</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mo stretchy="false">→</m:mo></m:mrow></m:mstyle></m:mover></m:mrow><m:mo stretchy="false">=</m:mo><m:mover><m:mn>0</m:mn><m:mstyle fontsize="8pt"><m:mrow><m:mo stretchy="false">→</m:mo></m:mrow></m:mstyle></m:mover></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ {k}  cSup { size 8{ rightarrow } }  times  {k}  cSup { size 8{ rightarrow } } = {0}  cSup { size 8{ rightarrow } } } {}</m:annotation></m:semantics></m:math>.</para>
+        <para id="id1166261171766">Ако векторите 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mover><m:mi>a</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mo stretchy="false">→</m:mo></m:mrow></m:mstyle></m:mover></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ {a}  cSup { size 8{ rightarrow } } } {}</m:annotation></m:semantics></m:math> и 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mover><m:mi>b</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mo stretchy="false">→</m:mo></m:mrow></m:mstyle></m:mover></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ {b}  cSup { size 8{ rightarrow } } } {}</m:annotation></m:semantics></m:math> се зададени со своите координати</para>
+        <para id="id1166258122651"><m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mover><m:mi>a</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mo stretchy="false">→</m:mo></m:mrow></m:mstyle></m:mover></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ {a}  cSup { size 8{ rightarrow } } } {}</m:annotation></m:semantics></m:math><emphasis effect="italics"/>= {<emphasis effect="italics">x</emphasis><sub>1</sub><emphasis effect="italics">, y</emphasis><sub>1</sub><emphasis effect="italics">, z</emphasis><sub>1</sub>} и <emphasis effect="italics"/><m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mover><m:mi>b</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mo stretchy="false">→</m:mo></m:mrow></m:mstyle></m:mover></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ {b}  cSup { size 8{ rightarrow } } } {}</m:annotation></m:semantics></m:math><emphasis effect="italics"/>= {<emphasis effect="italics">x</emphasis><sub>2</sub><emphasis effect="italics">, y</emphasis><sub>2</sub><emphasis effect="italics">, z</emphasis><sub>2</sub>},</para>
+        <para id="id1166259546113">нивниот векторски производ изразен преку координати е </para>
+        <para id="id7289697"><m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mover><m:mi>a</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mo stretchy="false">→</m:mo></m:mrow></m:mstyle></m:mover><m:mo stretchy="false">×</m:mo><m:mover><m:mi>b</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mo stretchy="false">→</m:mo></m:mrow></m:mstyle></m:mover></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ {a}  cSup { size 8{ rightarrow } }  times  {b}  cSup { size 8{ rightarrow } } } {}</m:annotation></m:semantics></m:math>= 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mo stretchy="false">(</m:mo><m:msub><m:mi>x</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mn>1</m:mn></m:mrow></m:mstyle></m:msub><m:mrow><m:mover><m:mi>i</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mo stretchy="false">→</m:mo></m:mrow></m:mstyle></m:mover><m:mo stretchy="false">+</m:mo><m:msub><m:mi>y</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mn>1</m:mn></m:mrow></m:mstyle></m:msub></m:mrow><m:mrow><m:mover><m:mi>j</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mo stretchy="false">→</m:mo></m:mrow></m:mstyle></m:mover><m:mo stretchy="false">+</m:mo><m:msub><m:mi>z</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mn>1</m:mn></m:mrow></m:mstyle></m:msub></m:mrow><m:mover><m:mi>k</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mo stretchy="false">→</m:mo></m:mrow></m:mstyle></m:mover><m:mrow><m:mo stretchy="false">)</m:mo><m:mo stretchy="false">×</m:mo><m:mo stretchy="false">(</m:mo></m:mrow><m:msub><m:mi>x</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mn>2</m:mn></m:mrow></m:mstyle></m:msub><m:mrow><m:mover><m:mi>i</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mo stretchy="false">→</m:mo></m:mrow></m:mstyle></m:mover><m:mo stretchy="false">+</m:mo><m:msub><m:mi>y</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mn>2</m:mn></m:mrow></m:mstyle></m:msub></m:mrow><m:mrow><m:mover><m:mi>j</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mo stretchy="false">→</m:mo></m:mrow></m:mstyle></m:mover><m:mo stretchy="false">+</m:mo><m:msub><m:mi>z</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mn>2</m:mn></m:mrow></m:mstyle></m:msub></m:mrow><m:mover><m:mi>k</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mo stretchy="false">→</m:mo></m:mrow></m:mstyle></m:mover><m:mrow><m:mo stretchy="false">)</m:mo><m:mo stretchy="false">=</m:mo><m:mrow/></m:mrow></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ \( x rSub { size 8{1} }  {i}  cSup { size 8{ rightarrow } } +y rSub { size 8{1} }  {j}  cSup { size 8{ rightarrow } } +z rSub { size 8{1} }  {k}  cSup { size 8{ rightarrow } }  \)  times  \( x rSub { size 8{2} }  {i}  cSup { size 8{ rightarrow } } +y rSub { size 8{2} }  {j}  cSup { size 8{ rightarrow } } +z rSub { size 8{2} }  {k}  cSup { size 8{ rightarrow } }  \) ={}} {}</m:annotation></m:semantics></m:math></para>
+        <para id="id7548688">
+          <m:math>
+            <m:semantics>
+              <m:mrow>
+                <m:mrow>
+                  <m:mtable>
+                    <m:mtr>
+                      <m:mrow>
+                        <m:mstyle fontsize="12pt">
+                          <m:mrow>
+                            <m:mrow>
+                              <m:mrow>
+                                <m:mrow/>
+                                <m:mo stretchy="false">=</m:mo>
+                                <m:msub>
+                                  <m:mi>x</m:mi>
+                                  <m:mstyle fontsize="8pt">
+                                    <m:mrow>
+                                      <m:mn>1</m:mn>
+                                    </m:mrow>
+                                  </m:mstyle>
+                                </m:msub>
+                              </m:mrow>
+                              <m:msub>
+                                <m:mi>x</m:mi>
+                                <m:mstyle fontsize="8pt">
+                                  <m:mrow>
+                                    <m:mn>2</m:mn>
+                                  </m:mrow>
+                                </m:mstyle>
+                              </m:msub>
+                              <m:mo stretchy="false">(</m:mo>
+                              <m:mrow>
+                                <m:mover>
+                                  <m:mi>i</m:mi>
+                                  <m:mstyle fontsize="8pt">
+                                    <m:mrow>
+                                      <m:mo stretchy="false">→</m:mo>
+                                    </m:mrow>
+                                  </m:mstyle>
+                                </m:mover>
+                                <m:mo stretchy="false">×</m:mo>
+                                <m:mover>
+                                  <m:mi>i</m:mi>
+                                  <m:mstyle fontsize="8pt">
+                                    <m:mrow>
+                                      <m:mo stretchy="false">→</m:mo>
+                                    </m:mrow>
+                                  </m:mstyle>
+                                </m:mover>
+                              </m:mrow>
+                              <m:mrow>
+                                <m:mo stretchy="false">)</m:mo>
+                                <m:mo stretchy="false">+</m:mo>
+                                <m:msub>
+                                  <m:mi>x</m:mi>
+                                  <m:mstyle fontsize="8pt">
+                                    <m:mrow>
+                                      <m:mn>1</m:mn>
+                                    </m:mrow>
+                                  </m:mstyle>
+                                </m:msub>
+                              </m:mrow>
+                              <m:msub>
+                                <m:mi>y</m:mi>
+                                <m:mstyle fontsize="8pt">
+                                  <m:mrow>
+                                    <m:mn>2</m:mn>
+                                  </m:mrow>
+                                </m:mstyle>
+                              </m:msub>
+                              <m:mo stretchy="false">(</m:mo>
+                              <m:mrow>
+                                <m:mover>
+                                  <m:mi>i</m:mi>
+                                  <m:mstyle fontsize="8pt">
+                                    <m:mrow>
+                                      <m:mo stretchy="false">→</m:mo>
+                                    </m:mrow>
+                                  </m:mstyle>
+                                </m:mover>
+                                <m:mo stretchy="false">×</m:mo>
+                                <m:mover>
+                                  <m:mi>j</m:mi>
+                                  <m:mstyle fontsize="8pt">
+                                    <m:mrow>
+                                      <m:mo stretchy="false">→</m:mo>
+                                    </m:mrow>
+                                  </m:mstyle>
+                                </m:mover>
+                              </m:mrow>
+                              <m:mrow>
+                                <m:mo stretchy="false">)</m:mo>
+                                <m:mo stretchy="false">+</m:mo>
+                                <m:msub>
+                                  <m:mi>x</m:mi>
+                                  <m:mstyle fontsize="8pt">
+                                    <m:mrow>
+                                      <m:mn>1</m:mn>
+                                    </m:mrow>
+                                  </m:mstyle>
+                                </m:msub>
+                              </m:mrow>
+                              <m:msub>
+                                <m:mi>z</m:mi>
+                                <m:mstyle fontsize="8pt">
+                                  <m:mrow>
+                                    <m:mn>2</m:mn>
+                                  </m:mrow>
+                                </m:mstyle>
+                              </m:msub>
+                              <m:mo stretchy="false">(</m:mo>
+                              <m:mrow>
+                                <m:mover>
+                                  <m:mi>i</m:mi>
+                                  <m:mstyle fontsize="8pt">
+                                    <m:mrow>
+                                      <m:mo stretchy="false">→</m:mo>
+                                    </m:mrow>
+                                  </m:mstyle>
+                                </m:mover>
+                                <m:mo stretchy="false">×</m:mo>
+                                <m:mi>k</m:mi>
+                              </m:mrow>
+                              <m:mrow>
+                                <m:mo stretchy="false">)</m:mo>
+                                <m:mo stretchy="false">+</m:mo>
+                                <m:mrow/>
+                              </m:mrow>
+                            </m:mrow>
+                          </m:mrow>
+                        </m:mstyle>
+                        <m:mrow/>
+                      </m:mrow>
+                    </m:mtr>
+                    <m:mtr>
+                      <m:mrow>
+                        <m:mrow>
+                          <m:mo stretchy="false">+</m:mo>
+                          <m:msub>
+                            <m:mi>y</m:mi>
+                            <m:mstyle fontsize="8pt">
+                              <m:mrow>
+                                <m:mn>1</m:mn>
+                              </m:mrow>
+                            </m:mstyle>
+                          </m:msub>
+                        </m:mrow>
+                        <m:msub>
+                          <m:mi>x</m:mi>
+                          <m:mstyle fontsize="8pt">
+                            <m:mrow>
+                              <m:mn>2</m:mn>
+                            </m:mrow>
+                          </m:mstyle>
+                        </m:msub>
+                        <m:mo stretchy="false">(</m:mo>
+                        <m:mrow>
+                          <m:mover>
+                            <m:mi>j</m:mi>
+                            <m:mstyle fontsize="8pt">
+                              <m:mrow>
+                                <m:mo stretchy="false">→</m:mo>
+                              </m:mrow>
+                            </m:mstyle>
+                          </m:mover>
+                          <m:mo stretchy="false">×</m:mo>
+                          <m:mover>
+                            <m:mi>i</m:mi>
+                            <m:mstyle fontsize="8pt">
+                              <m:mrow>
+                                <m:mo stretchy="false">→</m:mo>
+                              </m:mrow>
+                            </m:mstyle>
+                          </m:mover>
+                        </m:mrow>
+                        <m:mrow>
+                          <m:mo stretchy="false">)</m:mo>
+                          <m:mo stretchy="false">+</m:mo>
+                          <m:msub>
+                            <m:mi>y</m:mi>
+                            <m:mstyle fontsize="8pt">
+                              <m:mrow>
+                                <m:mn>1</m:mn>
+                              </m:mrow>
+                            </m:mstyle>
+                          </m:msub>
+                        </m:mrow>
+                        <m:msub>
+                          <m:mi>y</m:mi>
+                          <m:mstyle fontsize="8pt">
+                            <m:mrow>
+                              <m:mn>2</m:mn>
+                            </m:mrow>
+                          </m:mstyle>
+                        </m:msub>
+                        <m:mo stretchy="false">(</m:mo>
+                        <m:mrow>
+                          <m:mover>
+                            <m:mi>j</m:mi>
+                            <m:mstyle fontsize="8pt">
+                              <m:mrow>
+                                <m:mo stretchy="false">→</m:mo>
+                              </m:mrow>
+                            </m:mstyle>
+                          </m:mover>
+                          <m:mo stretchy="false">×</m:mo>
+                          <m:mover>
+                            <m:mi>j</m:mi>
+                            <m:mstyle fontsize="8pt">
+                              <m:mrow>
+                                <m:mo stretchy="false">→</m:mo>
+                              </m:mrow>
+                            </m:mstyle>
+                          </m:mover>
+                        </m:mrow>
+                        <m:mrow>
+                          <m:mo stretchy="false">)</m:mo>
+                          <m:mo stretchy="false">+</m:mo>
+                          <m:msub>
+                            <m:mi>y</m:mi>
+                            <m:mstyle fontsize="8pt">
+                              <m:mrow>
+                                <m:mn>1</m:mn>
+                              </m:mrow>
+                            </m:mstyle>
+                          </m:msub>
+                        </m:mrow>
+                        <m:msub>
+                          <m:mi>z</m:mi>
+                          <m:mstyle fontsize="8pt">
+                            <m:mrow>
+                              <m:mn>2</m:mn>
+                            </m:mrow>
+                          </m:mstyle>
+                        </m:msub>
+                        <m:mo stretchy="false">(</m:mo>
+                        <m:mrow>
+                          <m:mover>
+                            <m:mi>j</m:mi>
+                            <m:mstyle fontsize="8pt">
+                              <m:mrow>
+                                <m:mo stretchy="false">→</m:mo>
+                              </m:mrow>
+                            </m:mstyle>
+                          </m:mover>
+                          <m:mo stretchy="false">×</m:mo>
+                          <m:mi>k</m:mi>
+                        </m:mrow>
+                        <m:mrow>
+                          <m:mo stretchy="false">)</m:mo>
+                          <m:mo stretchy="false">+</m:mo>
+                          <m:mrow/>
+                        </m:mrow>
+                        <m:mrow/>
+                      </m:mrow>
+                    </m:mtr>
+                    <m:mtr>
+                      <m:mrow>
+                        <m:mrow>
+                          <m:mo stretchy="false">+</m:mo>
+                          <m:msub>
+                            <m:mi>z</m:mi>
+                            <m:mstyle fontsize="8pt">
+                              <m:mrow>
+                                <m:mn>1</m:mn>
+                              </m:mrow>
+                            </m:mstyle>
+                          </m:msub>
+                        </m:mrow>
+                        <m:msub>
+                          <m:mi>x</m:mi>
+                          <m:mstyle fontsize="8pt">
+                            <m:mrow>
+                              <m:mn>2</m:mn>
+                            </m:mrow>
+                          </m:mstyle>
+                        </m:msub>
+                        <m:mo stretchy="false">(</m:mo>
+                        <m:mrow>
+                          <m:mover>
+                            <m:mi>k</m:mi>
+                            <m:mstyle fontsize="8pt">
+                              <m:mrow>
+                                <m:mo stretchy="false">→</m:mo>
+                              </m:mrow>
+                            </m:mstyle>
+                          </m:mover>
+                          <m:mo stretchy="false">×</m:mo>
+                          <m:mover>
+                            <m:mi>i</m:mi>
+                            <m:mstyle fontsize="8pt">
+                              <m:mrow>
+                                <m:mo stretchy="false">→</m:mo>
+                              </m:mrow>
+                            </m:mstyle>
+                          </m:mover>
+                        </m:mrow>
+                        <m:mrow>
+                          <m:mo stretchy="false">)</m:mo>
+                          <m:mo stretchy="false">+</m:mo>
+                          <m:msub>
+                            <m:mi>z</m:mi>
+                            <m:mstyle fontsize="8pt">
+                              <m:mrow>
+                                <m:mn>1</m:mn>
+                              </m:mrow>
+                            </m:mstyle>
+                          </m:msub>
+                        </m:mrow>
+                        <m:msub>
+                          <m:mi>y</m:mi>
+                          <m:mstyle fontsize="8pt">
+                            <m:mrow>
+                              <m:mn>2</m:mn>
+                            </m:mrow>
+                          </m:mstyle>
+                        </m:msub>
+                        <m:mo stretchy="false">(</m:mo>
+                        <m:mrow>
+                          <m:mover>
+                            <m:mi>k</m:mi>
+                            <m:mstyle fontsize="8pt">
+                              <m:mrow>
+                                <m:mo stretchy="false">→</m:mo>
+                              </m:mrow>
+                            </m:mstyle>
+                          </m:mover>
+                          <m:mo stretchy="false">×</m:mo>
+                          <m:mover>
+                            <m:mi>j</m:mi>
+                            <m:mstyle fontsize="8pt">
+                              <m:mrow>
+                                <m:mo stretchy="false">→</m:mo>
+                              </m:mrow>
+                            </m:mstyle>
+                          </m:mover>
+                        </m:mrow>
+                        <m:mrow>
+                          <m:mo stretchy="false">)</m:mo>
+                          <m:mo stretchy="false">+</m:mo>
+                          <m:msub>
+                            <m:mi>z</m:mi>
+                            <m:mstyle fontsize="8pt">
+                              <m:mrow>
+                                <m:mn>1</m:mn>
+                              </m:mrow>
+                            </m:mstyle>
+                          </m:msub>
+                        </m:mrow>
+                        <m:msub>
+                          <m:mi>z</m:mi>
+                          <m:mstyle fontsize="8pt">
+                            <m:mrow>
+                              <m:mn>2</m:mn>
+                            </m:mrow>
+                          </m:mstyle>
+                        </m:msub>
+                        <m:mo stretchy="false">(</m:mo>
+                        <m:mrow>
+                          <m:mover>
+                            <m:mi>k</m:mi>
+                            <m:mstyle fontsize="8pt">
+                              <m:mrow>
+                                <m:mo stretchy="false">→</m:mo>
+                              </m:mrow>
+                            </m:mstyle>
+                          </m:mover>
+                          <m:mo stretchy="false">×</m:mo>
+                          <m:mover>
+                            <m:mi>k</m:mi>
+                            <m:mstyle fontsize="8pt">
+                              <m:mrow>
+                                <m:mo stretchy="false">→</m:mo>
+                              </m:mrow>
+                            </m:mstyle>
+                          </m:mover>
+                        </m:mrow>
+                        <m:mrow>
+                          <m:mo stretchy="false">)</m:mo>
+                          <m:mo stretchy="false">=</m:mo>
+                          <m:mrow/>
+                        </m:mrow>
+                        <m:mrow/>
+                      </m:mrow>
+                    </m:mtr>
+                  </m:mtable>
+                  <m:mrow/>
+                </m:mrow>
+              </m:mrow>
+              <m:annotation encoding="StarMath 5.0">alignl { stack {
+ size 12{ {}=x rSub { size 8{1} } x rSub { size 8{2} }  \(  {i}  cSup { size 8{ rightarrow } }  times  {i}  cSup { size 8{ rightarrow } }  \) +x rSub { size 8{1} } y rSub { size 8{2} }  \(  {i}  cSup { size 8{ rightarrow } }  times  {j}  cSup { size 8{ rightarrow } }  \) +x rSub { size 8{1} } z rSub { size 8{2} }  \(  {i}  cSup { size 8{ rightarrow } }  times k \) +{}}  {} # 
++y rSub { size 8{1} } x rSub { size 8{2} }  \(  {j}  cSup { size 8{ rightarrow } }  times  {i}  cSup { size 8{ rightarrow } }  \) +y rSub { size 8{1} } y rSub { size 8{2} }  \(  {j}  cSup { size 8{ rightarrow } }  times  {j}  cSup { size 8{ rightarrow } }  \) +y rSub { size 8{1} } z rSub { size 8{2} }  \(  {j}  cSup { size 8{ rightarrow } }  times k \) +{} {} # 
++z rSub { size 8{1} } x rSub { size 8{2} }  \(  {k}  cSup { size 8{ rightarrow } }  times  {i}  cSup { size 8{ rightarrow } }  \) +z rSub { size 8{1} } y rSub { size 8{2} }  \(  {k}  cSup { size 8{ rightarrow } }  times  {j}  cSup { size 8{ rightarrow } }  \) +z rSub { size 8{1} } z rSub { size 8{2} }  \(  {k}  cSup { size 8{ rightarrow } }  times  {k}  cSup { size 8{ rightarrow } }  \) ={} {} 
+} } {}</m:annotation>
+            </m:semantics>
+          </m:math>
+        </para>
+        <para id="id1166261426367">
+          <m:math>
+            <m:semantics>
+              <m:mrow>
+                <m:mstyle fontsize="12pt">
+                  <m:mrow>
+                    <m:mrow>
+                      <m:mrow>
+                        <m:mrow/>
+                        <m:mo stretchy="false">=</m:mo>
+                        <m:msub>
+                          <m:mi>x</m:mi>
+                          <m:mstyle fontsize="8pt">
+                            <m:mrow>
+                              <m:mn>1</m:mn>
+                            </m:mrow>
+                          </m:mstyle>
+                        </m:msub>
+                      </m:mrow>
+                      <m:msub>
+                        <m:mi>y</m:mi>
+                        <m:mstyle fontsize="8pt">
+                          <m:mrow>
+                            <m:mn>2</m:mn>
+                          </m:mrow>
+                        </m:mstyle>
+                      </m:msub>
+                      <m:mrow>
+                        <m:mover>
+                          <m:mi>k</m:mi>
+                          <m:mstyle fontsize="8pt">
+                            <m:mrow>
+                              <m:mo stretchy="false">→</m:mo>
+                            </m:mrow>
+                          </m:mstyle>
+                        </m:mover>
+                        <m:mo stretchy="false">+</m:mo>
+                        <m:msub>
+                          <m:mi>x</m:mi>
+                          <m:mstyle fontsize="8pt">
+                            <m:mrow>
+                              <m:mn>1</m:mn>
+                            </m:mrow>
+                          </m:mstyle>
+                        </m:msub>
+                      </m:mrow>
+                      <m:msub>
+                        <m:mi>z</m:mi>
+                        <m:mstyle fontsize="8pt">
+                          <m:mrow>
+                            <m:mn>2</m:mn>
+                          </m:mrow>
+                        </m:mstyle>
+                      </m:msub>
+                      <m:mrow>
+                        <m:mo stretchy="false">(</m:mo>
+                        <m:mo stretchy="false">−</m:mo>
+                        <m:mover>
+                          <m:mi>j</m:mi>
+                          <m:mstyle fontsize="8pt">
+                            <m:mrow>
+                              <m:mo stretchy="false">→</m:mo>
+                            </m:mrow>
+                          </m:mstyle>
+                        </m:mover>
+                      </m:mrow>
+                      <m:mrow>
+                        <m:mo stretchy="false">)</m:mo>
+                        <m:mo stretchy="false">+</m:mo>
+                        <m:msub>
+                          <m:mi>y</m:mi>
+                          <m:mstyle fontsize="8pt">
+                            <m:mrow>
+                              <m:mn>1</m:mn>
+                            </m:mrow>
+                          </m:mstyle>
+                        </m:msub>
+                      </m:mrow>
+                      <m:msub>
+                        <m:mi>x</m:mi>
+                        <m:mstyle fontsize="8pt">
+                          <m:mrow>
+                            <m:mn>2</m:mn>
+                          </m:mrow>
+                        </m:mstyle>
+                      </m:msub>
+                      <m:mo stretchy="false">(</m:mo>
+                      <m:mover>
+                        <m:mrow>
+                          <m:mo stretchy="false">−</m:mo>
+                          <m:mi>k</m:mi>
+                        </m:mrow>
+                        <m:mstyle fontsize="8pt">
+                          <m:mrow>
+                            <m:mo stretchy="false">→</m:mo>
+                          </m:mrow>
+                        </m:mstyle>
+                      </m:mover>
+                      <m:mrow>
+                        <m:mo stretchy="false">)</m:mo>
+                        <m:mo stretchy="false">+</m:mo>
+                        <m:msub>
+                          <m:mi>y</m:mi>
+                          <m:mstyle fontsize="8pt">
+                            <m:mrow>
+                              <m:mn>1</m:mn>
+                            </m:mrow>
+                          </m:mstyle>
+                        </m:msub>
+                      </m:mrow>
+                      <m:msub>
+                        <m:mi>z</m:mi>
+                        <m:mstyle fontsize="8pt">
+                          <m:mrow>
+                            <m:mn>2</m:mn>
+                          </m:mrow>
+                        </m:mstyle>
+                      </m:msub>
+                      <m:mrow>
+                        <m:mover>
+                          <m:mi>i</m:mi>
+                          <m:mstyle fontsize="8pt">
+                            <m:mrow>
+                              <m:mo stretchy="false">→</m:mo>
+                            </m:mrow>
+                          </m:mstyle>
+                        </m:mover>
+                        <m:mo stretchy="false">+</m:mo>
+                        <m:msub>
+                          <m:mi>z</m:mi>
+                          <m:mstyle fontsize="8pt">
+                            <m:mrow>
+                              <m:mn>1</m:mn>
+                            </m:mrow>
+                          </m:mstyle>
+                        </m:msub>
+                      </m:mrow>
+                      <m:msub>
+                        <m:mi>x</m:mi>
+                        <m:mstyle fontsize="8pt">
+                          <m:mrow>
+                            <m:mn>2</m:mn>
+                          </m:mrow>
+                        </m:mstyle>
+                      </m:msub>
+                      <m:mrow>
+                        <m:mover>
+                          <m:mi>j</m:mi>
+                          <m:mstyle fontsize="8pt">
+                            <m:mrow>
+                              <m:mo stretchy="false">→</m:mo>
+                            </m:mrow>
+                          </m:mstyle>
+                        </m:mover>
+                        <m:mo stretchy="false">+</m:mo>
+                        <m:msub>
+                          <m:mi>z</m:mi>
+                          <m:mstyle fontsize="8pt">
+                            <m:mrow>
+                              <m:mn>1</m:mn>
+                            </m:mrow>
+                          </m:mstyle>
+                        </m:msub>
+                      </m:mrow>
+                      <m:msub>
+                        <m:mi>y</m:mi>
+                        <m:mstyle fontsize="8pt">
+                          <m:mrow>
+                            <m:mn>2</m:mn>
+                          </m:mrow>
+                        </m:mstyle>
+                      </m:msub>
+                      <m:mrow>
+                        <m:mo stretchy="false">(</m:mo>
+                        <m:mo stretchy="false">−</m:mo>
+                        <m:mover>
+                          <m:mi>i</m:mi>
+                          <m:mstyle fontsize="8pt">
+                            <m:mrow>
+                              <m:mo stretchy="false">→</m:mo>
+                            </m:mrow>
+                          </m:mstyle>
+                        </m:mover>
+                      </m:mrow>
+                      <m:mrow>
+                        <m:mo stretchy="false">)</m:mo>
+                        <m:mo stretchy="false">=</m:mo>
+                        <m:mrow/>
+                      </m:mrow>
+                    </m:mrow>
+                  </m:mrow>
+                </m:mstyle>
+                <m:mrow/>
+              </m:mrow>
+              <m:annotation encoding="StarMath 5.0"> size 12{ {}=x rSub { size 8{1} } y rSub { size 8{2} }  {k}  cSup { size 8{ rightarrow } } +x rSub { size 8{1} } z rSub { size 8{2} }  \(  -  {j}  cSup { size 8{ rightarrow } }  \) +y rSub { size 8{1} } x rSub { size 8{2} }  \(  { - k}  cSup { size 8{ rightarrow } }  \) +y rSub { size 8{1} } z rSub { size 8{2} }  {i}  cSup { size 8{ rightarrow } } +z rSub { size 8{1} } x rSub { size 8{2} }  {j}  cSup { size 8{ rightarrow } } +z rSub { size 8{1} } y rSub { size 8{2} }  \(  -  {i}  cSup { size 8{ rightarrow } }  \) ={}} {}</m:annotation>
+            </m:semantics>
+          </m:math>
+        </para>
+        <para id="id1166257884378">
+          <m:math>
+            <m:semantics>
+              <m:mrow>
+                <m:mstyle fontsize="12pt">
+                  <m:mrow>
+                    <m:mrow>
+                      <m:mrow>
+                        <m:mrow/>
+                        <m:mo stretchy="false">=</m:mo>
+                        <m:mo stretchy="false">(</m:mo>
+                      </m:mrow>
+                      <m:msub>
+                        <m:mi>y</m:mi>
+                        <m:mstyle fontsize="8pt">
+                          <m:mrow>
+                            <m:mn>1</m:mn>
+                          </m:mrow>
+                        </m:mstyle>
+                      </m:msub>
+                      <m:mrow>
+                        <m:msub>
+                          <m:mi>z</m:mi>
+                          <m:mstyle fontsize="8pt">
+                            <m:mrow>
+                              <m:mn>2</m:mn>
+                            </m:mrow>
+                          </m:mstyle>
+                        </m:msub>
+                        <m:mo stretchy="false">−</m:mo>
+                        <m:msub>
+                          <m:mi>z</m:mi>
+                          <m:mstyle fontsize="8pt">
+                            <m:mrow>
+                              <m:mn>1</m:mn>
+                            </m:mrow>
+                          </m:mstyle>
+                        </m:msub>
+                      </m:mrow>
+                      <m:msub>
+                        <m:mi>y</m:mi>
+                        <m:mstyle fontsize="8pt">
+                          <m:mrow>
+                            <m:mn>2</m:mn>
+                          </m:mrow>
+                        </m:mstyle>
+                      </m:msub>
+                      <m:mo stretchy="false">)</m:mo>
+                      <m:mrow>
+                        <m:mover>
+                          <m:mi>i</m:mi>
+                          <m:mstyle fontsize="8pt">
+                            <m:mrow>
+                              <m:mo stretchy="false">→</m:mo>
+                            </m:mrow>
+                          </m:mstyle>
+                        </m:mover>
+                        <m:mo stretchy="false">+</m:mo>
+                        <m:mo stretchy="false">(</m:mo>
+                      </m:mrow>
+                      <m:msub>
+                        <m:mi>z</m:mi>
+                        <m:mstyle fontsize="8pt">
+                          <m:mrow>
+                            <m:mn>1</m:mn>
+                          </m:mrow>
+                        </m:mstyle>
+                      </m:msub>
+                      <m:mrow>
+                        <m:msub>
+                          <m:mi>x</m:mi>
+                          <m:mstyle fontsize="8pt">
+                            <m:mrow>
+                              <m:mn>2</m:mn>
+                            </m:mrow>
+                          </m:mstyle>
+                        </m:msub>
+                        <m:mo stretchy="false">−</m:mo>
+                        <m:msub>
+                          <m:mi>x</m:mi>
+                          <m:mstyle fontsize="8pt">
+                            <m:mrow>
+                              <m:mn>1</m:mn>
+                            </m:mrow>
+                          </m:mstyle>
+                        </m:msub>
+                      </m:mrow>
+                      <m:msub>
+                        <m:mi>z</m:mi>
+                        <m:mstyle fontsize="8pt">
+                          <m:mrow>
+                            <m:mn>2</m:mn>
+                          </m:mrow>
+                        </m:mstyle>
+                      </m:msub>
+                      <m:mo stretchy="false">)</m:mo>
+                      <m:mrow>
+                        <m:mover>
+                          <m:mi>j</m:mi>
+                          <m:mstyle fontsize="8pt">
+                            <m:mrow>
+                              <m:mo stretchy="false">→</m:mo>
+                            </m:mrow>
+                          </m:mstyle>
+                        </m:mover>
+                        <m:mo stretchy="false">+</m:mo>
+                        <m:mo stretchy="false">(</m:mo>
+                      </m:mrow>
+                      <m:msub>
+                        <m:mi>x</m:mi>
+                        <m:mstyle fontsize="8pt">
+                          <m:mrow>
+                            <m:mn>1</m:mn>
+                          </m:mrow>
+                        </m:mstyle>
+                      </m:msub>
+                      <m:mrow>
+                        <m:msub>
+                          <m:mi>y</m:mi>
+                          <m:mstyle fontsize="8pt">
+                            <m:mrow>
+                              <m:mn>2</m:mn>
+                            </m:mrow>
+                          </m:mstyle>
+                        </m:msub>
+                        <m:mo stretchy="false">−</m:mo>
+                        <m:msub>
+                          <m:mi>y</m:mi>
+                          <m:mstyle fontsize="8pt">
+                            <m:mrow>
+                              <m:mn>1</m:mn>
+                            </m:mrow>
+                          </m:mstyle>
+                        </m:msub>
+                      </m:mrow>
+                      <m:msub>
+                        <m:mi>x</m:mi>
+                        <m:mstyle fontsize="8pt">
+                          <m:mrow>
+                            <m:mn>2</m:mn>
+                          </m:mrow>
+                        </m:mstyle>
+                      </m:msub>
+                      <m:mo stretchy="false">)</m:mo>
+                      <m:mrow>
+                        <m:mover>
+                          <m:mi>k</m:mi>
+                          <m:mstyle fontsize="8pt">
+                            <m:mrow>
+                              <m:mo stretchy="false">→</m:mo>
+                            </m:mrow>
+                          </m:mstyle>
+                        </m:mover>
+                        <m:mo stretchy="false">=</m:mo>
+                        <m:mrow/>
+                      </m:mrow>
+                    </m:mrow>
+                  </m:mrow>
+                </m:mstyle>
+                <m:mrow/>
+              </m:mrow>
+              <m:annotation encoding="StarMath 5.0"> size 12{ {}= \( y rSub { size 8{1} } z rSub { size 8{2} }  - z rSub { size 8{1} } y rSub { size 8{2} }  \)  {i}  cSup { size 8{ rightarrow } } + \( z rSub { size 8{1} } x rSub { size 8{2} }  - x rSub { size 8{1} } z rSub { size 8{2} }  \)  {j}  cSup { size 8{ rightarrow } } + \( x rSub { size 8{1} } y rSub { size 8{2} }  - y rSub { size 8{1} } x rSub { size 8{2} }  \)  {k}  cSup { size 8{ rightarrow } } ={}} {}</m:annotation>
+            </m:semantics>
+          </m:math>
+        </para>
+        <para id="id1166259272167"><m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mrow><m:mrow/><m:mo stretchy="false">=</m:mo><m:mrow><m:mo stretchy="false">∣</m:mo><m:mtable><m:mtr><m:mtd><m:mrow><m:msub><m:mi>y</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mn>1</m:mn></m:mrow></m:mstyle></m:msub><m:mrow/></m:mrow></m:mtd><m:mtd><m:mrow><m:msub><m:mi>z</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mn>1</m:mn></m:mrow></m:mstyle></m:msub><m:mrow/></m:mrow></m:mtd></m:mtr><m:mtr><m:mtd><m:mrow><m:msub><m:mi>y</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mn>2</m:mn></m:mrow></m:mstyle></m:msub><m:mrow/></m:mrow></m:mtd><m:mtd><m:mrow><m:msub><m:mi>z</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mn>2</m:mn></m:mrow></m:mstyle></m:msub><m:mrow/></m:mrow></m:mtd></m:mtr></m:mtable><m:mo stretchy="false">∣</m:mo></m:mrow></m:mrow><m:mrow><m:mover><m:mi>i</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mo stretchy="false">→</m:mo></m:mrow></m:mstyle></m:mover><m:mo stretchy="false">+</m:mo><m:mrow><m:mo stretchy="false">∣</m:mo><m:mtable><m:mtr><m:mtd><m:mrow><m:msub><m:mi>z</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mn>1</m:mn></m:mrow></m:mstyle></m:msub><m:mrow/></m:mrow></m:mtd><m:mtd><m:mrow><m:msub><m:mi>x</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mn>1</m:mn></m:mrow></m:mstyle></m:msub><m:mrow/></m:mrow></m:mtd></m:mtr><m:mtr><m:mtd><m:mrow><m:msub><m:mi>z</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mn>2</m:mn></m:mrow></m:mstyle></m:msub><m:mrow/></m:mrow></m:mtd><m:mtd><m:mrow><m:msub><m:mi>x</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mn>2</m:mn></m:mrow></m:mstyle></m:msub><m:mrow/></m:mrow></m:mtd></m:mtr></m:mtable><m:mo stretchy="false">∣</m:mo></m:mrow></m:mrow><m:mrow><m:mover><m:mi>j</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mo stretchy="false">→</m:mo></m:mrow></m:mstyle></m:mover><m:mo stretchy="false">+</m:mo><m:mrow><m:mo stretchy="false">∣</m:mo><m:mtable><m:mtr><m:mtd><m:mrow><m:msub><m:mi>x</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mn>1</m:mn></m:mrow></m:mstyle></m:msub><m:mrow/></m:mrow></m:mtd><m:mtd><m:mrow><m:msub><m:mi>y</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mn>1</m:mn></m:mrow></m:mstyle></m:msub><m:mrow/></m:mrow></m:mtd></m:mtr><m:mtr><m:mtd><m:mrow><m:msub><m:mi>x</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mn>2</m:mn></m:mrow></m:mstyle></m:msub><m:mrow/></m:mrow></m:mtd><m:mtd><m:mrow><m:msub><m:mi>y</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mn>2</m:mn></m:mrow></m:mstyle></m:msub><m:mrow/></m:mrow></m:mtd></m:mtr></m:mtable><m:mo stretchy="false">∣</m:mo></m:mrow></m:mrow><m:mover><m:mi>k</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mo stretchy="false">→</m:mo></m:mrow></m:mstyle></m:mover><m:mtext/></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ {}= lline  matrix {
+y rSub { size 8{1} }  {} # z rSub { size 8{1} }  {} ##
+y rSub { size 8{2} }  {} # z rSub { size 8{2} } {}
+}  rline  {i}  cSup { size 8{ rightarrow } }  +  lline  matrix {
+z rSub { size 8{1} }  {} # x rSub { size 8{1} }  {} ##
+z rSub { size 8{2} }  {} # x rSub { size 8{2} } {}
+}  rline  {j}  cSup { size 8{ rightarrow } } +  lline  matrix {
+x rSub { size 8{1} }  {} # y rSub { size 8{1} }  {} ##
+x rSub { size 8{2} }  {} # y rSub { size 8{2} } {}
+}  rline  {k}  cSup { size 8{ rightarrow } } "  "} {}</m:annotation></m:semantics></m:math>,</para>
+        <para id="id1166265543350">односно</para>
+        <para id="id1166264188223"><m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mover><m:mi>a</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mo stretchy="false">→</m:mo></m:mrow></m:mstyle></m:mover><m:mo stretchy="false">×</m:mo><m:mover><m:mi>b</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mo stretchy="false">→</m:mo></m:mrow></m:mstyle></m:mover></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ {a}  cSup { size 8{ rightarrow } }  times  {b}  cSup { size 8{ rightarrow } } } {}</m:annotation></m:semantics></m:math><m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mrow><m:mrow/><m:mo stretchy="false">=</m:mo><m:mfenced open="{" close="}"><m:mrow><m:mrow><m:mo stretchy="false">∣</m:mo><m:mtable><m:mtr><m:mtd><m:mrow><m:msub><m:mi>y</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mn>1</m:mn></m:mrow></m:mstyle></m:msub><m:mrow/></m:mrow></m:mtd><m:mtd><m:mrow><m:msub><m:mi>z</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mn>1</m:mn></m:mrow></m:mstyle></m:msub><m:mrow/></m:mrow></m:mtd></m:mtr><m:mtr><m:mtd><m:mrow><m:msub><m:mi>y</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mn>2</m:mn></m:mrow></m:mstyle></m:msub><m:mrow/></m:mrow></m:mtd><m:mtd><m:mrow><m:msub><m:mi>z</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mn>2</m:mn></m:mrow></m:mstyle></m:msub><m:mrow/></m:mrow></m:mtd></m:mtr></m:mtable><m:mo stretchy="false">∣</m:mo></m:mrow><m:mtext>, </m:mtext><m:mrow><m:mo stretchy="false">∣</m:mo><m:mtable><m:mtr><m:mtd><m:mrow><m:msub><m:mi>z</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mn>1</m:mn></m:mrow></m:mstyle></m:msub><m:mrow/></m:mrow></m:mtd><m:mtd><m:mrow><m:msub><m:mi>x</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mn>1</m:mn></m:mrow></m:mstyle></m:msub><m:mrow/></m:mrow></m:mtd></m:mtr><m:mtr><m:mtd><m:mrow><m:msub><m:mi>z</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mn>2</m:mn></m:mrow></m:mstyle></m:msub><m:mrow/></m:mrow></m:mtd><m:mtd><m:mrow><m:msub><m:mi>x</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mn>2</m:mn></m:mrow></m:mstyle></m:msub><m:mrow/></m:mrow></m:mtd></m:mtr></m:mtable><m:mo stretchy="false">∣</m:mo></m:mrow><m:mtext>, </m:mtext><m:mrow><m:mo stretchy="false">∣</m:mo><m:mtable><m:mtr><m:mtd><m:mrow><m:msub><m:mi>x</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mn>1</m:mn></m:mrow></m:mstyle></m:msub><m:mrow/></m:mrow></m:mtd><m:mtd><m:mrow><m:msub><m:mi>y</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mn>1</m:mn></m:mrow></m:mstyle></m:msub><m:mrow/></m:mrow></m:mtd></m:mtr><m:mtr><m:mtd><m:mrow><m:msub><m:mi>x</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mn>2</m:mn></m:mrow></m:mstyle></m:msub><m:mrow/></m:mrow></m:mtd><m:mtd><m:mrow><m:msub><m:mi>y</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mn>2</m:mn></m:mrow></m:mstyle></m:msub><m:mrow/></m:mrow></m:mtd></m:mtr></m:mtable><m:mo stretchy="false">∣</m:mo></m:mrow></m:mrow></m:mfenced></m:mrow><m:mtext/></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ {}= left lbrace  lline  matrix {
+y rSub { size 8{1} }  {} # z rSub { size 8{1} }  {} ##
+y rSub { size 8{2} }  {} # z rSub { size 8{2} } {}
+}  rline ", " lline  matrix {
+z rSub { size 8{1} }  {} # x rSub { size 8{1} }  {} ##
+z rSub { size 8{2} }  {} # x rSub { size 8{2} } {}
+}  rline ", " lline  matrix {
+x rSub { size 8{1} }  {} # y rSub { size 8{1} }  {} ##
+x rSub { size 8{2} }  {} # y rSub { size 8{2} } {}
+}  rline  right rbrace "  "} {}</m:annotation></m:semantics></m:math>,</para>
+        <para id="id1166257360247">или изразен преку троредна детерминанта</para>
+        <para id="id1166258739244"><m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mover><m:mi>a</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mo stretchy="false">→</m:mo></m:mrow></m:mstyle></m:mover><m:mo stretchy="false">×</m:mo><m:mover><m:mi>b</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mo stretchy="false">→</m:mo></m:mrow></m:mstyle></m:mover></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ {a}  cSup { size 8{ rightarrow } }  times  {b}  cSup { size 8{ rightarrow } } } {}</m:annotation></m:semantics></m:math>= 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mo stretchy="false">∣</m:mo><m:mtable><m:mtr><m:mtd><m:mrow><m:mover><m:mi>i</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mo stretchy="false">→</m:mo></m:mrow></m:mstyle></m:mover><m:mrow/></m:mrow></m:mtd><m:mtd><m:mrow><m:mover><m:mi>j</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mo stretchy="false">→</m:mo></m:mrow></m:mstyle></m:mover><m:mrow/></m:mrow></m:mtd><m:mtd><m:mrow><m:mover><m:mi>k</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mo stretchy="false">→</m:mo></m:mrow></m:mstyle></m:mover><m:mrow/></m:mrow></m:mtd></m:mtr><m:mtr><m:mtd><m:mrow><m:msub><m:mi>x</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mn>1</m:mn></m:mrow></m:mstyle></m:msub><m:mrow/></m:mrow></m:mtd><m:mtd><m:mrow><m:msub><m:mi>y</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mn>1</m:mn></m:mrow></m:mstyle></m:msub><m:mrow/></m:mrow></m:mtd><m:mtd><m:mrow><m:msub><m:mi>z</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mn>1</m:mn></m:mrow></m:mstyle></m:msub><m:mrow/></m:mrow></m:mtd></m:mtr><m:mtr><m:mtd><m:mrow><m:msub><m:mi>x</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mn>2</m:mn></m:mrow></m:mstyle></m:msub><m:mrow/></m:mrow></m:mtd><m:mtd><m:mrow><m:msub><m:mi>y</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mn>2</m:mn></m:mrow></m:mstyle></m:msub><m:mrow/></m:mrow></m:mtd><m:mtd><m:mrow><m:msub><m:mi>z</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mn>2</m:mn></m:mrow></m:mstyle></m:msub><m:mrow/></m:mrow></m:mtd></m:mtr></m:mtable><m:mo stretchy="false">∣</m:mo></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ lline  matrix {
+ {i}  cSup { size 8{ rightarrow } }  {} #  {j}  cSup { size 8{ rightarrow } }  {} #  {k}  cSup { size 8{ rightarrow } }  {} ##
+x rSub { size 8{1} }  {} # y rSub { size 8{1} }  {} # z rSub { size 8{1} }  {} ##
+x rSub { size 8{2} }  {} # y rSub { size 8{2} }  {} # z rSub { size 8{2} } {}
+}  rline } {}</m:annotation></m:semantics></m:math>.</para>
+        <para id="id1166258798268">6. Плоштината на паралелограмот образуван од векторите 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mover><m:mi>a</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mo stretchy="false">→</m:mo></m:mrow></m:mstyle></m:mover></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ {a}  cSup { size 8{ rightarrow } } } {}</m:annotation></m:semantics></m:math> и 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mover><m:mi>b</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mo stretchy="false">→</m:mo></m:mrow></m:mstyle></m:mover></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ {b}  cSup { size 8{ rightarrow } } } {}</m:annotation></m:semantics></m:math> е еднаква со интензитетот на нивниот векторски производ</para>
+        <para id="id8379765">    P<emphasis effect="italics">паралеограм</emphasis>= |
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mover><m:mi>a</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mo stretchy="false">→</m:mo></m:mrow></m:mstyle></m:mover><m:mo stretchy="false">×</m:mo><m:mover><m:mi>b</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mo stretchy="false">→</m:mo></m:mrow></m:mstyle></m:mover></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ {a}  cSup { size 8{ rightarrow } }  times  {b}  cSup { size 8{ rightarrow } } } {}</m:annotation></m:semantics></m:math>|,</para>
+        <para id="id1166261558421">бидејќи висината на паралелограмот е <emphasis effect="italics">h</emphasis> = |
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mover><m:mi>a</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mo stretchy="false">→</m:mo></m:mrow></m:mstyle></m:mover></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ {a}  cSup { size 8{ rightarrow } } } {}</m:annotation></m:semantics></m:math>| sin
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mi>∠</m:mi></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{∠} {}</m:annotation></m:semantics></m:math>(
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mover><m:mi>a</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mo stretchy="false">→</m:mo></m:mrow></m:mstyle></m:mover></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ {a}  cSup { size 8{ rightarrow } } } {}</m:annotation></m:semantics></m:math>, 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mover><m:mi>b</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mo stretchy="false">→</m:mo></m:mrow></m:mstyle></m:mover></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ {b}  cSup { size 8{ rightarrow } } } {}</m:annotation></m:semantics></m:math>), (Сл. 1.9) . </para>
+        <table id="id1166263106367" summary="">
+          <tgroup cols="1">
+            <colspec colnum="1" colname="c1"/>
+            <tbody>
+              <row>
+                <entry>
+                  <media id="id8797592" alt="">
+                    <image mime-type="image/jpg" src="../../media/graphics2-7a4a.jpg"/>
+                  </media>
+                </entry>
+              </row>
+              <row>
+                <entry>Слика 1.9. Висина во паралелограм</entry>
+              </row>
+            </tbody>
+          </tgroup>
+        </table>
+        <para id="id1166265980343"/>
+        <para id="id1166258571712">7. Плоштината P на триаголникот чии темиња се во три точки со зададени координати <emphasis effect="italics">A</emphasis>(<emphasis effect="italics">x</emphasis><sub>1</sub><emphasis effect="italics">, y</emphasis><sub>1</sub><emphasis effect="italics">, z</emphasis><sub>1</sub>), <emphasis effect="italics">B</emphasis>(<emphasis effect="italics">x</emphasis><sub>2</sub><emphasis effect="italics">, y</emphasis><sub>2</sub><emphasis effect="italics">, z</emphasis><sub>2</sub>) и <emphasis effect="italics">C</emphasis>(<emphasis effect="italics">x</emphasis><sub>3</sub><emphasis effect="italics">, y</emphasis><sub>3</sub><emphasis effect="italics">, z</emphasis><sub>3</sub>) е</para>
+        <para id="id1166265185002">    P = 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mfrac><m:mn>1</m:mn><m:mn>2</m:mn></m:mfrac><m:mrow><m:mover><m:mrow><m:mo stretchy="false">∣</m:mo><m:mstyle fontstyle="italic"><m:mrow><m:mtext>AB</m:mtext></m:mrow></m:mstyle></m:mrow><m:mstyle fontsize="8pt"><m:mrow><m:mo stretchy="false">→</m:mo></m:mrow></m:mstyle></m:mover><m:mo stretchy="false">×</m:mo><m:mover><m:mrow><m:mstyle fontstyle="italic"><m:mrow><m:mtext>AC</m:mtext></m:mrow></m:mstyle><m:mo stretchy="false">∣</m:mo></m:mrow><m:mstyle fontsize="8pt"><m:mrow><m:mo stretchy="false">→</m:mo></m:mrow></m:mstyle></m:mover></m:mrow></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ {  {1}  over  {2} }  { \lline  ital "AB"}  cSup { size 8{ rightarrow } }  times  { ital "AC" \lline }  cSup { size 8{ rightarrow } } } {}</m:annotation></m:semantics></m:math>.</para>
+        <para id="id1166258642371"><emphasis>Забелешка</emphasis>: Двата вектора кои го образуваат паралелограмот (триаголникот) треба да имаат почеток во иста точка.</para>
+        <para id="id1166257591740"><emphasis>Пример 1.</emphasis> Ако 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mover><m:mi>a</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mo stretchy="false">→</m:mo></m:mrow></m:mstyle></m:mover></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ {a}  cSup { size 8{ rightarrow } } } {}</m:annotation></m:semantics></m:math>= {2, －1, 3}, <emphasis effect="italics"/><m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mover><m:mi>b</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mo stretchy="false">→</m:mo></m:mrow></m:mstyle></m:mover></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ {b}  cSup { size 8{ rightarrow } } } {}</m:annotation></m:semantics></m:math>= {0, 1, 7} и <emphasis effect="italics"/><m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mover><m:mi>c</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mo stretchy="false">→</m:mo></m:mrow></m:mstyle></m:mover></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ {c}  cSup { size 8{ rightarrow } } } {}</m:annotation></m:semantics></m:math>= {1, 4, 5}, да се најде </para>
+        <para id="id6891745"><emphasis effect="italics"/><m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mo stretchy="false">(</m:mo><m:mrow><m:mover><m:mi>b</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mo stretchy="false">→</m:mo></m:mrow></m:mstyle></m:mover><m:mo stretchy="false">×</m:mo><m:mover><m:mi>c</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mo stretchy="false">→</m:mo></m:mrow></m:mstyle></m:mover></m:mrow><m:mrow><m:mo stretchy="false">)</m:mo><m:mo stretchy="false">×</m:mo><m:mo stretchy="false">(</m:mo></m:mrow><m:mrow><m:mover><m:mi>a</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mo stretchy="false">→</m:mo></m:mrow></m:mstyle></m:mover><m:mo stretchy="false">×</m:mo><m:mover><m:mi>b</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mo stretchy="false">→</m:mo></m:mrow></m:mstyle></m:mover></m:mrow><m:mo stretchy="false">)</m:mo></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ \(  {b}  cSup { size 8{ rightarrow } }  times  {c}  cSup { size 8{ rightarrow } }  \)  times  \(  {a}  cSup { size 8{ rightarrow } }  times  {b}  cSup { size 8{ rightarrow } }  \) } {}</m:annotation></m:semantics></m:math>?</para>
+        <para id="id1166259556031"><emphasis>Решение.</emphasis><emphasis effect="bold"/>Најпрво се определуваат координатите на векторите 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mover><m:mi>b</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mo stretchy="false">→</m:mo></m:mrow></m:mstyle></m:mover><m:mo stretchy="false">×</m:mo><m:mover><m:mi>c</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mo stretchy="false">→</m:mo></m:mrow></m:mstyle></m:mover></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ {b}  cSup { size 8{ rightarrow } }  times  {c}  cSup { size 8{ rightarrow } } } {}</m:annotation></m:semantics></m:math> и 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mover><m:mi>a</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mo stretchy="false">→</m:mo></m:mrow></m:mstyle></m:mover><m:mo stretchy="false">×</m:mo><m:mover><m:mi>b</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mo stretchy="false">→</m:mo></m:mrow></m:mstyle></m:mover></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ {a}  cSup { size 8{ rightarrow } }  times  {b}  cSup { size 8{ rightarrow } } } {}</m:annotation></m:semantics></m:math>.</para>
+        <para id="id1166261224680"><m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mover><m:mi>b</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mo stretchy="false">→</m:mo></m:mrow></m:mstyle></m:mover><m:mo stretchy="false">×</m:mo><m:mover><m:mi>c</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mo stretchy="false">→</m:mo></m:mrow></m:mstyle></m:mover></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ {b}  cSup { size 8{ rightarrow } }  times  {c}  cSup { size 8{ rightarrow } } } {}</m:annotation></m:semantics></m:math>= 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mrow><m:mo stretchy="false">∣</m:mo><m:mrow><m:mi/><m:mtable><m:mtr><m:mtd><m:mrow><m:mover><m:mi>i</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mo stretchy="false">→</m:mo></m:mrow></m:mstyle></m:mover><m:mrow/></m:mrow></m:mtd><m:mtd><m:mrow><m:mover><m:mi>j</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mo stretchy="false">→</m:mo></m:mrow></m:mstyle></m:mover><m:mrow/></m:mrow></m:mtd><m:mtd><m:mrow><m:mover><m:mi>k</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mo stretchy="false">→</m:mo></m:mrow></m:mstyle></m:mover><m:mrow/></m:mrow></m:mtd></m:mtr><m:mtr><m:mtd><m:mrow><m:mn>0</m:mn><m:mrow/></m:mrow></m:mtd><m:mtd><m:mrow><m:mn>1</m:mn><m:mrow/></m:mrow></m:mtd><m:mtd><m:mrow><m:mn>7</m:mn><m:mrow/></m:mrow></m:mtd></m:mtr><m:mtr><m:mtd><m:mrow><m:mn>1</m:mn><m:mrow/></m:mrow></m:mtd><m:mtd><m:mrow><m:mn>4</m:mn><m:mrow/></m:mrow></m:mtd><m:mtd><m:mrow><m:mn>5</m:mn><m:mrow/></m:mrow></m:mtd></m:mtr></m:mtable><m:mi/></m:mrow><m:mo stretchy="false">∣</m:mo></m:mrow><m:mrow><m:mi/><m:mo stretchy="false">=</m:mo><m:mn>5</m:mn></m:mrow><m:mrow><m:mover><m:mi>i</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mo stretchy="false">→</m:mo></m:mrow></m:mstyle></m:mover><m:mo stretchy="false">+</m:mo><m:mn>7</m:mn></m:mrow><m:mrow><m:mrow><m:mover><m:mi>j</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mo stretchy="false">→</m:mo></m:mrow></m:mstyle></m:mover><m:mo stretchy="false">−</m:mo><m:mover><m:mi>k</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mo stretchy="false">→</m:mo></m:mrow></m:mstyle></m:mover></m:mrow><m:mo stretchy="false">−</m:mo><m:mtext>28</m:mtext></m:mrow><m:mrow><m:mover><m:mi>i</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mo stretchy="false">→</m:mo></m:mrow></m:mstyle></m:mover><m:mo stretchy="false">=</m:mo><m:mrow><m:mo stretchy="false">−</m:mo><m:mtext>23</m:mtext></m:mrow></m:mrow><m:mrow><m:mover><m:mi>i</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mo stretchy="false">→</m:mo></m:mrow></m:mstyle></m:mover><m:mo stretchy="false">+</m:mo><m:mn>7</m:mn></m:mrow><m:mrow><m:mover><m:mi>j</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mo stretchy="false">→</m:mo></m:mrow></m:mstyle></m:mover><m:mo stretchy="false">−</m:mo><m:mover><m:mi>k</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mo stretchy="false">→</m:mo></m:mrow></m:mstyle></m:mover></m:mrow></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ lline ` matrix {
+ {i}  cSup { size 8{ rightarrow } }  {} #  {j}  cSup { size 8{ rightarrow } }  {} #  {k}  cSup { size 8{ rightarrow } }  {} ##
+0 {} # 1 {} # 7 {} ##
+1 {} # 4 {} # 5{}
+} ` rline `=5 {i}  cSup { size 8{ rightarrow } } +7 {j}  cSup { size 8{ rightarrow } }   -  {k}  cSup { size 8{ rightarrow } }  - "28" {i}  cSup { size 8{ rightarrow } } = - "23" {i}  cSup { size 8{ rightarrow } } +7 {j}  cSup { size 8{ rightarrow } }  -  {k}  cSup { size 8{ rightarrow } } } {}</m:annotation></m:semantics></m:math>= {－23, 7, －1},</para>
+        <para id="id8129297"><emphasis effect="italics"/><m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mover><m:mi>a</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mo stretchy="false">→</m:mo></m:mrow></m:mstyle></m:mover><m:mo stretchy="false">×</m:mo><m:mover><m:mi>b</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mo stretchy="false">→</m:mo></m:mrow></m:mstyle></m:mover></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ {a}  cSup { size 8{ rightarrow } }  times  {b}  cSup { size 8{ rightarrow } } } {}</m:annotation></m:semantics></m:math>= 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mrow/><m:mrow><m:mrow><m:mo stretchy="false">∣</m:mo><m:mrow><m:mi/><m:mtable><m:mtr><m:mtd><m:mrow><m:mover><m:mi>i</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mo stretchy="false">→</m:mo></m:mrow></m:mstyle></m:mover><m:mrow/></m:mrow></m:mtd><m:mtd><m:mrow><m:mover><m:mi>j</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mo stretchy="false">→</m:mo></m:mrow></m:mstyle></m:mover><m:mrow/></m:mrow></m:mtd><m:mtd><m:mrow><m:mover><m:mi>k</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mo stretchy="false">→</m:mo></m:mrow></m:mstyle></m:mover><m:mrow/></m:mrow></m:mtd></m:mtr><m:mtr><m:mtd><m:mrow><m:mn>2</m:mn><m:mrow/></m:mrow></m:mtd><m:mtd><m:mrow><m:mrow><m:mo stretchy="false">−</m:mo><m:mn>1</m:mn></m:mrow><m:mrow/></m:mrow></m:mtd><m:mtd><m:mrow><m:mn>3</m:mn><m:mrow/></m:mrow></m:mtd></m:mtr><m:mtr><m:mtd><m:mrow><m:mn>0</m:mn><m:mrow/></m:mrow></m:mtd><m:mtd><m:mrow><m:mn>1</m:mn><m:mrow/></m:mrow></m:mtd><m:mtd><m:mrow><m:mn>7</m:mn><m:mrow/></m:mrow></m:mtd></m:mtr></m:mtable><m:mi/></m:mrow><m:mo stretchy="false">∣</m:mo></m:mrow><m:mo stretchy="false">=</m:mo><m:mrow><m:mo stretchy="false">−</m:mo><m:mn>7</m:mn></m:mrow></m:mrow><m:mrow><m:mover><m:mi>i</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mo stretchy="false">→</m:mo></m:mrow></m:mstyle></m:mover><m:mo stretchy="false">+</m:mo><m:mn>2</m:mn></m:mrow><m:mrow><m:mover><m:mi>k</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mo stretchy="false">→</m:mo></m:mrow></m:mstyle></m:mover><m:mo stretchy="false">−</m:mo><m:mtext>14</m:mtext></m:mrow><m:mrow><m:mover><m:mi>j</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mo stretchy="false">→</m:mo></m:mrow></m:mstyle></m:mover><m:mo stretchy="false">−</m:mo><m:mn>3</m:mn></m:mrow><m:mrow><m:mover><m:mi>i</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mo stretchy="false">→</m:mo></m:mrow></m:mstyle></m:mover><m:mo stretchy="false">=</m:mo><m:mrow><m:mo stretchy="false">−</m:mo><m:mtext>10</m:mtext></m:mrow></m:mrow><m:mrow><m:mover><m:mi>i</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mo stretchy="false">→</m:mo></m:mrow></m:mstyle></m:mover><m:mo stretchy="false">−</m:mo><m:mtext>14</m:mtext></m:mrow><m:mrow><m:mover><m:mi>j</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mo stretchy="false">→</m:mo></m:mrow></m:mstyle></m:mover><m:mo stretchy="false">+</m:mo><m:mn>2</m:mn></m:mrow><m:mrow><m:mover><m:mi>k</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mo stretchy="false">→</m:mo></m:mrow></m:mstyle></m:mover><m:mo stretchy="false">=</m:mo><m:mrow><m:mo stretchy="false">{</m:mo><m:mrow><m:mrow><m:mo stretchy="false">−</m:mo><m:mtext>10</m:mtext></m:mrow><m:mrow><m:mi>,</m:mi><m:mo stretchy="false">−</m:mo><m:mtext>14</m:mtext></m:mrow><m:mi>,</m:mi><m:mn>2</m:mn></m:mrow><m:mo stretchy="false">}</m:mo></m:mrow></m:mrow></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ = lline ` matrix {
+ {i}  cSup { size 8{ rightarrow } }  {} #  {j}  cSup { size 8{ rightarrow } }  {} #  {k}  cSup { size 8{ rightarrow } }  {} ##
+2 {} #  -  1 {} # 3 {} ##
+0 {} # 1 {} # 7{}
+} ` rline = - 7 {i}  cSup { size 8{ rightarrow } } +2 {k}  cSup { size 8{ rightarrow } }  - "14" {j}  cSup { size 8{ rightarrow } }   - 3 {i}  cSup { size 8{ rightarrow } } = - "10" {i}  cSup { size 8{ rightarrow } }  - "14" {j}  cSup { size 8{ rightarrow } } +2 {k}  cSup { size 8{ rightarrow } } = lbrace  - "10", - "14",2 rbrace } {}</m:annotation></m:semantics></m:math>. <emphasis effect="italics"/></para>
+        <para id="id1166262893227">Бараниот производ е вектор чии координати се пресметуваат со детерминантата</para>
+        <para id="id1166264212186"><m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mo stretchy="false">(</m:mo><m:mrow><m:mover><m:mi>b</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mo stretchy="false">→</m:mo></m:mrow></m:mstyle></m:mover><m:mo stretchy="false">×</m:mo><m:mover><m:mi>c</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mo stretchy="false">→</m:mo></m:mrow></m:mstyle></m:mover></m:mrow><m:mrow><m:mo stretchy="false">)</m:mo><m:mo stretchy="false">×</m:mo><m:mo stretchy="false">(</m:mo></m:mrow><m:mrow><m:mover><m:mi>a</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mo stretchy="false">→</m:mo></m:mrow></m:mstyle></m:mover><m:mo stretchy="false">×</m:mo><m:mover><m:mi>b</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mo stretchy="false">→</m:mo></m:mrow></m:mstyle></m:mover></m:mrow><m:mo stretchy="false">)</m:mo></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ \(  {b}  cSup { size 8{ rightarrow } }  times  {c}  cSup { size 8{ rightarrow } }  \)  times  \(  {a}  cSup { size 8{ rightarrow } }  times  {b}  cSup { size 8{ rightarrow } }  \) } {}</m:annotation></m:semantics></m:math> = 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mrow><m:mo stretchy="false">∣</m:mo><m:mrow><m:mi/><m:mtable><m:mtr><m:mtd><m:mrow><m:mover><m:mi>i</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mo stretchy="false">→</m:mo></m:mrow></m:mstyle></m:mover><m:mrow/></m:mrow></m:mtd><m:mtd><m:mrow><m:mover><m:mi>j</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mo stretchy="false">→</m:mo></m:mrow></m:mstyle></m:mover><m:mrow/></m:mrow></m:mtd><m:mtd><m:mrow><m:mover><m:mi>k</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mo stretchy="false">→</m:mo></m:mrow></m:mstyle></m:mover><m:mrow/></m:mrow></m:mtd></m:mtr><m:mtr><m:mtd><m:mrow><m:mrow><m:mo stretchy="false">−</m:mo><m:mtext>23</m:mtext></m:mrow><m:mrow/></m:mrow></m:mtd><m:mtd><m:mrow><m:mn>7</m:mn><m:mrow/></m:mrow></m:mtd><m:mtd><m:mrow><m:mrow><m:mo stretchy="false">−</m:mo><m:mn>1</m:mn></m:mrow><m:mrow/></m:mrow></m:mtd></m:mtr><m:mtr><m:mtd><m:mrow><m:mrow><m:mo stretchy="false">−</m:mo><m:mtext>10</m:mtext></m:mrow><m:mrow/></m:mrow></m:mtd><m:mtd><m:mrow><m:mrow><m:mo stretchy="false">−</m:mo><m:mtext>14</m:mtext></m:mrow><m:mrow/></m:mrow></m:mtd><m:mtd><m:mrow><m:mn>2</m:mn><m:mrow/></m:mrow></m:mtd></m:mtr></m:mtable><m:mi/></m:mrow><m:mo stretchy="false">∣</m:mo></m:mrow><m:mrow><m:mi/><m:mo stretchy="false">=</m:mo><m:mn>2</m:mn></m:mrow><m:mrow><m:mrow><m:mo stretchy="false">∣</m:mo><m:mrow><m:mi/><m:mtable><m:mtr><m:mtd><m:mrow><m:mover><m:mi>i</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mo stretchy="false">→</m:mo></m:mrow></m:mstyle></m:mover><m:mrow/></m:mrow></m:mtd><m:mtd><m:mrow><m:mover><m:mi>j</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mo stretchy="false">→</m:mo></m:mrow></m:mstyle></m:mover><m:mrow/></m:mrow></m:mtd><m:mtd><m:mrow><m:mover><m:mi>k</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mo stretchy="false">→</m:mo></m:mrow></m:mstyle></m:mover><m:mrow/></m:mrow></m:mtd></m:mtr><m:mtr><m:mtd><m:mrow><m:mrow><m:mo stretchy="false">−</m:mo><m:mtext>23</m:mtext></m:mrow><m:mrow/></m:mrow></m:mtd><m:mtd><m:mrow><m:mn>7</m:mn><m:mrow/></m:mrow></m:mtd><m:mtd><m:mrow><m:mrow><m:mo stretchy="false">−</m:mo><m:mn>1</m:mn></m:mrow><m:mrow/></m:mrow></m:mtd></m:mtr><m:mtr><m:mtd><m:mrow><m:mrow><m:mo stretchy="false">−</m:mo><m:mn>5</m:mn></m:mrow><m:mrow/></m:mrow></m:mtd><m:mtd><m:mrow><m:mrow><m:mo stretchy="false">−</m:mo><m:mn>7</m:mn></m:mrow><m:mrow/></m:mrow></m:mtd><m:mtd><m:mrow><m:mn>1</m:mn><m:mrow/></m:mrow></m:mtd></m:mtr></m:mtable><m:mi/></m:mrow><m:mo stretchy="false">∣</m:mo></m:mrow><m:mo stretchy="false">=</m:mo><m:mrow/></m:mrow></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ lline ` matrix {
+ {i}  cSup { size 8{ rightarrow } }  {} #  {j}  cSup { size 8{ rightarrow } }  {} #  {k}  cSup { size 8{ rightarrow } }  {} ##
+ - "23" {} # 7 {} #  - 1 {} ##
+ - "10" {} #  - "14" {} # 2{}
+} ` rline `=2 lline ` matrix {
+ {i}  cSup { size 8{ rightarrow } }  {} #  {j}  cSup { size 8{ rightarrow } }  {} #  {k}  cSup { size 8{ rightarrow } }  {} ##
+ - "23" {} # 7 {} #  - 1 {} ##
+ - 5 {} #  - 7 {} # 1{}
+} ` rline ={}} {}</m:annotation></m:semantics></m:math></para>
+        <para id="id1166261352038">= 2(
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mn>7</m:mn><m:mrow><m:mover><m:mi>i</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mo stretchy="false">→</m:mo></m:mrow></m:mstyle></m:mover><m:mo stretchy="false">+</m:mo><m:mtext>161</m:mtext></m:mrow><m:mrow><m:mover><m:mi>k</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mo stretchy="false">→</m:mo></m:mrow></m:mstyle></m:mover><m:mo stretchy="false">+</m:mo><m:mn>5</m:mn></m:mrow><m:mrow><m:mover><m:mi>j</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mo stretchy="false">→</m:mo></m:mrow></m:mstyle></m:mover><m:mo stretchy="false">+</m:mo><m:mtext>35</m:mtext></m:mrow><m:mrow><m:mover><m:mi>k</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mo stretchy="false">→</m:mo></m:mrow></m:mstyle></m:mover><m:mo stretchy="false">+</m:mo><m:mtext>23</m:mtext></m:mrow><m:mrow><m:mover><m:mi>j</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mo stretchy="false">→</m:mo></m:mrow></m:mstyle></m:mover><m:mo stretchy="false">−</m:mo><m:mn>7</m:mn></m:mrow><m:mover><m:mi>i</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mo stretchy="false">→</m:mo></m:mrow></m:mstyle></m:mover><m:mrow><m:mo stretchy="false">)</m:mo><m:mo stretchy="false">=</m:mo><m:mn>2</m:mn></m:mrow><m:mo stretchy="false">(</m:mo><m:mn>0</m:mn><m:mrow><m:mover><m:mi>i</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mo stretchy="false">→</m:mo></m:mrow></m:mstyle></m:mover><m:mo stretchy="false">+</m:mo><m:mtext>28</m:mtext></m:mrow><m:mrow><m:mover><m:mi>j</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mo stretchy="false">→</m:mo></m:mrow></m:mstyle></m:mover><m:mo stretchy="false">+</m:mo><m:mtext>196</m:mtext></m:mrow><m:mover><m:mi>k</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mo stretchy="false">→</m:mo></m:mrow></m:mstyle></m:mover><m:mrow><m:mo stretchy="false">)</m:mo><m:mo stretchy="false">=</m:mo><m:mrow><m:mo stretchy="false">{</m:mo><m:mrow><m:mn>0,</m:mn><m:mtext>56</m:mtext><m:mi>,</m:mi><m:mtext>392</m:mtext></m:mrow><m:mo stretchy="false">}</m:mo></m:mrow></m:mrow><m:mtext>.</m:mtext></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{7 {i}  cSup { size 8{ rightarrow } } +"161" {k}  cSup { size 8{ rightarrow } }  +5 {j}  cSup { size 8{ rightarrow } } +"35" {k}  cSup { size 8{ rightarrow } } +"23" {j}  cSup { size 8{ rightarrow } }  - 7 {i}  cSup { size 8{ rightarrow } }  \) =2 \( 0 {i}  cSup { size 8{ rightarrow } } +"28" {j}  cSup { size 8{ rightarrow } } +"196" {k}  cSup { size 8{ rightarrow } }  \) = lbrace 0,"56","392" rbrace  "." } {}</m:annotation></m:semantics></m:math> ◄ </para>
+        <para id="id1166259647183"><emphasis>Пример 2.</emphasis> Во триаголник со темиња <emphasis effect="italics">A</emphasis>(1, －1, 2), <emphasis effect="italics">B</emphasis>(5, －6, 2), <emphasis effect="italics">C</emphasis>(1, 3, －1) да се пресме­та должината на висината <emphasis effect="italics">h</emphasis> спуштена од темето <emphasis effect="italics">B </emphasis>кон страната <emphasis effect="italics">AC</emphasis>.</para>
+        <para id="id1166257125636"><emphasis>Решение.</emphasis><emphasis effect="bold"/> Плоштината на триаголникот <emphasis effect="italics">ABC </emphasis>ќе се пресмета со формулата</para>
+        <para id="id1166263412621"><m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mi>P</m:mi><m:mo stretchy="false">=</m:mo><m:mfrac><m:mrow><m:mover accent="true"><m:mstyle fontstyle="italic"><m:mrow><m:mtext>AC</m:mtext></m:mrow></m:mstyle><m:mo>¯</m:mo></m:mover><m:mo stretchy="false">⋅</m:mo><m:mi>h</m:mi></m:mrow><m:mn>2</m:mn></m:mfrac></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{P= {  { {overline  { ital "AC"}}  cdot h}  over  {2} } } {}</m:annotation></m:semantics></m:math>,</para>
+        <para id="id1166263568826">но и преку векторскиот производ (особина 7)</para>
+        <para id="id1166264101974">    P = 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mfrac><m:mn>1</m:mn><m:mn>2</m:mn></m:mfrac><m:mrow><m:mover><m:mrow><m:mo stretchy="false">∣</m:mo><m:mstyle fontstyle="italic"><m:mrow><m:mtext>AB</m:mtext></m:mrow></m:mstyle></m:mrow><m:mstyle fontsize="8pt"><m:mrow><m:mo stretchy="false">→</m:mo></m:mrow></m:mstyle></m:mover><m:mo stretchy="false">×</m:mo><m:mover><m:mrow><m:mstyle fontstyle="italic"><m:mrow><m:mtext>AC</m:mtext></m:mrow></m:mstyle><m:mo stretchy="false">∣</m:mo></m:mrow><m:mstyle fontsize="8pt"><m:mrow><m:mo stretchy="false">→</m:mo></m:mrow></m:mstyle></m:mover></m:mrow></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ {  {1}  over  {2} }  { \lline  ital "AB"}  cSup { size 8{ rightarrow } }  times  { ital "AC" \lline }  cSup { size 8{ rightarrow } } } {}</m:annotation></m:semantics></m:math>,</para>
+        <para id="id1166258848630">од каде следува дека </para>
+        <para id="id1166264537919"><m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mrow><m:mi>h</m:mi><m:mo stretchy="false">=</m:mo><m:mfrac><m:mn>2P</m:mn><m:mover accent="true"><m:mstyle fontweight="bold"><m:mrow><m:mtext>AC</m:mtext></m:mrow></m:mstyle><m:mo>¯</m:mo></m:mover></m:mfrac></m:mrow><m:mo stretchy="false">=</m:mo><m:mfrac><m:mrow><m:mo stretchy="false">∣</m:mo><m:mrow><m:mover><m:mstyle fontstyle="italic"><m:mrow><m:mtext>AB</m:mtext></m:mrow></m:mstyle><m:mstyle fontsize="8pt"><m:mrow><m:mo stretchy="false">→</m:mo></m:mrow></m:mstyle></m:mover><m:mo stretchy="false">×</m:mo><m:mover><m:mstyle fontstyle="italic"><m:mrow><m:mtext>AC</m:mtext></m:mrow></m:mstyle><m:mstyle fontsize="8pt"><m:mrow><m:mo stretchy="false">→</m:mo></m:mrow></m:mstyle></m:mover></m:mrow><m:mo stretchy="false">∣</m:mo></m:mrow><m:mover accent="true"><m:mstyle fontweight="bold"><m:mrow><m:mtext>AC</m:mtext></m:mrow></m:mstyle><m:mo>¯</m:mo></m:mover></m:mfrac></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{h= {  {2P}  over  { {overline  { bold "AC"}} } } = {  { \lline  { ital "AB"}  cSup { size 8{ rightarrow } }  times  { ital "AC"}  cSup { size 8{ rightarrow } }  \lline }  over  { {overline  { bold "AC"}} } } } {}</m:annotation></m:semantics></m:math>.</para>
+        <para id="id1245817">Ги пресметуваме координатите на векторите кои се страни во триаголникот и имаат заеднички почеток во темето <emphasis effect="italics">A</emphasis>:</para>
+        <para id="id1166264973444"><m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mover><m:mstyle fontstyle="italic"><m:mrow><m:mtext>AB</m:mtext></m:mrow></m:mstyle><m:mstyle fontsize="8pt"><m:mrow><m:mo stretchy="false">→</m:mo></m:mrow></m:mstyle></m:mover></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ { ital "AB"}  cSup { size 8{ rightarrow } } } {}</m:annotation></m:semantics></m:math>= {5 － 1, －6 － (－1), 2 － 2} = {4, －5, 0},</para>
+        <para id="id1166264273713"><m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mover><m:mstyle fontstyle="italic"><m:mrow><m:mtext>AC</m:mtext></m:mrow></m:mstyle><m:mstyle fontsize="8pt"><m:mrow><m:mo stretchy="false">→</m:mo></m:mrow></m:mstyle></m:mover></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ { ital "AC"}  cSup { size 8{ rightarrow } } } {}</m:annotation></m:semantics></m:math>= {1 － 1, 3 －(－1), －1 － 2} = {0, 4, －3}.</para>
+        <para id="id1166264042979">Векторскиот производ е </para>
+        <para id="id1166264879286"><m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mover><m:mstyle fontstyle="italic"><m:mrow><m:mtext>AB</m:mtext></m:mrow></m:mstyle><m:mstyle fontsize="8pt"><m:mrow><m:mo stretchy="false">→</m:mo></m:mrow></m:mstyle></m:mover><m:mo stretchy="false">×</m:mo><m:mover><m:mstyle fontstyle="italic"><m:mrow><m:mtext>AC</m:mtext></m:mrow></m:mstyle><m:mstyle fontsize="8pt"><m:mrow><m:mo stretchy="false">→</m:mo></m:mrow></m:mstyle></m:mover></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ { ital "AB"}  cSup { size 8{ rightarrow } }  times  { ital "AC"}  cSup { size 8{ rightarrow } } } {}</m:annotation></m:semantics></m:math> = 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mo stretchy="false">∣</m:mo><m:mtable><m:mtr><m:mtd><m:mrow><m:mover><m:mi>i</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mo stretchy="false">→</m:mo></m:mrow></m:mstyle></m:mover><m:mrow/></m:mrow></m:mtd><m:mtd><m:mrow><m:mover><m:mi>j</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mo stretchy="false">→</m:mo></m:mrow></m:mstyle></m:mover><m:mrow/></m:mrow></m:mtd><m:mtd><m:mrow><m:mover><m:mi>k</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mo stretchy="false">→</m:mo></m:mrow></m:mstyle></m:mover><m:mrow/></m:mrow></m:mtd></m:mtr><m:mtr><m:mtd><m:mrow><m:mn>4</m:mn><m:mrow/></m:mrow></m:mtd><m:mtd><m:mrow><m:mrow><m:mo stretchy="false">−</m:mo><m:mn>5</m:mn></m:mrow><m:mrow/></m:mrow></m:mtd><m:mtd><m:mrow><m:mn>0</m:mn><m:mrow/></m:mrow></m:mtd></m:mtr><m:mtr><m:mtd><m:mrow><m:mn>0</m:mn><m:mrow/></m:mrow></m:mtd><m:mtd><m:mrow><m:mn>4</m:mn><m:mrow/></m:mrow></m:mtd><m:mtd><m:mrow><m:mrow><m:mo stretchy="false">−</m:mo><m:mn>3</m:mn></m:mrow><m:mrow/></m:mrow></m:mtd></m:mtr></m:mtable><m:mo stretchy="false">∣</m:mo></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ lline  matrix {
+ {i}  cSup { size 8{ rightarrow } }  {} #  {j}  cSup { size 8{ rightarrow } }  {} #  {k}  cSup { size 8{ rightarrow } }  {} ##
+4 {} #  - 5 {} # 0 {} ##
+0 {} # 4 {} #  - 3{}
+}  rline } {}</m:annotation></m:semantics></m:math> = 15<emphasis effect="italics"/><m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mover><m:mi>i</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mo stretchy="false">→</m:mo></m:mrow></m:mstyle></m:mover></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ {i}  cSup { size 8{ rightarrow } } } {}</m:annotation></m:semantics></m:math>+ 16
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mover><m:mi>k</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mo stretchy="false">→</m:mo></m:mrow></m:mstyle></m:mover></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ {k}  cSup { size 8{ rightarrow } } } {}</m:annotation></m:semantics></m:math>+ 12
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mover><m:mi>j</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mo stretchy="false">→</m:mo></m:mrow></m:mstyle></m:mover></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ {j}  cSup { size 8{ rightarrow } } } {}</m:annotation></m:semantics></m:math><emphasis effect="bold">= </emphasis>{15, 12, 16}</para>
+        <para id="id1166264360974">и има интензитет</para>
+        <para id="id7310605">
+          <m:math>
+            <m:semantics>
+              <m:mrow>
+                <m:mstyle fontsize="12pt">
+                  <m:mrow>
+                    <m:mrow>
+                      <m:mrow>
+                        <m:mrow>
+                          <m:mrow>
+                            <m:mrow>
+                              <m:mrow>
+                                <m:mover>
+                                  <m:mrow>
+                                    <m:mo stretchy="false">∣</m:mo>
+                                    <m:mstyle fontstyle="italic">
+                                      <m:mrow>
+                                        <m:mtext>AB</m:mtext>
+                                      </m:mrow>
+                                    </m:mstyle>
+                                  </m:mrow>
+                                  <m:mstyle fontsize="8pt">
+                                    <m:mrow>
+                                      <m:mo stretchy="false">→</m:mo>
+                                    </m:mrow>
+                                  </m:mstyle>
+                                </m:mover>
+                                <m:mo stretchy="false">×</m:mo>
+                                <m:mover>
+                                  <m:mrow>
+                                    <m:mstyle fontstyle="italic">
+                                      <m:mrow>
+                                        <m:mtext>AC</m:mtext>
+                                      </m:mrow>
+                                    </m:mstyle>
+                                    <m:mo stretchy="false">∣</m:mo>
+                                  </m:mrow>
+                                  <m:mstyle fontsize="8pt">
+                                    <m:mrow>
+                                      <m:mo stretchy="false">→</m:mo>
+                                    </m:mrow>
+                                  </m:mstyle>
+                                </m:mover>
+                              </m:mrow>
+                              <m:mo stretchy="false">=</m:mo>
+                              <m:msqrt>
+                                <m:mrow>
+                                  <m:mrow>
+                                    <m:msup>
+                                      <m:mtext>15</m:mtext>
+                                      <m:mstyle fontsize="8pt">
+                                        <m:mrow>
+                                          <m:mn>2</m:mn>
+                                        </m:mrow>
+                                      </m:mstyle>
+                                    </m:msup>
+                                    <m:mo stretchy="false">+</m:mo>
+                                    <m:msup>
+                                      <m:mtext>12</m:mtext>
+                                      <m:mstyle fontsize="8pt">
+                                        <m:mrow>
+                                          <m:mn>2</m:mn>
+                                        </m:mrow>
+                                      </m:mstyle>
+                                    </m:msup>
+                                  </m:mrow>
+                                  <m:mo stretchy="false">+</m:mo>
+                                  <m:msup>
+                                    <m:mtext>16</m:mtext>
+                                    <m:mstyle fontsize="8pt">
+                                      <m:mrow>
+                                        <m:mn>2</m:mn>
+                                      </m:mrow>
+                                    </m:mstyle>
+                                  </m:msup>
+                                </m:mrow>
+                              </m:msqrt>
+                            </m:mrow>
+                            <m:mo stretchy="false">=</m:mo>
+                            <m:msqrt>
+                              <m:mrow>
+                                <m:mrow>
+                                  <m:mtext>225</m:mtext>
+                                  <m:mo stretchy="false">+</m:mo>
+                                  <m:mtext>144</m:mtext>
+                                </m:mrow>
+                                <m:mo stretchy="false">+</m:mo>
+                                <m:mtext>256</m:mtext>
+                              </m:mrow>
+                            </m:msqrt>
+                          </m:mrow>
+                          <m:mo stretchy="false">=</m:mo>
+                          <m:msqrt>
+                            <m:mtext>625</m:mtext>
+                          </m:msqrt>
+                        </m:mrow>
+                        <m:mo stretchy="false">=</m:mo>
+                        <m:mtext>25</m:mtext>
+                      </m:mrow>
+                      <m:mtext>.</m:mtext>
+                    </m:mrow>
+                  </m:mrow>
+                </m:mstyle>
+                <m:mrow/>
+              </m:mrow>
+              <m:annotation encoding="StarMath 5.0"> size 12{ { \lline  ital "AB"}  cSup { size 8{ rightarrow } }  times  { ital "AC" \lline }  cSup { size 8{ rightarrow } } = sqrt {"15" rSup { size 8{2} } +"12" rSup { size 8{2} } +"16" rSup { size 8{2} } } = sqrt {"225"+"144"+"256"} = sqrt {"625"} ="25" "." } {}</m:annotation>
+            </m:semantics>
+          </m:math>
+        </para>
+        <para id="id1166264136730">Заменувајќи ги вредностите во изразот за пресметување на висината се добива </para>
+        <para id="id1166265498630"><m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mrow><m:mrow><m:mrow><m:mrow><m:mrow><m:mi>h</m:mi><m:mo stretchy="false">=</m:mo><m:mfrac><m:mrow><m:mover><m:mrow><m:mo stretchy="false">∣</m:mo><m:mstyle fontstyle="italic"><m:mrow><m:mtext>AB</m:mtext></m:mrow></m:mstyle></m:mrow><m:mstyle fontsize="8pt"><m:mrow><m:mo stretchy="false">→</m:mo></m:mrow></m:mstyle></m:mover><m:mo stretchy="false">×</m:mo><m:mover><m:mrow><m:mstyle fontstyle="italic"><m:mrow><m:mtext>AC</m:mtext></m:mrow></m:mstyle><m:mo stretchy="false">∣</m:mo></m:mrow><m:mstyle fontsize="8pt"><m:mrow><m:mo stretchy="false">→</m:mo></m:mrow></m:mstyle></m:mover></m:mrow><m:mover accent="true"><m:mstyle fontweight="bold"><m:mrow><m:mtext>AC</m:mtext></m:mrow></m:mstyle><m:mo>¯</m:mo></m:mover></m:mfrac></m:mrow><m:mo stretchy="false">=</m:mo><m:mfrac><m:mtext>25</m:mtext><m:msqrt><m:mrow><m:mrow><m:mrow><m:mrow><m:mn>0</m:mn><m:mo stretchy="false">+</m:mo><m:msup><m:mn>4</m:mn><m:mstyle fontsize="8pt"><m:mrow><m:mn>2</m:mn></m:mrow></m:mstyle></m:msup></m:mrow><m:mo stretchy="false">+</m:mo><m:mo stretchy="false">(</m:mo></m:mrow><m:mo stretchy="false">−</m:mo><m:mn>3</m:mn></m:mrow><m:msup><m:mo stretchy="false">)</m:mo><m:mstyle fontsize="8pt"><m:mrow><m:mn>2</m:mn></m:mrow></m:mstyle></m:msup></m:mrow></m:msqrt></m:mfrac></m:mrow><m:mo stretchy="false">=</m:mo><m:mfrac><m:mtext>25</m:mtext><m:msqrt><m:mrow><m:mtext>16</m:mtext><m:mo stretchy="false">+</m:mo><m:mn>9</m:mn></m:mrow></m:msqrt></m:mfrac></m:mrow><m:mo stretchy="false">=</m:mo><m:mfrac><m:mtext>25</m:mtext><m:mn>5</m:mn></m:mfrac></m:mrow><m:mo stretchy="false">=</m:mo><m:mn>5</m:mn></m:mrow><m:mtext>.</m:mtext></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{h= {  { { \lline  ital "AB"}  cSup { size 8{ rightarrow } }  times  { ital "AC" \lline }  cSup { size 8{ rightarrow } } }  over  { {overline  { bold "AC"}} } } = {  {"25"}  over  { sqrt {0+4 rSup { size 8{2} } + \(  - 3 \)  rSup { size 8{2} } } } } = {  {"25"}  over  { sqrt {"16"+9} } } = {  {"25"}  over  {5} } =5 "." } {}</m:annotation></m:semantics></m:math> ◄</para>
+      </section>
+    </section>
+  </content>
+</document>

@@ -1,0 +1,137 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML">
+  <title>Задачи од правоаголни координати на вектор</title>
+  <metadata xmlns:md="http://cnx.rice.edu/mdml">
+  <md:content-id>m20091</md:content-id>
+  <md:title>Задачи од правоаголни координати на вектор</md:title>
+  <md:abstract>solved problems on vectors coordinates
+решени задачи од правоаголни координати на вектори</md:abstract>
+  <md:uuid>d7c0d3a1-39b6-4e4a-8059-202c05691650</md:uuid>
+</metadata>
+
+<content>
+    <section id="id17795674">
+      <title>Решени задачи од правоаголни координати на вектори</title>
+      <para id="id10335991"><emphasis>1. </emphasis>За векторот 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mover><m:mi>a</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mo stretchy="false">→</m:mo></m:mrow></m:mstyle></m:mover><m:mo stretchy="false">=</m:mo><m:mrow><m:mo stretchy="false">{</m:mo><m:mtext>3,4,5</m:mtext><m:mo stretchy="false">}</m:mo></m:mrow></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ {a}  cSup { size 8{ rightarrow } } = lbrace "3,4,5" rbrace  } {}</m:annotation></m:semantics></m:math>да се определи интензитетот и да се определат аглите што тој вектор ги зафаќа со координатните оски.</para>
+      <para id="id4236464">
+        <emphasis>Решение.</emphasis>
+      </para>
+      <para id="id6834015"><m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mrow><m:mrow><m:mrow><m:mrow><m:mo stretchy="false">∣</m:mo><m:mover><m:mi>a</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mo stretchy="false">→</m:mo></m:mrow></m:mstyle></m:mover><m:mo stretchy="false">∣</m:mo></m:mrow><m:mo stretchy="false">=</m:mo><m:msqrt><m:mrow><m:mrow><m:msup><m:mn>3</m:mn><m:mstyle fontsize="8pt"><m:mrow><m:mn>2</m:mn></m:mrow></m:mstyle></m:msup><m:mo stretchy="false">+</m:mo><m:msup><m:mn>4</m:mn><m:mstyle fontsize="8pt"><m:mrow><m:mn>2</m:mn></m:mrow></m:mstyle></m:msup></m:mrow><m:mo stretchy="false">+</m:mo><m:msup><m:mn>5</m:mn><m:mstyle fontsize="8pt"><m:mrow><m:mn>2</m:mn></m:mrow></m:mstyle></m:msup></m:mrow></m:msqrt></m:mrow><m:mo stretchy="false">=</m:mo><m:msqrt><m:mtext>50</m:mtext></m:msqrt></m:mrow><m:mo stretchy="false">=</m:mo><m:mn>5</m:mn></m:mrow><m:msqrt><m:mn>2</m:mn></m:msqrt></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ lline  {a}  cSup { size 8{ rightarrow } }  rline = sqrt {3 rSup { size 8{2} } +4 rSup { size 8{2} } +5 rSup { size 8{2} } } = sqrt {"50"} =5 sqrt {2} } {}</m:annotation></m:semantics></m:math>. </para>
+      <para id="id17931928">Нека 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mi>α</m:mi></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{α} {}</m:annotation></m:semantics></m:math>,
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mi>β</m:mi></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{β} {}</m:annotation></m:semantics></m:math> и 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mi>γ</m:mi></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{γ} {}</m:annotation></m:semantics></m:math> се аглите што векторот 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mover><m:mi>a</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mo stretchy="false">→</m:mo></m:mrow></m:mstyle></m:mover></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ {a}  cSup { size 8{ rightarrow } } } {}</m:annotation></m:semantics></m:math> ги зафаќа со координатните оски. Тогаш</para>
+      <para id="id18679491"><m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mtext>cos</m:mtext><m:mrow><m:mrow><m:mrow><m:mi>α</m:mi><m:mo stretchy="false">=</m:mo><m:mfrac><m:mn>3</m:mn><m:mrow><m:mo stretchy="false">∣</m:mo><m:mover><m:mi>a</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mo stretchy="false">→</m:mo></m:mrow></m:mstyle></m:mover><m:mo stretchy="false">∣</m:mo></m:mrow></m:mfrac></m:mrow><m:mo stretchy="false">=</m:mo><m:mfrac><m:mn>3</m:mn><m:mrow><m:mn>5</m:mn><m:msqrt><m:mn>2</m:mn></m:msqrt></m:mrow></m:mfrac></m:mrow><m:mo stretchy="false">=</m:mo><m:mfrac><m:mrow><m:mn>3</m:mn><m:msqrt><m:mn>2</m:mn></m:msqrt></m:mrow><m:mtext>10</m:mtext></m:mfrac></m:mrow></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{"cos"α= {  {3}  over  { lline  {a}  cSup { size 8{ rightarrow } }  rline } } = {  {3}  over  {5 sqrt {2} } } = {  {3 sqrt {2} }  over  {"10"} } } {}</m:annotation></m:semantics></m:math>.</para>
+      <para id="id4847384"><m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mtext>cos</m:mtext><m:mrow><m:mrow><m:mrow><m:mi>β</m:mi><m:mo stretchy="false">=</m:mo><m:mfrac><m:mn>4</m:mn><m:mrow><m:mo stretchy="false">∣</m:mo><m:mover><m:mi>a</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mo stretchy="false">→</m:mo></m:mrow></m:mstyle></m:mover><m:mo stretchy="false">∣</m:mo></m:mrow></m:mfrac></m:mrow><m:mo stretchy="false">=</m:mo><m:mfrac><m:mn>4</m:mn><m:mrow><m:mn>5</m:mn><m:msqrt><m:mn>2</m:mn></m:msqrt></m:mrow></m:mfrac></m:mrow><m:mo stretchy="false">=</m:mo><m:mfrac><m:mrow><m:mn>2</m:mn><m:msqrt><m:mn>2</m:mn></m:msqrt></m:mrow><m:mn>5</m:mn></m:mfrac></m:mrow></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{"cos"β= {  {4}  over  { lline  {a}  cSup { size 8{ rightarrow } }  rline } } = {  {4}  over  {5 sqrt {2} } } = {  {2 sqrt {2} }  over  {5} } } {}</m:annotation></m:semantics></m:math>.</para>
+      <para id="id6593064"><m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mtext>cos</m:mtext><m:mrow><m:mrow><m:mrow><m:mi>γ</m:mi><m:mo stretchy="false">=</m:mo><m:mfrac><m:mn>5</m:mn><m:mrow><m:mo stretchy="false">∣</m:mo><m:mover><m:mi>a</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mo stretchy="false">→</m:mo></m:mrow></m:mstyle></m:mover><m:mo stretchy="false">∣</m:mo></m:mrow></m:mfrac></m:mrow><m:mo stretchy="false">=</m:mo><m:mfrac><m:mn>5</m:mn><m:mrow><m:mn>5</m:mn><m:msqrt><m:mn>2</m:mn></m:msqrt></m:mrow></m:mfrac></m:mrow><m:mo stretchy="false">=</m:mo><m:mfrac><m:msqrt><m:mn>2</m:mn></m:msqrt><m:mn>2</m:mn></m:mfrac></m:mrow></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{"cos"γ= {  {5}  over  { lline  {a}  cSup { size 8{ rightarrow } }  rline } } = {  {5}  over  {5 sqrt {2} } } = {  { sqrt {2} }  over  {2} } } {}</m:annotation></m:semantics></m:math>.</para>
+      <para id="id17589309"><emphasis>2</emphasis><emphasis>. </emphasis>Нека се дадени точките <emphasis effect="italics">A</emphasis>(4,-4,2) и <emphasis effect="italics">B</emphasis>(2,6,-4). Да се определат координатите на векторот 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mover><m:mstyle fontstyle="italic"><m:mrow><m:mtext>AB</m:mtext></m:mrow></m:mstyle><m:mstyle fontsize="8pt"><m:mrow><m:mo stretchy="false">→</m:mo></m:mrow></m:mstyle></m:mover></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ { ital "AB"}  cSup { size 8{ rightarrow } } } {}</m:annotation></m:semantics></m:math>, а потоа да се пресмета неговиот интензитет и аглите што тој ги зафаќа со координатните оски.</para>
+      <para id="id14029887">
+        <emphasis>Решение.</emphasis>
+      </para>
+      <para id="id3896020"><m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mrow><m:mover><m:mstyle fontstyle="italic"><m:mrow><m:mtext>AB</m:mtext></m:mrow></m:mstyle><m:mstyle fontsize="8pt"><m:mrow><m:mo stretchy="false">→</m:mo></m:mrow></m:mstyle></m:mover><m:mo stretchy="false">=</m:mo><m:mrow><m:mo stretchy="false">{</m:mo><m:mrow><m:mtext>2-4,6</m:mtext><m:mo stretchy="false">+</m:mo><m:mtext>4,-4-2</m:mtext></m:mrow><m:mo stretchy="false">}</m:mo></m:mrow></m:mrow><m:mo stretchy="false">=</m:mo><m:mrow><m:mo stretchy="false">{</m:mo><m:mtext>-2,10,-6</m:mtext><m:mo stretchy="false">}</m:mo></m:mrow></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ { ital "AB"}  cSup { size 8{ rightarrow } } = lbrace "2-4,6"+"4,-4-2" rbrace = lbrace "-2,10,-6" rbrace } {}</m:annotation></m:semantics></m:math>.</para>
+      <para id="id17728866"><m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mrow><m:mrow><m:mrow><m:mrow><m:mo stretchy="false">∣</m:mo><m:mover><m:mstyle fontstyle="italic"><m:mrow><m:mtext>AB</m:mtext></m:mrow></m:mstyle><m:mstyle fontsize="8pt"><m:mrow><m:mo stretchy="false">→</m:mo></m:mrow></m:mstyle></m:mover><m:mo stretchy="false">∣</m:mo></m:mrow><m:mo stretchy="false">=</m:mo><m:msqrt><m:mrow><m:mrow><m:mn>4</m:mn><m:mo stretchy="false">+</m:mo><m:mtext>100</m:mtext></m:mrow><m:mo stretchy="false">+</m:mo><m:mtext>36</m:mtext></m:mrow></m:msqrt></m:mrow><m:mo stretchy="false">=</m:mo><m:msqrt><m:mtext>140</m:mtext></m:msqrt></m:mrow><m:mo stretchy="false">=</m:mo><m:mn>2</m:mn></m:mrow><m:msqrt><m:mtext>35</m:mtext></m:msqrt></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ lline  { ital "AB"}  cSup { size 8{ rightarrow } }  rline = sqrt {4+"100"+"36"} = sqrt {"140"} =2 sqrt {"35"} } {}</m:annotation></m:semantics></m:math>.</para>
+      <para id="id4936574"><m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mtext>cos</m:mtext><m:mrow><m:mrow><m:mrow><m:mi>α</m:mi><m:mo stretchy="false">=</m:mo><m:mfrac><m:mrow><m:mo stretchy="false">−</m:mo><m:mn>2</m:mn></m:mrow><m:mrow><m:mo stretchy="false">∣</m:mo><m:mover><m:mstyle fontstyle="italic"><m:mrow><m:mtext>AB</m:mtext></m:mrow></m:mstyle><m:mstyle fontsize="8pt"><m:mrow><m:mo stretchy="false">→</m:mo></m:mrow></m:mstyle></m:mover><m:mo stretchy="false">∣</m:mo></m:mrow></m:mfrac></m:mrow><m:mo stretchy="false">=</m:mo><m:mfrac><m:mrow><m:mo stretchy="false">−</m:mo><m:mn>2</m:mn></m:mrow><m:mrow><m:mn>2</m:mn><m:msqrt><m:mtext>35</m:mtext></m:msqrt></m:mrow></m:mfrac></m:mrow><m:mo stretchy="false">=</m:mo><m:mfrac><m:mrow><m:mo stretchy="false">−</m:mo><m:msqrt><m:mtext>35</m:mtext></m:msqrt></m:mrow><m:mtext>35</m:mtext></m:mfrac></m:mrow></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{"cos"α= {  { - 2}  over  { lline  { ital "AB"}  cSup { size 8{ rightarrow } }  rline } } = {  { - 2}  over  {2 sqrt {"35"} } } = {  { -  sqrt {"35"} }  over  {"35"} } } {}</m:annotation></m:semantics></m:math>.</para>
+      <para id="id18733084"><m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mtext>cos</m:mtext><m:mrow><m:mrow><m:mrow><m:mi>β</m:mi><m:mo stretchy="false">=</m:mo><m:mfrac><m:mtext>10</m:mtext><m:mrow><m:mo stretchy="false">∣</m:mo><m:mover><m:mstyle fontstyle="italic"><m:mrow><m:mtext>AB</m:mtext></m:mrow></m:mstyle><m:mstyle fontsize="8pt"><m:mrow><m:mo stretchy="false">→</m:mo></m:mrow></m:mstyle></m:mover><m:mo stretchy="false">∣</m:mo></m:mrow></m:mfrac></m:mrow><m:mo stretchy="false">=</m:mo><m:mfrac><m:mtext>10</m:mtext><m:mrow><m:mn>2</m:mn><m:msqrt><m:mtext>35</m:mtext></m:msqrt></m:mrow></m:mfrac></m:mrow><m:mo stretchy="false">=</m:mo><m:mfrac><m:msqrt><m:mtext>35</m:mtext></m:msqrt><m:mn>7</m:mn></m:mfrac></m:mrow></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{"cos"β= {  {"10"}  over  { lline  { ital "AB"}  cSup { size 8{ rightarrow } }  rline } } = {  {"10"}  over  {2 sqrt {"35"} } } = {  { sqrt {"35"} }  over  {7} } } {}</m:annotation></m:semantics></m:math>.</para>
+      <para id="id9814806"><m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mtext>cos</m:mtext><m:mrow><m:mrow><m:mrow><m:mi>γ</m:mi><m:mo stretchy="false">=</m:mo><m:mfrac><m:mrow><m:mo stretchy="false">−</m:mo><m:mn>6</m:mn></m:mrow><m:mrow><m:mo stretchy="false">∣</m:mo><m:mover><m:mstyle fontstyle="italic"><m:mrow><m:mtext>AB</m:mtext></m:mrow></m:mstyle><m:mstyle fontsize="8pt"><m:mrow><m:mo stretchy="false">→</m:mo></m:mrow></m:mstyle></m:mover><m:mo stretchy="false">∣</m:mo></m:mrow></m:mfrac></m:mrow><m:mo stretchy="false">=</m:mo><m:mfrac><m:mrow><m:mo stretchy="false">−</m:mo><m:mn>6</m:mn></m:mrow><m:mrow><m:mn>2</m:mn><m:msqrt><m:mtext>35</m:mtext></m:msqrt></m:mrow></m:mfrac></m:mrow><m:mo stretchy="false">=</m:mo><m:mfrac><m:mrow><m:mrow><m:mo stretchy="false">−</m:mo><m:mn>3</m:mn></m:mrow><m:msqrt><m:mtext>35</m:mtext></m:msqrt></m:mrow><m:mtext>35</m:mtext></m:mfrac></m:mrow></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{"cos"γ= {  { - 6}  over  { lline  { ital "AB"}  cSup { size 8{ rightarrow } }  rline } } = {  { - 6}  over  {2 sqrt {"35"} } } = {  { - 3 sqrt {"35"} }  over  {"35"} } } {}</m:annotation></m:semantics></m:math>.</para>
+      <para id="id19385351"><emphasis>3</emphasis><emphasis>. </emphasis>Нека точките <emphasis effect="italics">A</emphasis>(1,-2,0), <emphasis effect="italics">B</emphasis>(2,1,3) и <emphasis effect="italics">C</emphasis>(-2,0,5) се темиња на паралелограмот <emphasis effect="italics">ABCD</emphasis>. Да се одреди четвртото теме <emphasis effect="italics">D</emphasis> и должината на дијагоналата <emphasis effect="italics">BD</emphasis>.</para>
+      <para id="id4491003">
+        <emphasis>Решение.</emphasis>
+      </para>
+      <para id="id15791950"><m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mover><m:mstyle fontstyle="italic"><m:mrow><m:mtext>AB</m:mtext></m:mrow></m:mstyle><m:mstyle fontsize="8pt"><m:mrow><m:mo stretchy="false">→</m:mo></m:mrow></m:mstyle></m:mover><m:mo stretchy="false">=</m:mo><m:mrow><m:mo stretchy="false">{</m:mo><m:mtext>1,3,3</m:mtext><m:mo stretchy="false">}</m:mo></m:mrow></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ { ital "AB"}  cSup { size 8{ rightarrow } } = lbrace "1,3,3" rbrace } {}</m:annotation></m:semantics></m:math>.</para>
+      <para id="id4815588">Нека 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mi>D</m:mi><m:mo stretchy="false">(</m:mo><m:msub><m:mi>d</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mn>1</m:mn></m:mrow></m:mstyle></m:msub><m:mi>,</m:mi><m:msub><m:mi>d</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mn>2</m:mn></m:mrow></m:mstyle></m:msub><m:mi>,</m:mi><m:msub><m:mi>d</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mn>3</m:mn></m:mrow></m:mstyle></m:msub><m:mo stretchy="false">)</m:mo></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{D \( d rSub { size 8{1} } ,d rSub { size 8{2} } ,d rSub { size 8{3} }  \) } {}</m:annotation></m:semantics></m:math>.</para>
+      <para id="id20258921"><m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mover><m:mstyle fontstyle="italic"><m:mrow><m:mtext>DC</m:mtext></m:mrow></m:mstyle><m:mstyle fontsize="8pt"><m:mrow><m:mo stretchy="false">→</m:mo></m:mrow></m:mstyle></m:mover><m:mo stretchy="false">=</m:mo><m:mrow><m:mo stretchy="false">{</m:mo><m:mrow><m:mrow><m:mrow><m:mo stretchy="false">−</m:mo><m:mn>2</m:mn></m:mrow><m:mo stretchy="false">−</m:mo><m:msub><m:mi>d</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mn>1</m:mn></m:mrow></m:mstyle></m:msub></m:mrow><m:mrow><m:mtext>,0</m:mtext><m:mo stretchy="false">−</m:mo><m:msub><m:mi>d</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mn>2</m:mn></m:mrow></m:mstyle></m:msub></m:mrow><m:mi>,</m:mi><m:mrow><m:mn>5</m:mn><m:mo stretchy="false">−</m:mo><m:msub><m:mi>d</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mn>3</m:mn></m:mrow></m:mstyle></m:msub></m:mrow></m:mrow><m:mo stretchy="false">}</m:mo></m:mrow></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ { ital "DC"}  cSup { size 8{ rightarrow } } = lbrace  - 2 - d rSub { size 8{1} } ",0" - d rSub { size 8{2} } ,5 - d rSub { size 8{3} }  rbrace } {}</m:annotation></m:semantics></m:math>.</para>
+      <table id="id5538636" summary="">
+        <tgroup cols="1">
+          <colspec colnum="1" colname="c1"/>
+          <tbody>
+            <row>
+              <entry>
+                <media id="id18363286" alt="">
+                  <image mime-type="image/jpg" src="../../media/graphics1-64c1.jpg"/>
+                </media>
+              </entry>
+            </row>
+            <row>
+              <entry>слика 1</entry>
+            </row>
+          </tbody>
+        </tgroup>
+      </table>
+      <para id="id15740706"><m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mover><m:mstyle fontstyle="italic"><m:mrow><m:mtext>DC</m:mtext></m:mrow></m:mstyle><m:mstyle fontsize="8pt"><m:mrow><m:mo stretchy="false">→</m:mo></m:mrow></m:mstyle></m:mover><m:mo stretchy="false">=</m:mo><m:mover><m:mstyle fontstyle="italic"><m:mrow><m:mtext>AB</m:mtext></m:mrow></m:mstyle><m:mstyle fontsize="8pt"><m:mrow><m:mo stretchy="false">→</m:mo></m:mrow></m:mstyle></m:mover></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ { ital "DC"}  cSup { size 8{ rightarrow } } = { ital "AB"}  cSup { size 8{ rightarrow } } } {}</m:annotation></m:semantics></m:math>, па следува</para>
+      <equation id="id13923990">
+        <m:math>
+          <m:semantics>
+            <m:mrow>
+              <m:mstyle fontsize="12pt">
+                <m:mrow>
+                  <m:mrow>
+                    <m:mn>1</m:mn>
+                    <m:mo stretchy="false">=</m:mo>
+                    <m:mrow>
+                      <m:mrow>
+                        <m:mo stretchy="false">−</m:mo>
+                        <m:mn>2</m:mn>
+                      </m:mrow>
+                      <m:mo stretchy="false">−</m:mo>
+                      <m:msub>
+                        <m:mi>d</m:mi>
+                        <m:mstyle fontsize="8pt">
+                          <m:mrow>
+                            <m:mn>1</m:mn>
+                          </m:mrow>
+                        </m:mstyle>
+                      </m:msub>
+                    </m:mrow>
+                  </m:mrow>
+                </m:mrow>
+              </m:mstyle>
+              <m:mrow/>
+            </m:mrow>
+            <m:annotation encoding="StarMath 5.0"> size 12{1= - 2 - d rSub { size 8{1} } } {}</m:annotation>
+          </m:semantics>
+        </m:math>
+      </equation>
+      <para id="id19671907">
+        <m:math>
+          <m:semantics>
+            <m:mrow>
+              <m:mstyle fontsize="12pt">
+                <m:mrow>
+                  <m:mrow>
+                    <m:mn>3</m:mn>
+                    <m:mo stretchy="false">=</m:mo>
+                    <m:mrow>
+                      <m:mo stretchy="false">−</m:mo>
+                      <m:msub>
+                        <m:mi>d</m:mi>
+                        <m:mstyle fontsize="8pt">
+                          <m:mrow>
+                            <m:mn>2</m:mn>
+                          </m:mrow>
+                        </m:mstyle>
+                      </m:msub>
+                    </m:mrow>
+                  </m:mrow>
+                </m:mrow>
+              </m:mstyle>
+              <m:mrow/>
+            </m:mrow>
+            <m:annotation encoding="StarMath 5.0"> size 12{3= - d rSub { size 8{2} } } {}</m:annotation>
+          </m:semantics>
+        </m:math>
+      </para>
+      <para id="id4644626"><m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mn>3</m:mn><m:mo stretchy="false">=</m:mo><m:mrow><m:mn>5</m:mn><m:mo stretchy="false">−</m:mo><m:msub><m:mi>d</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mn>3</m:mn></m:mrow></m:mstyle></m:msub></m:mrow></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{3=5 - d rSub { size 8{3} } } {}</m:annotation></m:semantics></m:math>, т.е.</para>
+      <para id="id16818380"><m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:msub><m:mi>d</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mn>1</m:mn></m:mrow></m:mstyle></m:msub><m:mo stretchy="false">=</m:mo><m:mrow><m:mo stretchy="false">−</m:mo><m:mn>3</m:mn></m:mrow></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{d rSub { size 8{1} } = - 3} {}</m:annotation></m:semantics></m:math>, 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:msub><m:mi>d</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mn>2</m:mn></m:mrow></m:mstyle></m:msub><m:mo stretchy="false">=</m:mo><m:mrow><m:mo stretchy="false">−</m:mo><m:mn>3</m:mn></m:mrow></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{d rSub { size 8{2} } = - 3} {}</m:annotation></m:semantics></m:math>, 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:msub><m:mi>d</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mn>3</m:mn></m:mrow></m:mstyle></m:msub><m:mo stretchy="false">=</m:mo><m:mn>2</m:mn></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{d rSub { size 8{3} } =2} {}</m:annotation></m:semantics></m:math>.</para>
+      <para id="id10468024">Добиваме 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mi>D</m:mi><m:mrow><m:mo stretchy="false">(</m:mo><m:mo stretchy="false">−</m:mo><m:mn>3</m:mn></m:mrow><m:mtext>,-3,2</m:mtext><m:mo stretchy="false">)</m:mo></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{D \(  - 3",-3,2" \) } {}</m:annotation></m:semantics></m:math>.</para>
+      <para id="id3227645">Оттука, 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mover><m:mstyle fontstyle="italic"><m:mrow><m:mtext>BD</m:mtext></m:mrow></m:mstyle><m:mstyle fontsize="8pt"><m:mrow><m:mo stretchy="false">→</m:mo></m:mrow></m:mstyle></m:mover><m:mo stretchy="false">=</m:mo><m:mrow><m:mo stretchy="false">{</m:mo><m:mrow><m:mrow><m:mrow><m:mo stretchy="false">−</m:mo><m:mn>5,</m:mn></m:mrow><m:mo stretchy="false">−</m:mo><m:mn>4,</m:mn></m:mrow><m:mo stretchy="false">−</m:mo><m:mn>1</m:mn></m:mrow><m:mo stretchy="false">}</m:mo></m:mrow></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ { ital "BD"}  cSup { size 8{ rightarrow } } = lbrace  - 5, - 4, - 1 rbrace } {}</m:annotation></m:semantics></m:math>.</para>
+      <para id="id3995343"><m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mrow><m:mrow><m:mover accent="true"><m:mstyle fontstyle="italic"><m:mrow><m:mtext>BD</m:mtext></m:mrow></m:mstyle><m:mo>¯</m:mo></m:mover><m:mo stretchy="false">=</m:mo><m:mrow><m:mo stretchy="false">∣</m:mo><m:mover><m:mstyle fontstyle="italic"><m:mrow><m:mtext>BD</m:mtext></m:mrow></m:mstyle><m:mstyle fontsize="8pt"><m:mrow><m:mo stretchy="false">→</m:mo></m:mrow></m:mstyle></m:mover><m:mo stretchy="false">∣</m:mo></m:mrow></m:mrow><m:mo stretchy="false">=</m:mo><m:msqrt><m:mrow><m:mrow><m:mo stretchy="false">(</m:mo><m:mo stretchy="false">−</m:mo><m:mn>5</m:mn></m:mrow><m:mrow><m:mrow><m:msup><m:mo stretchy="false">)</m:mo><m:mstyle fontsize="8pt"><m:mrow><m:mn>2</m:mn></m:mrow></m:mstyle></m:msup><m:mo stretchy="false">+</m:mo><m:mo stretchy="false">(</m:mo></m:mrow><m:mo stretchy="false">−</m:mo><m:mn>4</m:mn></m:mrow><m:mrow><m:mrow><m:msup><m:mo stretchy="false">)</m:mo><m:mstyle fontsize="8pt"><m:mrow><m:mn>2</m:mn></m:mrow></m:mstyle></m:msup><m:mo stretchy="false">+</m:mo><m:mo stretchy="false">(</m:mo></m:mrow><m:mo stretchy="false">−</m:mo><m:mn>1</m:mn></m:mrow><m:msup><m:mo stretchy="false">)</m:mo><m:mstyle fontsize="8pt"><m:mrow><m:mn>2</m:mn></m:mrow></m:mstyle></m:msup></m:mrow></m:msqrt></m:mrow><m:mo stretchy="false">=</m:mo><m:msqrt><m:mtext>42</m:mtext></m:msqrt></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ {overline  { ital "BD"}} = lline  { ital "BD"}  cSup { size 8{ rightarrow } }  rline = sqrt { \(  - 5 \)  rSup { size 8{2} } + \(  - 4 \)  rSup { size 8{2} } + \(  - 1 \)  rSup { size 8{2} } } = sqrt {"42"} } {}</m:annotation></m:semantics></m:math>.</para>
+    </section>
+  </content>
+</document>

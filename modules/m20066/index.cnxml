@@ -1,0 +1,405 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML">
+  <title>Вектори</title>
+  <metadata xmlns:md="http://cnx.rice.edu/mdml">
+  <md:content-id>m20066</md:content-id>
+  <md:title>Вектори</md:title>
+  <md:abstract>Се дефинира вектор во просторен координатен систем и операции со векторите.
+Definition of a vector and operations with vectors</md:abstract>
+  <md:uuid>b7707c39-20af-4ed0-9653-606b4ada832e</md:uuid>
+</metadata>
+
+<content>
+    <section id="id20962762">
+      <title>ПРАВОАГОЛЕН ПРОСТОРЕН КООРДИНАТЕН СИСТЕМ</title>
+      <para id="id20962770">Три бројни оски кои се нормални меѓу себе образуваат правоаголен тродимензионален координатен систем и определуваат тродимензи­онален простор кој накратко се нарекува простор. </para>
+      <para id="id25184652"><table id="id24108496" summary=""><tgroup cols="1"><colspec colnum="1" colname="c1"/><tbody><row><entry><media id="id21466197" alt=""><image mime-type="image/jpg" src="../../media/graphics1-f652.jpg"/></media></entry></row><row><entry>Слика 1.1. Просторен координатен систем</entry></row></tbody></tgroup></table>Едната оска се нарекува <emphasis effect="italics">x</emphasis>-оска или <term>апсциса</term>, втората е <emphasis effect="italics">y</emphasis>-оска или <term>ордината</term> и третата е <emphasis effect="italics">z</emphasis>-оска или <emphasis effect="italics"/><term>апликата</term>. Точката <emphasis effect="italics">O </emphasis>која е пресек на оските се нарекува координатен почеток. Секоја точка <emphasis effect="italics">M</emphasis> во троди­мен­зио­налниот про­стор е наполно определена со подредената тројка реални броеви<emphasis effect="italics"> x</emphasis>, <emphasis effect="italics">y</emphasis>, <emphasis effect="italics">z</emphasis> кои се нарекуваат нејзини коорди­нати, односно <emphasis effect="italics">М</emphasis>(<emphasis effect="italics">x</emphasis>, <emphasis effect="italics">y</emphasis>,<emphasis effect="italics"> z</emphasis>).</para>
+      <para id="id22746987">Секој пар координатни оски определува рамнина нарече­на <term>координатна </term><term>рамнина</term>. </para>
+      <para id="id25260654">Во просторниот координатен систем се определуваат 3 координатни рамнини:</para>
+      <para id="id23941988"><emphasis effect="italics">xOy</emphasis> координатна рамнина (определена со <emphasis effect="italics">x</emphasis>-оската и <emphasis effect="italics">y</emphasis>-оската);</para>
+      <para id="id23948160"><emphasis effect="italics">xOz</emphasis><emphasis effect="italics"/> координатна рамнина (определена со <emphasis effect="italics">x</emphasis>-оската и <emphasis effect="italics">z</emphasis>-оската);</para>
+      <para id="id25165308"><emphasis effect="italics">yOz</emphasis> координатна рамнина (определена со <emphasis effect="italics">y</emphasis>-оската и <emphasis effect="italics">z</emphasis>-оската).</para>
+      <para id="id21025742"/>
+      <para id="id21025746">Секоја точка <emphasis effect="italics">M</emphasis>(<emphasis effect="italics">x</emphasis>, <emphasis effect="italics">y</emphasis>,<emphasis effect="italics"/><emphasis effect="italics">z</emphasis>) која лежи на некоја од координатните рамнини или оски има координати:</para>
+      <table id="id21446078" summary="">
+        <tgroup cols="2">
+          <colspec colnum="1" colname="c1"/>
+          <colspec colnum="2" colname="c2"/>
+          <tbody>
+            <row>
+              <entry>област</entry>
+              <entry>координати</entry>
+            </row>
+            <row>
+              <entry><emphasis effect="italics">xOy</emphasis> рамнина</entry>
+              <entry>(<emphasis effect="italics">x</emphasis>,<emphasis effect="italics"/><emphasis effect="italics">y</emphasis>, 0)</entry>
+            </row>
+            <row>
+              <entry><emphasis effect="italics">xOz</emphasis> рамнина</entry>
+              <entry>(<emphasis effect="italics">x</emphasis>,<emphasis effect="italics"/>0, <emphasis effect="italics">z</emphasis>)</entry>
+            </row>
+            <row>
+              <entry><emphasis effect="italics">y</emphasis><emphasis effect="italics">О</emphasis><emphasis effect="italics">z</emphasis> рамнина</entry>
+              <entry>(0,<emphasis effect="italics"/><emphasis effect="italics">y</emphasis>, <emphasis effect="italics">z</emphasis>)</entry>
+            </row>
+            <row>
+              <entry><emphasis effect="italics">x</emphasis>- оска</entry>
+              <entry>(<emphasis effect="italics">x</emphasis>,0, 0)</entry>
+            </row>
+            <row>
+              <entry><emphasis effect="italics">y</emphasis>- оска</entry>
+              <entry>(0,<emphasis effect="italics"/><emphasis effect="italics">y</emphasis>, 0)</entry>
+            </row>
+            <row>
+              <entry><emphasis effect="italics">z</emphasis>- оска</entry>
+              <entry>(0, 0, <emphasis effect="italics">z</emphasis>)</entry>
+            </row>
+          </tbody>
+        </tgroup>
+      </table>
+      <para id="id21445405">Со координатните рамнини тродимензионалниот простор се дели на 8 делови наречени <term>октанти</term>. Знаците на координатите на произволна точка по октанти се:</para>
+      <table id="id25249408" summary="">
+        <tgroup cols="2">
+          <colspec colnum="1" colname="c1"/>
+          <colspec colnum="2" colname="c2"/>
+          <tbody>
+            <row>
+              <entry>
+                <emphasis effect="bold">О</emphasis>
+                <emphasis effect="bold">ктант</emphasis>
+              </entry>
+              <entry>
+                <emphasis effect="bold">З</emphasis>
+                <emphasis effect="bold">наци на координати </emphasis>
+              </entry>
+            </row>
+            <row>
+              <entry>I</entry>
+              <entry><emphasis effect="italics">x</emphasis><emphasis effect="italics">&gt;</emphasis> 0, <emphasis effect="italics"/><emphasis effect="italics">y</emphasis><emphasis effect="italics"> &gt; </emphasis>0, <emphasis effect="italics">z</emphasis><emphasis effect="italics"> &gt; </emphasis>0</entry>
+            </row>
+            <row>
+              <entry>II</entry>
+              <entry><emphasis effect="italics">x</emphasis><emphasis effect="italics">&lt;</emphasis> 0, <emphasis effect="italics"/><emphasis effect="italics">y</emphasis><emphasis effect="italics"> &gt; </emphasis>0, <emphasis effect="italics">z</emphasis><emphasis effect="italics"> &gt; </emphasis>0</entry>
+            </row>
+            <row>
+              <entry>III</entry>
+              <entry><emphasis effect="italics">x</emphasis><emphasis effect="italics">&lt;</emphasis> 0, <emphasis effect="italics"/><emphasis effect="italics">y</emphasis><emphasis effect="italics"> &lt; </emphasis>0, <emphasis effect="italics">z</emphasis><emphasis effect="italics"> &gt; </emphasis>0</entry>
+            </row>
+            <row>
+              <entry>IV</entry>
+              <entry><emphasis effect="italics">x</emphasis><emphasis effect="italics">&gt;</emphasis> 0, <emphasis effect="italics"/><emphasis effect="italics">y</emphasis><emphasis effect="italics"> &lt; </emphasis>0, <emphasis effect="italics">z</emphasis><emphasis effect="italics"> &gt; </emphasis>0</entry>
+            </row>
+            <row>
+              <entry>V</entry>
+              <entry><emphasis effect="italics">x</emphasis><emphasis effect="italics">&gt;</emphasis> 0, <emphasis effect="italics"/><emphasis effect="italics">y</emphasis><emphasis effect="italics"> &gt; </emphasis>0, <emphasis effect="italics">z</emphasis><emphasis effect="italics"> &lt; </emphasis>0</entry>
+            </row>
+            <row>
+              <entry>VI</entry>
+              <entry><emphasis effect="italics">x</emphasis><emphasis effect="italics">&lt;</emphasis> 0, <emphasis effect="italics"/><emphasis effect="italics">y</emphasis><emphasis effect="italics"> &gt; </emphasis>0, <emphasis effect="italics">z</emphasis><emphasis effect="italics"> &lt; </emphasis>0</entry>
+            </row>
+            <row>
+              <entry>VII</entry>
+              <entry><emphasis effect="italics">x</emphasis> &lt; 0, <emphasis effect="italics"/><emphasis effect="italics">y</emphasis><emphasis effect="italics"> &lt; </emphasis>0, <emphasis effect="italics">z</emphasis><emphasis effect="italics"> &lt; </emphasis>0</entry>
+            </row>
+            <row>
+              <entry>VIII</entry>
+              <entry><emphasis effect="italics">x</emphasis><emphasis effect="italics">&gt;</emphasis> 0, <emphasis effect="italics"/><emphasis effect="italics">y</emphasis><emphasis effect="italics"> &lt; </emphasis>0, <emphasis effect="italics">z</emphasis><emphasis effect="italics"> &lt; </emphasis>0</entry>
+            </row>
+          </tbody>
+        </tgroup>
+      </table>
+      <section id="id25261327">
+        <title>ВЕКТОРИ</title>
+        <para id="id25261333">Постојат величини кои се определуваат само со бројна вредност, додека други, освен со бројна вредност се определуваат уште и со правец и насока.</para>
+        <para id="id21117202"><emphasis><emphasis effect="italics">Дефиниција</emphasis></emphasis><emphasis>.</emphasis> Величините кои се определуваат само со бројна вредност се нарекуваат <term>скалари</term>.</para>
+        <para id="id22924438"><emphasis><emphasis effect="italics">Дефиниција</emphasis></emphasis><emphasis effect="underline">.</emphasis> Величините кои се определуваат со бројна вредност, правец и насока се нарекуваат <term>вектори</term>. </para>
+        <para id="id22843719">Скаларни величини или накратко скалари се на пр. температурата, плоштината, должината и др. и тие се наполно определени со нивната бројна вредност. Затоа доволно е да се каже дека температурата на воздухот е 20<sup>0</sup>C, плоштината на некоја геометриска слика е 20 cm<sup>2</sup>, должината на отсечка е 5 m и тн.</para>
+        <para id="id14994512">Брзината е векторска величина и како таква е определена со бројна вредност, правец и насока. Затоа брзината со која дува ветерот се определува со бројната вредност на пр. нека таа е 5 m/s, во правец север-југ и во насока од север кон југ.</para>
+        <para id="id16712661"><table id="id21476380" summary=""><tgroup cols="1"><colspec colnum="1" colname="c1"/><tbody><row><entry><media id="id24129939" alt=""><image mime-type="image/jpg" src="../../media/graphics2-f9b2.jpg"/></media></entry></row><row><entry>Слика 1.2. Вектори </entry></row></tbody></tgroup></table>Векторот геометриски се претста­вува со ориентирана отсечка т.е. дел од права ограничена со две точки од кои едната е почетна а другата е крајна. Векторот меѓу точките <emphasis effect="italics">А</emphasis> и <emphasis effect="italics">B</emphasis>, од кои <emphasis effect="italics">А</emphasis> е почетна а <emphasis effect="italics">B</emphasis> крајна точка се означува со 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mover><m:mstyle fontstyle="italic"><m:mrow><m:mtext>AB</m:mtext></m:mrow></m:mstyle><m:mstyle fontsize="8pt"><m:mrow><m:mo stretchy="false">→</m:mo></m:mrow></m:mstyle></m:mover></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ { ital "AB"}  cSup { size 8{ rightarrow } } } {}</m:annotation></m:semantics></m:math> (Сл. 1.2.). Освен ова означување, за векторите се користат и малите букви одозгора означени со стрелка на пр. 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mover><m:mi>a</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mo stretchy="false">→</m:mo></m:mrow></m:mstyle></m:mover><m:mi>,</m:mi><m:mi/><m:mover><m:mi>b</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mo stretchy="false">→</m:mo></m:mrow></m:mstyle></m:mover><m:mtext>.</m:mtext><m:mtext>.</m:mtext><m:mtext>.</m:mtext></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ {a}  cSup { size 8{ rightarrow } } ,` {b}  cSup { size 8{ rightarrow } }  "."  "."  "." } {}</m:annotation></m:semantics></m:math> или пак со мали задебелени букви на пр. <emphasis><emphasis effect="italics">а</emphasis></emphasis><foreign>,</foreign><foreign><emphasis effect="bold"/></foreign><emphasis><emphasis effect="italics">b</emphasis></emphasis>.</para>
+        <para id="id24282350"/>
+        <para id="id15652786">Според дефиницијата за вектор, секој вектор се дефинира со:</para><para id="id15652791"><emphasis effect="italics">- </emphasis><term>интензитет</term> (должина или модул) на вектор е растојанието помеѓу почетната и крајната точка на векторот и се означува со </para>
+        <para id="id22499721"><m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mo stretchy="false">∣</m:mo><m:mover><m:mstyle fontstyle="italic"><m:mrow><m:mtext>AB</m:mtext></m:mrow></m:mstyle><m:mstyle fontsize="8pt"><m:mrow><m:mo stretchy="false">→</m:mo></m:mrow></m:mstyle></m:mover><m:mo stretchy="false">∣</m:mo><m:mi>,</m:mi><m:mi/><m:mover accent="true"><m:mstyle fontstyle="italic"><m:mrow><m:mtext>AB</m:mtext></m:mrow></m:mstyle><m:mo>¯</m:mo></m:mover><m:mi>,</m:mi><m:mi/><m:mo stretchy="false">∣</m:mo><m:mover><m:mi>a</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mo stretchy="false">→</m:mo></m:mrow></m:mstyle></m:mover><m:mo stretchy="false">∣</m:mo></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ \lline  { ital "AB"}  cSup { size 8{ rightarrow } }  \rline ,`~ {overline  { ital "AB"}} ,`~ \lline  {a}  cSup { size 8{ rightarrow } }  \lline } {}</m:annotation></m:semantics></m:math>; </para>
+        <para id="id14314941"><emphasis effect="italics">- </emphasis><term>правец</term> на векторот е правецот кој го определува правата на која лежи векторот и правата се нарекува носач на векторот;</para>
+        <para id="id22558671"><emphasis effect="italics">- </emphasis><term>насока</term> на векторот е ориентацијата од неговата почетна кон крај­ната точка.</para>
+      </section>
+      <section id="id22094248">
+        <title>Видови вектори</title>
+        <para id="id24130846">Векторите може да бидат:</para>
+        <para id="id24130851">- Вектори врзани за точка;</para>
+        <para id="id24102533">- Вектори врзани за права (носач);</para>
+        <para id="id24906444">- Слободни вектори.</para>
+        <para id="id22836630">Слободните вектори не се врзани ниту за почетната точка ниту за правата на која лежат и тие може слободно да се транслатираат во просторот. При транслација векторите си ја запазуваат должината и насоката, а носачите им се паралелни прави. Понатаму, под поимот вектор ќе се подразбира слободен вектор.</para>
+        <para id="id25256233">Слободните вектори се <term>еднакви</term> ако имаат еднакви интензитети, лежат на иста или на паралелни прави и имаат исти насоки.</para>
+        <para id="id24481885"><emphasis><emphasis effect="italics">Дефиниција</emphasis></emphasis>. <term>Нула вектор</term> е вектор на кој му се поклопуваат почетната и крајната точка. </para>
+      </section>
+      <section id="id21547069">
+        <title/>
+        <para id="id21547075">Нула векторот нема определен правец и насока и се означува со 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mover><m:mi>o</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mo stretchy="false">→</m:mo></m:mrow></m:mstyle></m:mover></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ {o}  cSup { size 8{ rightarrow } } } {}</m:annotation></m:semantics></m:math>. Секоја точка може да се смета за нула вектор со нула интензитет и со произволен правец и насока.</para>
+      </section>
+      <section id="id25256462">
+        <title>Основни операции со вектори</title>
+        <para id="id25256470">Најпрво геометриски ќе ги дефинирме основните операции со векторите.</para><section id="id24129910">
+          <title>Збир на вектори</title>
+          <para id="id24762658">Нека се дадени векторите 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mover><m:mi>a</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mo stretchy="false">→</m:mo></m:mrow></m:mstyle></m:mover></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ {a}  cSup { size 8{ rightarrow } } } {}</m:annotation></m:semantics></m:math> и 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mover><m:mi>b</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mo stretchy="false">→</m:mo></m:mrow></m:mstyle></m:mover></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ {b}  cSup { size 8{ rightarrow } } } {}</m:annotation></m:semantics></m:math>. Векторот 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mover><m:mi>a</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mo stretchy="false">→</m:mo></m:mrow></m:mstyle></m:mover></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ {a}  cSup { size 8{ rightarrow } } } {}</m:annotation></m:semantics></m:math>+
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mover><m:mi>b</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mo stretchy="false">→</m:mo></m:mrow></m:mstyle></m:mover></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ {b}  cSup { size 8{ rightarrow } } } {}</m:annotation></m:semantics></m:math> се нарекува збир <emphasis effect="bold"/>на векторите 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mover><m:mi>a</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mo stretchy="false">→</m:mo></m:mrow></m:mstyle></m:mover></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ {a}  cSup { size 8{ rightarrow } } } {}</m:annotation></m:semantics></m:math> и 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mover><m:mi>b</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mo stretchy="false">→</m:mo></m:mrow></m:mstyle></m:mover></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ {b}  cSup { size 8{ rightarrow } } } {}</m:annotation></m:semantics></m:math> и геометриски може да се определи по правилото на триаголник или паралелограм. </para><para id="id4373011">За да се примени правилото на триаголник, на крајот од првиот вектор се надоврзува почетокот на вториот вектор и збирот ќе биде векторот со почеток во почетокот на првиот вектор, а крајот е во крајната точка од вториот вектор (Сл. 1.3. а). </para>
+          <para id="id24086372">За определување на збирот на два вектора по правилото на паралелограм, векторите се доведуваат до заеднички почеток при што тие се две соседни страни на еден паралелограм, а збирот на овие вектори е дијагоналата во паралелограмот која почнува во заедничкиот почеток на векторите (Сл. 1.3. б)</para>
+          <para id="id25290755"><emphasis><emphasis effect="italics">Дефиниција</emphasis></emphasis><emphasis>.</emphasis> Вектори <emphasis effect="italics"/>кои имаат исти должини и правец, а спротивни насоки се нарекуваат <term>спротивни</term><term> вектори</term>. </para><para id="id25048413">Така, спротивни се векторите 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mover><m:mi>a</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mo stretchy="false">→</m:mo></m:mrow></m:mstyle></m:mover></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ {a}  cSup { size 8{ rightarrow } } } {}</m:annotation></m:semantics></m:math> и 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mo stretchy="false">−</m:mo><m:mover><m:mi>a</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mo stretchy="false">→</m:mo></m:mrow></m:mstyle></m:mover></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ -  {a}  cSup { size 8{ rightarrow } } } {}</m:annotation></m:semantics></m:math>. </para>
+        </section>
+        <section id="id24112491">
+          <title>Разлика на вектори</title>
+          <para id="id24112498">Нека 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mover><m:mi>a</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mo stretchy="false">→</m:mo></m:mrow></m:mstyle></m:mover></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ {a}  cSup { size 8{ rightarrow } } } {}</m:annotation></m:semantics></m:math> и 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mover><m:mi>b</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mo stretchy="false">→</m:mo></m:mrow></m:mstyle></m:mover></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ {b}  cSup { size 8{ rightarrow } } } {}</m:annotation></m:semantics></m:math> се вектори, тогаш векторот 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mover><m:mi>a</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mo stretchy="false">→</m:mo></m:mrow></m:mstyle></m:mover><m:mo stretchy="false">−</m:mo><m:mover><m:mi>b</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mo stretchy="false">→</m:mo></m:mrow></m:mstyle></m:mover></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ {a}  cSup { size 8{ rightarrow } }  -  {b}  cSup { size 8{ rightarrow } } } {}</m:annotation></m:semantics></m:math><emphasis effect="bold"/>се нарекува разлика на векторите 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mover><m:mi>a</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mo stretchy="false">→</m:mo></m:mrow></m:mstyle></m:mover></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ {a}  cSup { size 8{ rightarrow } } } {}</m:annotation></m:semantics></m:math> и 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mover><m:mi>b</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mo stretchy="false">→</m:mo></m:mrow></m:mstyle></m:mover></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ {b}  cSup { size 8{ rightarrow } } } {}</m:annotation></m:semantics></m:math> и геометриски се определува како вектор формиран меѓу крајните точки на векторите 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mover><m:mi>a</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mo stretchy="false">→</m:mo></m:mrow></m:mstyle></m:mover></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ {a}  cSup { size 8{ rightarrow } } } {}</m:annotation></m:semantics></m:math> и 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mover><m:mi>b</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mo stretchy="false">→</m:mo></m:mrow></m:mstyle></m:mover></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ {b}  cSup { size 8{ rightarrow } } } {}</m:annotation></m:semantics></m:math> кои се доведени до заеднички почеток и со насока од крајот на векторот 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mover><m:mi>b</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mo stretchy="false">→</m:mo></m:mrow></m:mstyle></m:mover></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ {b}  cSup { size 8{ rightarrow } } } {}</m:annotation></m:semantics></m:math> кон крајот на векторот 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mover><m:mi>a</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mo stretchy="false">→</m:mo></m:mrow></m:mstyle></m:mover></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ {a}  cSup { size 8{ rightarrow } } } {}</m:annotation></m:semantics></m:math><emphasis effect="italics"/>(Сл. 1.3. в).</para>
+          <para id="id25185932">
+            <table id="id24109045" summary="">
+              <tgroup cols="1">
+                <colspec colnum="1" colname="c1"/>
+                <tbody>
+                  <row>
+                    <entry>
+                      <media id="id21455268" alt="">
+                        <image mime-type="image/jpg" src="../../media/graphics3-25c8.jpg"/>
+                      </media>
+                    </entry>
+                  </row>
+                  <row>
+                    <entry>Слика 1.3. а) Збир на вектори по правило на триаголник; б) Збир по правило на паралелограм; в) Разлика на вектори</entry>
+                  </row>
+                </tbody>
+              </tgroup>
+            </table>
+          </para>
+        </section>
+        <section id="id25280411">
+          <title>Множење на вектор со скалар</title>
+          <para id="id25280418">Производот на скаларот λ≠0 со векторот 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mover><m:mi>a</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mo stretchy="false">→</m:mo></m:mrow></m:mstyle></m:mover></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ {a}  cSup { size 8{ rightarrow } } } {}</m:annotation></m:semantics></m:math> (Сл.1.4.) е вектор λ
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mover><m:mi>a</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mo stretchy="false">→</m:mo></m:mrow></m:mstyle></m:mover></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ {a}  cSup { size 8{ rightarrow } } } {}</m:annotation></m:semantics></m:math><emphasis effect="italics"/> кој е определен со:</para><para id="id24110872">- интензитет 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mo stretchy="false">∣</m:mo><m:mi>λ</m:mi><m:mi/><m:mover><m:mi>a</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mo stretchy="false">→</m:mo></m:mrow></m:mstyle></m:mover><m:mrow><m:mo stretchy="false">∣</m:mo><m:mo stretchy="false">=</m:mo><m:mrow><m:mo stretchy="false">∣</m:mo><m:mi>λ</m:mi><m:mo stretchy="false">∣</m:mo></m:mrow></m:mrow><m:mo stretchy="false">∣</m:mo><m:mover><m:mrow><m:mi>a</m:mi><m:mo stretchy="false">∣</m:mo></m:mrow><m:mstyle fontsize="8pt"><m:mrow><m:mo stretchy="false">→</m:mo></m:mrow></m:mstyle></m:mover></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ \lline λ` {a}  cSup { size 8{ rightarrow } }  \lline = lline λ rline  \lline  {a \lline }  cSup { size 8{ rightarrow } } } {}</m:annotation></m:semantics></m:math>;</para>
+          <para id="id25270005">- правец кој е ист со правецот на векторот 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mover><m:mi>a</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mo stretchy="false">→</m:mo></m:mrow></m:mstyle></m:mover></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ {a}  cSup { size 8{ rightarrow } } } {}</m:annotation></m:semantics></m:math>;</para>
+          <para id="id24090657">- насоката е иста со насоката на векторот 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mover><m:mi>a</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mo stretchy="false">→</m:mo></m:mrow></m:mstyle></m:mover></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ {a}  cSup { size 8{ rightarrow } } } {}</m:annotation></m:semantics></m:math> ако λ&gt;0, или е со спротивна насока од 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mover><m:mi>a</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mo stretchy="false">→</m:mo></m:mrow></m:mstyle></m:mover></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ {a}  cSup { size 8{ rightarrow } } } {}</m:annotation></m:semantics></m:math> ако λ&lt;0.</para>
+          <table id="id22534039" summary="">
+            <tgroup cols="1">
+              <colspec colnum="1" colname="c1"/>
+              <tbody>
+                <row>
+                  <entry>
+                    <media id="id24436310" alt="">
+                      <image mime-type="image/jpg" src="../../media/graphics4-5033.jpg"/>
+                    </media>
+                  </entry>
+                </row>
+                <row>
+                  <entry>Слика 1.4. Множење на вектор со скалар</entry>
+                </row>
+              </tbody>
+            </tgroup>
+          </table>
+          <para id="id25256757"/>
+          <para id="id25180760"><emphasis>Пример 1. </emphasis>(<emphasis effect="italics">Теорема за средна линија во триаголник</emphasis>) Да се покаже дека средната линија во триаголник е паралелна со спротивната старана на триаголникот и е со должина половина од неа (Сл. 1.5.).</para>
+          <para id="id4360395"><emphasis>Доказ:</emphasis> Во триаголникот <emphasis effect="italics">ABC</emphasis> страните му се векторите 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mover><m:mstyle fontstyle="italic"><m:mrow><m:mtext>AB</m:mtext></m:mrow></m:mstyle><m:mstyle fontsize="8pt"><m:mrow><m:mo stretchy="false">→</m:mo></m:mrow></m:mstyle></m:mover><m:mi>,</m:mi><m:mi/><m:mover><m:mstyle fontstyle="italic"><m:mrow><m:mtext>BC</m:mtext></m:mrow></m:mstyle><m:mstyle fontsize="8pt"><m:mrow><m:mo stretchy="false">→</m:mo></m:mrow></m:mstyle></m:mover><m:mi>,</m:mi><m:mi/><m:mover><m:mstyle fontstyle="italic"><m:mrow><m:mtext>CA</m:mtext></m:mrow></m:mstyle><m:mstyle fontsize="8pt"><m:mrow><m:mo stretchy="false">→</m:mo></m:mrow></m:mstyle></m:mover></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ { ital "AB"}  cSup { size 8{ rightarrow } } ,` { ital "BC"}  cSup { size 8{ rightarrow } } ,` { ital "CA"}  cSup { size 8{ rightarrow } } } {}</m:annotation></m:semantics></m:math> образувани од трите темиња <emphasis effect="italics">А</emphasis>, <emphasis effect="italics">B</emphasis>, <emphasis effect="italics">C</emphasis>. Нека точките <emphasis effect="italics">М</emphasis> и <emphasis effect="italics">N</emphasis> се средини на страните <emphasis effect="italics">АC</emphasis> и <emphasis effect="italics">BC</emphasis>. При тоа 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mrow><m:mover><m:mstyle fontstyle="italic"><m:mrow><m:mtext>MA</m:mtext></m:mrow></m:mstyle><m:mstyle fontsize="8pt"><m:mrow><m:mo stretchy="false">→</m:mo></m:mrow></m:mstyle></m:mover><m:mo stretchy="false">+</m:mo><m:mover><m:mstyle fontstyle="italic"><m:mrow><m:mtext>MC</m:mtext></m:mrow></m:mstyle><m:mstyle fontsize="8pt"><m:mrow><m:mo stretchy="false">→</m:mo></m:mrow></m:mstyle></m:mover></m:mrow><m:mo stretchy="false">=</m:mo><m:mn>0</m:mn></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ { ital "MA"}  cSup { size 8{ rightarrow } } + { ital "MC"}  cSup { size 8{ rightarrow } } =0} {}</m:annotation></m:semantics></m:math> и 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mrow><m:mover><m:mstyle fontstyle="italic"><m:mrow><m:mtext>NB</m:mtext></m:mrow></m:mstyle><m:mstyle fontsize="8pt"><m:mrow><m:mo stretchy="false">→</m:mo></m:mrow></m:mstyle></m:mover><m:mo stretchy="false">+</m:mo><m:mover><m:mstyle fontstyle="italic"><m:mrow><m:mtext>NC</m:mtext></m:mrow></m:mstyle><m:mstyle fontsize="8pt"><m:mrow><m:mo stretchy="false">→</m:mo></m:mrow></m:mstyle></m:mover></m:mrow><m:mo stretchy="false">=</m:mo><m:mn>0</m:mn></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ { ital "NB"}  cSup { size 8{ rightarrow } } + { ital "NC"}  cSup { size 8{ rightarrow } } =0} {}</m:annotation></m:semantics></m:math>.</para><table id="id24904144" summary="">
+            <tgroup cols="1">
+              <colspec colnum="1" colname="c1"/>
+              <tbody>
+                <row>
+                  <entry>
+                    <media id="id24396593" alt="">
+                      <image mime-type="image/jpg" src="../../media/graphics5.jpg"/>
+                    </media>
+                  </entry>
+                </row>
+                <row>
+                  <entry>Слика 1.5. Средна линија во триаголник</entry>
+                </row>
+              </tbody>
+            </tgroup>
+          </table>
+          <para id="id25182406">Изразувајќи го векторот 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mover><m:mstyle fontstyle="italic"><m:mrow><m:mtext>MN</m:mtext></m:mrow></m:mstyle><m:mstyle fontsize="8pt"><m:mrow><m:mo stretchy="false">→</m:mo></m:mrow></m:mstyle></m:mover></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ { ital "MN"}  cSup { size 8{ rightarrow } } } {}</m:annotation></m:semantics></m:math> на два начини, како збир од векторите на страните од четириаголникот <emphasis effect="italics">MABN</emphasis> и триаголникот <emphasis effect="italics">MNC</emphasis>, се добиваат равенствата</para>
+          <para id="id24089742">
+            <m:math>
+              <m:semantics>
+                <m:mrow>
+                  <m:mstyle fontsize="12pt">
+                    <m:mrow>
+                      <m:mrow>
+                        <m:mover>
+                          <m:mstyle fontstyle="italic">
+                            <m:mrow>
+                              <m:mtext>MN</m:mtext>
+                            </m:mrow>
+                          </m:mstyle>
+                          <m:mstyle fontsize="8pt">
+                            <m:mrow>
+                              <m:mo stretchy="false">→</m:mo>
+                            </m:mrow>
+                          </m:mstyle>
+                        </m:mover>
+                        <m:mo stretchy="false">=</m:mo>
+                        <m:mrow>
+                          <m:mrow>
+                            <m:mover>
+                              <m:mstyle fontstyle="italic">
+                                <m:mrow>
+                                  <m:mtext>MA</m:mtext>
+                                </m:mrow>
+                              </m:mstyle>
+                              <m:mstyle fontsize="8pt">
+                                <m:mrow>
+                                  <m:mo stretchy="false">→</m:mo>
+                                </m:mrow>
+                              </m:mstyle>
+                            </m:mover>
+                            <m:mo stretchy="false">+</m:mo>
+                            <m:mover>
+                              <m:mstyle fontstyle="italic">
+                                <m:mrow>
+                                  <m:mtext>AB</m:mtext>
+                                </m:mrow>
+                              </m:mstyle>
+                              <m:mstyle fontsize="8pt">
+                                <m:mrow>
+                                  <m:mo stretchy="false">→</m:mo>
+                                </m:mrow>
+                              </m:mstyle>
+                            </m:mover>
+                          </m:mrow>
+                          <m:mo stretchy="false">+</m:mo>
+                          <m:mover>
+                            <m:mstyle fontstyle="italic">
+                              <m:mrow>
+                                <m:mtext>BN</m:mtext>
+                              </m:mrow>
+                            </m:mstyle>
+                            <m:mstyle fontsize="8pt">
+                              <m:mrow>
+                                <m:mo stretchy="false">→</m:mo>
+                              </m:mrow>
+                            </m:mstyle>
+                          </m:mover>
+                        </m:mrow>
+                      </m:mrow>
+                    </m:mrow>
+                  </m:mstyle>
+                  <m:mrow/>
+                </m:mrow>
+                <m:annotation encoding="StarMath 5.0"> size 12{ { ital "MN"}  cSup { size 8{ rightarrow } } = { ital "MA"}  cSup { size 8{ rightarrow } } + { ital "AB"}  cSup { size 8{ rightarrow } } + { ital "BN"}  cSup { size 8{ rightarrow } } } {}</m:annotation>
+              </m:semantics>
+            </m:math>
+          </para>
+          <para id="eip-842">и</para><equation id="id3964664">
+            <m:math>
+              <m:semantics>
+                <m:mrow>
+                  <m:mstyle fontsize="12pt">
+                    <m:mrow>
+                      <m:mrow>
+                        <m:mover>
+                          <m:mstyle fontstyle="italic">
+                            <m:mrow>
+                              <m:mtext>MN</m:mtext>
+                            </m:mrow>
+                          </m:mstyle>
+                          <m:mstyle fontsize="8pt">
+                            <m:mrow>
+                              <m:mo stretchy="false">→</m:mo>
+                            </m:mrow>
+                          </m:mstyle>
+                        </m:mover>
+                        <m:mo stretchy="false">=</m:mo>
+                        <m:mrow>
+                          <m:mover>
+                            <m:mstyle fontstyle="italic">
+                              <m:mrow>
+                                <m:mtext>MC</m:mtext>
+                              </m:mrow>
+                            </m:mstyle>
+                            <m:mstyle fontsize="8pt">
+                              <m:mrow>
+                                <m:mo stretchy="false">→</m:mo>
+                              </m:mrow>
+                            </m:mstyle>
+                          </m:mover>
+                          <m:mo stretchy="false">+</m:mo>
+                          <m:mover>
+                            <m:mstyle fontstyle="italic">
+                              <m:mrow>
+                                <m:mtext>CN</m:mtext>
+                              </m:mrow>
+                            </m:mstyle>
+                            <m:mstyle fontsize="8pt">
+                              <m:mrow>
+                                <m:mo stretchy="false">→</m:mo>
+                              </m:mrow>
+                            </m:mstyle>
+                          </m:mover>
+                        </m:mrow>
+                      </m:mrow>
+                    </m:mrow>
+                  </m:mstyle>
+                  <m:mrow/>
+                </m:mrow>
+                <m:annotation encoding="StarMath 5.0"> size 12{ { ital "MN"}  cSup { size 8{ rightarrow } } = { ital "MC"}  cSup { size 8{ rightarrow } } + { ital "CN"}  cSup { size 8{ rightarrow } } } {}</m:annotation>
+              </m:semantics>
+            </m:math>
+          </equation>
+          <para id="id24779384">и со нивно собирање се добива</para>
+          <para id="id22839812"><m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mn>2</m:mn><m:mrow><m:mover><m:mstyle fontstyle="italic"><m:mrow><m:mtext>MN</m:mtext></m:mrow></m:mstyle><m:mstyle fontsize="8pt"><m:mrow><m:mo stretchy="false">→</m:mo></m:mrow></m:mstyle></m:mover><m:mo stretchy="false">=</m:mo><m:mo stretchy="false">(</m:mo></m:mrow><m:mrow><m:mover><m:mstyle fontstyle="italic"><m:mrow><m:mtext>MA</m:mtext></m:mrow></m:mstyle><m:mstyle fontsize="8pt"><m:mrow><m:mo stretchy="false">→</m:mo></m:mrow></m:mstyle></m:mover><m:mo stretchy="false">+</m:mo><m:mover><m:mstyle fontstyle="italic"><m:mrow><m:mtext>MC</m:mtext></m:mrow></m:mstyle><m:mstyle fontsize="8pt"><m:mrow><m:mo stretchy="false">→</m:mo></m:mrow></m:mstyle></m:mover></m:mrow><m:mrow><m:mrow><m:mo stretchy="false">)</m:mo><m:mo stretchy="false">+</m:mo><m:mover><m:mstyle fontstyle="italic"><m:mrow><m:mtext>AB</m:mtext></m:mrow></m:mstyle><m:mstyle fontsize="8pt"><m:mrow><m:mo stretchy="false">→</m:mo></m:mrow></m:mstyle></m:mover></m:mrow><m:mo stretchy="false">+</m:mo><m:mo stretchy="false">(</m:mo></m:mrow><m:mrow><m:mover><m:mstyle fontstyle="italic"><m:mrow><m:mtext>BN</m:mtext></m:mrow></m:mstyle><m:mstyle fontsize="8pt"><m:mrow><m:mo stretchy="false">→</m:mo></m:mrow></m:mstyle></m:mover><m:mo stretchy="false">+</m:mo><m:mover><m:mstyle fontstyle="italic"><m:mrow><m:mtext>CN</m:mtext></m:mrow></m:mstyle><m:mstyle fontsize="8pt"><m:mrow><m:mo stretchy="false">→</m:mo></m:mrow></m:mstyle></m:mover></m:mrow><m:mrow><m:mrow><m:mo stretchy="false">)</m:mo><m:mo stretchy="false">=</m:mo><m:mrow><m:mrow><m:mn>0</m:mn><m:mo stretchy="false">+</m:mo><m:mover><m:mstyle fontstyle="italic"><m:mrow><m:mtext>AB</m:mtext></m:mrow></m:mstyle><m:mstyle fontsize="8pt"><m:mrow><m:mo stretchy="false">→</m:mo></m:mrow></m:mstyle></m:mover></m:mrow><m:mo stretchy="false">+</m:mo><m:mn>0</m:mn></m:mrow></m:mrow><m:mo stretchy="false">=</m:mo><m:mover><m:mstyle fontstyle="italic"><m:mrow><m:mtext>AB</m:mtext></m:mrow></m:mstyle><m:mstyle fontsize="8pt"><m:mrow><m:mo stretchy="false">→</m:mo></m:mrow></m:mstyle></m:mover></m:mrow></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{2 { ital "MN"}  cSup { size 8{ rightarrow } } = \(  { ital "MA"}  cSup { size 8{ rightarrow } } + { ital "MC"}  cSup { size 8{ rightarrow } }  \) + { ital "AB"}  cSup { size 8{ rightarrow } } + \(  { ital "BN"}  cSup { size 8{ rightarrow } } + { ital "CN"}  cSup { size 8{ rightarrow } }  \) =0+ { ital "AB"}  cSup { size 8{ rightarrow } } +0= { ital "AB"}  cSup { size 8{ rightarrow } } } {}</m:annotation></m:semantics></m:math> ,</para>
+          <para id="id25173917">од каде </para>
+          <para id="id24906621"><m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mover><m:mstyle fontstyle="italic"><m:mrow><m:mtext>MN</m:mtext></m:mrow></m:mstyle><m:mstyle fontsize="8pt"><m:mrow><m:mo stretchy="false">→</m:mo></m:mrow></m:mstyle></m:mover><m:mo stretchy="false">=</m:mo><m:mfrac><m:mover><m:mstyle fontstyle="italic"><m:mrow><m:mtext>AB</m:mtext></m:mrow></m:mstyle><m:mstyle fontsize="8pt"><m:mrow><m:mo stretchy="false">→</m:mo></m:mrow></m:mstyle></m:mover><m:mn>2</m:mn></m:mfrac></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ { ital "MN"}  cSup { size 8{ rightarrow } } = {  { { ital "AB"}  cSup { size 8{ rightarrow } } }  over  {2} } } {}</m:annotation></m:semantics></m:math>,</para>
+          <para id="id25175432">што покажува дека средната линија <emphasis effect="italics">MN</emphasis> е паралелна со основата на триаголникот и е половина од должината на таа страна. ◄</para>
+          <para id="id25289387"><emphasis><emphasis effect="italics">Дефиниција.</emphasis></emphasis> Ако векторот 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mover><m:mi>a</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mo stretchy="false">→</m:mo></m:mrow></m:mstyle></m:mover></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ {a}  cSup { size 8{ rightarrow } } } {}</m:annotation></m:semantics></m:math> може са се запише како како сума на <emphasis effect="italics">n</emphasis> производи меѓу скаларите 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:msub><m:mi>λ</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mi>i</m:mi></m:mrow></m:mstyle></m:msub></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{λ rSub { size 8{i} } } {}</m:annotation></m:semantics></m:math><emphasis effect="italics"/> и векторите 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mover><m:msub><m:mi>a</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mi>i</m:mi></m:mrow></m:mstyle></m:msub><m:mstyle fontsize="8pt"><m:mrow><m:mo stretchy="false">→</m:mo></m:mrow></m:mstyle></m:mover></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ {a rSub { size 8{i} } }  cSup { size 8{ rightarrow } } } {}</m:annotation></m:semantics></m:math> , односно со релацијата</para><para id="id25186220"><m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mover><m:mi>a</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mo stretchy="false">→</m:mo></m:mrow></m:mstyle></m:mover><m:mo stretchy="false">=</m:mo><m:mrow><m:munderover><m:mo stretchy="false">∑</m:mo><m:mrow><m:mi>i</m:mi><m:mo stretchy="false">=</m:mo><m:mn>1</m:mn></m:mrow><m:mi>n</m:mi></m:munderover><m:mrow><m:msub><m:mi>λ</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mstyle fontsize="9pt"><m:mrow><m:mi>i</m:mi></m:mrow></m:mstyle></m:mrow></m:mstyle></m:msub><m:mi/><m:mover><m:msub><m:mi>a</m:mi><m:mi>i</m:mi></m:msub><m:mo stretchy="false">→</m:mo></m:mover></m:mrow></m:mrow></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ {a}  cSup { size 8{ rightarrow } } = Sum cSub {i=1}  cSup {n}  {λ rSub { size 8{ size 9{i}} } ` {a rSub {i} }  cSup { rightarrow } } } {}</m:annotation></m:semantics></m:math>, </para>
+          <para id="id25255686">за векторот 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mover><m:mi>a</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mo stretchy="false">→</m:mo></m:mrow></m:mstyle></m:mover></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ {a}  cSup { size 8{ rightarrow } } } {}</m:annotation></m:semantics></m:math> се вели дека е <term>линеарна комбинација</term> на векторите 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mover><m:msub><m:mi>a</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mi>i</m:mi></m:mrow></m:mstyle></m:msub><m:mstyle fontsize="8pt"><m:mrow><m:mo stretchy="false">→</m:mo></m:mrow></m:mstyle></m:mover></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ {a rSub { size 8{i} } }  cSup { size 8{ rightarrow } } } {}</m:annotation></m:semantics></m:math> и скаларите 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:msub><m:mi>λ</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mi>i</m:mi></m:mrow></m:mstyle></m:msub></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{λ rSub { size 8{i} } } {}</m:annotation></m:semantics></m:math>. </para>
+          <para id="id4321363">Векторите 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mover><m:msub><m:mi>a</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mi>i</m:mi></m:mrow></m:mstyle></m:msub><m:mstyle fontsize="8pt"><m:mrow><m:mo stretchy="false">→</m:mo></m:mrow></m:mstyle></m:mover></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ {a rSub { size 8{i} } }  cSup { size 8{ rightarrow } } } {}</m:annotation></m:semantics></m:math> се нарекуваат компоненти на векторот 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mover><m:mi>a</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mo stretchy="false">→</m:mo></m:mrow></m:mstyle></m:mover></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ {a}  cSup { size 8{ rightarrow } } } {}</m:annotation></m:semantics></m:math>. Ако векторот 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mover><m:mi>a</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mo stretchy="false">→</m:mo></m:mrow></m:mstyle></m:mover></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ {a}  cSup { size 8{ rightarrow } } } {}</m:annotation></m:semantics></m:math> не може да се напише како линеарна комбинација од векторите 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mover><m:msub><m:mi>a</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mi>i</m:mi></m:mrow></m:mstyle></m:msub><m:mstyle fontsize="8pt"><m:mrow><m:mo stretchy="false">→</m:mo></m:mrow></m:mstyle></m:mover></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ {a rSub { size 8{i} } }  cSup { size 8{ rightarrow } } } {}</m:annotation></m:semantics></m:math>, односно ако 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mover><m:mi>a</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mo stretchy="false">→</m:mo></m:mrow></m:mstyle></m:mover><m:mo stretchy="false">=</m:mo><m:mrow><m:munderover><m:mo stretchy="false">∑</m:mo><m:mrow><m:mi>i</m:mi><m:mo stretchy="false">=</m:mo><m:mn>1</m:mn></m:mrow><m:mi>n</m:mi></m:munderover><m:mrow><m:msub><m:mi>λ</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mstyle fontsize="9pt"><m:mrow><m:mi>i</m:mi></m:mrow></m:mstyle></m:mrow></m:mstyle></m:msub><m:mi/><m:mover><m:msub><m:mi>a</m:mi><m:mi>i</m:mi></m:msub><m:mo stretchy="false">→</m:mo></m:mover></m:mrow></m:mrow></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ {a}  cSup { size 8{ rightarrow } } = Sum cSub {i=1}  cSup {n}  {λ rSub { size 8{ size 9{i}} } ` {a rSub {i} }  cSup { rightarrow } } } {}</m:annotation></m:semantics></m:math> е можно единствено кога сите скалари 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:msub><m:mi>λ</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mi>i</m:mi></m:mrow></m:mstyle></m:msub></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{λ rSub { size 8{i} } } {}</m:annotation></m:semantics></m:math><emphasis effect="italics"> = </emphasis>0, тогаш векторите 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mover><m:mi>a</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mo stretchy="false">→</m:mo></m:mrow></m:mstyle></m:mover></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ {a}  cSup { size 8{ rightarrow } } } {}</m:annotation></m:semantics></m:math> и 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mover><m:msub><m:mi>a</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mi>i</m:mi></m:mrow></m:mstyle></m:msub><m:mstyle fontsize="8pt"><m:mrow><m:mo stretchy="false">→</m:mo></m:mrow></m:mstyle></m:mover></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ {a rSub { size 8{i} } }  cSup { size 8{ rightarrow } } } {}</m:annotation></m:semantics></m:math> се <term>линеарно</term><term> независни</term>. </para>
+          <para id="id23903021"><emphasis><emphasis effect="italics">Дефиниција</emphasis></emphasis><emphasis effect="italics">.</emphasis> Вектор со интензитет еднаков на 1 се нарекува <term>единичен</term><term> вектор</term>.</para>
+          <para id="id24746425">Единичен вектор кој има ист правец и насока со векторот 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mover><m:mi>a</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mo stretchy="false">→</m:mo></m:mrow></m:mstyle></m:mover></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ {a}  cSup { size 8{ rightarrow } } } {}</m:annotation></m:semantics></m:math> се нарекува негов единичен вектор, се означува со 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mover><m:msub><m:mi>a</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mn>0</m:mn></m:mrow></m:mstyle></m:msub><m:mstyle fontsize="8pt"><m:mrow><m:mo stretchy="false">→</m:mo></m:mrow></m:mstyle></m:mover></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ {a rSub { size 8{0} } }  cSup { size 8{ rightarrow } } } {}</m:annotation></m:semantics></m:math> и се определува со релацијата </para><para id="id14992104"><m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mover><m:msub><m:mi>a</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mn>0</m:mn></m:mrow></m:mstyle></m:msub><m:mstyle fontsize="8pt"><m:mrow><m:mo stretchy="false">→</m:mo></m:mrow></m:mstyle></m:mover><m:mo stretchy="false">=</m:mo><m:mfrac><m:mover><m:mi>a</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mo stretchy="false">→</m:mo></m:mrow></m:mstyle></m:mover><m:mrow><m:mo stretchy="false">∣</m:mo><m:mover><m:mi>a</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mo stretchy="false">→</m:mo></m:mrow></m:mstyle></m:mover><m:mo stretchy="false">∣</m:mo></m:mrow></m:mfrac></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ {a rSub { size 8{0} } }  cSup { size 8{ rightarrow } } = {  { {a}  cSup { size 8{ rightarrow } } }  over  { \lline  {a}  cSup { size 8{ rightarrow } }  \lline } } } {}</m:annotation></m:semantics></m:math>.</para>
+          <para id="id25290987"><emphasis><emphasis effect="italics">Дефиниција</emphasis></emphasis><emphasis>.</emphasis> Вектори кои лежат на иста права или на паралелни прави се нарекуваат <term>колинеарни вектори</term>.</para>
+          <para id="id21436046">Два колинеарни вектора 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mover><m:mi>a</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mo stretchy="false">→</m:mo></m:mrow></m:mstyle></m:mover></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ {a}  cSup { size 8{ rightarrow } } } {}</m:annotation></m:semantics></m:math> и 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mover><m:mi>b</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mo stretchy="false">→</m:mo></m:mrow></m:mstyle></m:mover></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ {b}  cSup { size 8{ rightarrow } } } {}</m:annotation></m:semantics></m:math> се запишуваат како 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mrow><m:mover><m:mi>a</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mo stretchy="false">→</m:mo></m:mrow></m:mstyle></m:mover><m:mo stretchy="false">=</m:mo><m:mi>λ</m:mi></m:mrow><m:mi/><m:mover><m:mi>b</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mo stretchy="false">→</m:mo></m:mrow></m:mstyle></m:mover></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ {a}  cSup { size 8{ rightarrow } } =λ` {b}  cSup { size 8{ rightarrow } } } {}</m:annotation></m:semantics></m:math><emphasis effect="italics">, </emphasis>(λ ≠ 0, 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mi>λ</m:mi><m:mo stretchy="false">∈</m:mo><m:mi>R</m:mi></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{λ in R} {}</m:annotation></m:semantics></m:math>).</para>
+          <para id="id21530757"/>
+        </section>
+      </section>
+    </section>
+  </content>
+</document>
