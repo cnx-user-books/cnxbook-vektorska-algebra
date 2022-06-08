@@ -1,22 +1,17 @@
 <col:collection xmlns="http://cnx.rice.edu/collxml" xmlns:col="http://cnx.rice.edu/collxml" xml:lang="mk">
   <metadata xmlns:md="http://cnx.rice.edu/mdml" mdml-version="0.5">
-    <md:content-id>col10672</md:content-id>
+    <md:content-id>col11490</md:content-id>
     <md:title>Векторска алгебра</md:title>
     <md:language>mk</md:language>
     <md:license url="http://creativecommons.org/licenses/by/3.0/">Creative Commons Attribution License</md:license>
-    <md:uuid>8c0e4fc5-1c55-4449-88c6-f5d81175f31d</md:uuid>
+    <md:uuid>f3a93ef5-38aa-46c2-b022-be7407dee8a5</md:uuid>
 <md:slug>vektorska-algebra</md:slug>
 </metadata>
   <col:content>
     <col:module document="m20066"/>
-    <col:module document="m20090"/>
     <col:module document="m20082"/>
-    <col:module document="m20091"/>
     <col:module document="m20095"/>
-    <col:module document="m20092"/>
     <col:module document="m20105"/>
-    <col:module document="m20098"/>
     <col:module document="m20172"/>
-    <col:module document="m20100"/>
   </col:content>
 </col:collection>
