@@ -117,7 +117,7 @@ x rSub { size 8{3} }  {} # y rSub { size 8{3} }  {} # z rSub { size 8{3} } {}
                   <m:mrow>
                     <m:mtable>
                       <m:mtr>
-                        <m:mrow>
+                        <m:mtd>
                           <m:mstyle fontsize="12pt">
                             <m:mrow>
                               <m:mrow>
@@ -312,10 +312,10 @@ x rSub { size 8{3} }  {} # y rSub { size 8{3} }  {} # z rSub { size 8{3} } {}
                             </m:mrow>
                           </m:mstyle>
                           <m:mrow/>
-                        </m:mrow>
+                        </m:mtd>
                       </m:mtr>
                       <m:mtr>
-                        <m:mrow>
+                        <m:mtd>
                           <m:mrow>
                             <m:mo stretchy="false">+</m:mo>
                             <m:mo stretchy="false">(</m:mo>
@@ -375,7 +375,7 @@ x rSub { size 8{3} }  {} # y rSub { size 8{3} }  {} # z rSub { size 8{3} } {}
                             <m:mrow/>
                           </m:mrow>
                           <m:mrow/>
-                        </m:mrow>
+                        </m:mtd>
                       </m:mtr>
                     </m:mtable>
                     <m:mrow/>
@@ -396,7 +396,7 @@ x rSub { size 8{3} }  {} # y rSub { size 8{3} }  {} # z rSub { size 8{3} } {}
                   <m:mrow>
                     <m:mtable>
                       <m:mtr>
-                        <m:mrow>
+                        <m:mtd>
                           <m:mstyle fontsize="12pt">
                             <m:mrow>
                               <m:mrow>
@@ -541,10 +541,10 @@ x rSub { size 8{3} }  {} # y rSub { size 8{3} }  {} # z rSub { size 8{3} } {}
                             </m:mrow>
                           </m:mstyle>
                           <m:mrow/>
-                        </m:mrow>
+                        </m:mtd>
                       </m:mtr>
                       <m:mtr>
-                        <m:mrow>
+                        <m:mtd>
                           <m:mrow>
                             <m:mo stretchy="false">+</m:mo>
                             <m:mo stretchy="false">(</m:mo>
@@ -684,7 +684,7 @@ x rSub { size 8{3} }  {} # y rSub { size 8{3} }  {} # z rSub { size 8{3} } {}
                             <m:mrow/>
                           </m:mrow>
                           <m:mrow/>
-                        </m:mrow>
+                        </m:mtd>
                       </m:mtr>
                     </m:mtable>
                     <m:mrow/>
@@ -704,7 +704,7 @@ x rSub { size 8{3} }  {} # y rSub { size 8{3} }  {} # z rSub { size 8{3} } {}
                   <m:mrow>
                     <m:mtable>
                       <m:mtr>
-                        <m:mrow>
+                        <m:mtd>
                           <m:mstyle fontsize="12pt">
                             <m:mrow>
                               <m:mrow>
@@ -849,10 +849,10 @@ x rSub { size 8{3} }  {} # y rSub { size 8{3} }  {} # z rSub { size 8{3} } {}
                             </m:mrow>
                           </m:mstyle>
                           <m:mrow/>
-                        </m:mrow>
+                        </m:mtd>
                       </m:mtr>
                       <m:mtr>
-                        <m:mrow>
+                        <m:mtd>
                           <m:mrow>
                             <m:mo stretchy="false">+</m:mo>
                             <m:mo stretchy="false">(</m:mo>
@@ -994,7 +994,7 @@ x rSub { size 8{3} }  {} # y rSub { size 8{3} }  {} # z rSub { size 8{3} } {}
                             <m:mrow/>
                           </m:mrow>
                           <m:mrow/>
-                        </m:mrow>
+                        </m:mtd>
                       </m:mtr>
                     </m:mtable>
                     <m:mrow/>
@@ -1167,7 +1167,7 @@ x rSub { size 8{3} }  {} # y rSub { size 8{3} }  {} # z rSub { size 8{3} } {}
                   <m:mrow>
                     <m:mtable>
                       <m:mtr>
-                        <m:mrow>
+                        <m:mtd>
                           <m:mstyle fontsize="12pt">
                             <m:mrow>
                               <m:mrow>
@@ -1281,10 +1281,10 @@ x rSub { size 8{3} }  {} # y rSub { size 8{3} }  {} # z rSub { size 8{3} } {}
                             </m:mrow>
                           </m:mstyle>
                           <m:mrow/>
-                        </m:mrow>
+                        </m:mtd>
                       </m:mtr>
                       <m:mtr>
-                        <m:mrow>
+                        <m:mtd>
                           <m:mrow>
                             <m:mrow/>
                             <m:mo stretchy="false">−</m:mo>
@@ -1385,10 +1385,10 @@ x rSub { size 8{3} }  {} # y rSub { size 8{3} }  {} # z rSub { size 8{3} } {}
                             <m:mrow/>
                           </m:mrow>
                           <m:mrow/>
-                        </m:mrow>
+                        </m:mtd>
                       </m:mtr>
                       <m:mtr>
-                        <m:mrow>
+                        <m:mtd>
                           <m:mrow>
                             <m:mrow/>
                             <m:mo stretchy="false">−</m:mo>
@@ -1489,10 +1489,10 @@ x rSub { size 8{3} }  {} # y rSub { size 8{3} }  {} # z rSub { size 8{3} } {}
                             <m:mrow/>
                           </m:mrow>
                           <m:mrow/>
-                        </m:mrow>
+                        </m:mtd>
                       </m:mtr>
                       <m:mtr>
-                        <m:mrow>
+                        <m:mtd>
                           <m:mrow>
                             <m:mrow/>
                             <m:mo stretchy="false">−</m:mo>
@@ -1528,7 +1528,7 @@ x rSub { size 8{3} }  {} # y rSub { size 8{3} }  {} # z rSub { size 8{3} } {}
                           <m:mo stretchy="false">)</m:mo>
                           <m:mi>,</m:mi>
                           <m:mrow/>
-                        </m:mrow>
+                        </m:mtd>
                       </m:mtr>
                     </m:mtable>
                     <m:mrow/>
