@@ -215,7 +215,7 @@ Definition of a scalar product and properties</md:abstract>
                 <m:mrow>
                   <m:mtable>
                     <m:mtr>
-                      <m:mrow>
+                      <m:mtd>
                         <m:mstyle fontsize="12pt">
                           <m:mrow>
                             <m:mrow>
@@ -341,10 +341,10 @@ Definition of a scalar product and properties</md:abstract>
                           </m:mrow>
                         </m:mstyle>
                         <m:mrow/>
-                      </m:mrow>
+                      </m:mtd>
                     </m:mtr>
                     <m:mtr>
-                      <m:mrow>
+                      <m:mtd>
                         <m:mrow>
                           <m:mo stretchy="false">+</m:mo>
                           <m:msub>
@@ -463,10 +463,10 @@ Definition of a scalar product and properties</md:abstract>
                           <m:mrow/>
                         </m:mrow>
                         <m:mrow/>
-                      </m:mrow>
+                      </m:mtd>
                     </m:mtr>
                     <m:mtr>
-                      <m:mrow>
+                      <m:mtd>
                         <m:mrow>
                           <m:mo stretchy="false">+</m:mo>
                           <m:msub>
@@ -592,10 +592,10 @@ Definition of a scalar product and properties</md:abstract>
                           <m:mrow/>
                         </m:mrow>
                         <m:mrow/>
-                      </m:mrow>
+                      </m:mtd>
                     </m:mtr>
                     <m:mtr>
-                      <m:mrow>
+                      <m:mtd>
                         <m:mrow/>
                         <m:msub>
                           <m:mi>x</m:mi>
@@ -653,7 +653,7 @@ Definition of a scalar product and properties</md:abstract>
                         </m:msub>
                         <m:mi>,</m:mi>
                         <m:mrow/>
-                      </m:mrow>
+                      </m:mtd>
                     </m:mtr>
                   </m:mtable>
                   <m:mrow/>
@@ -824,13 +824,13 @@ Definition of a scalar product and properties</md:abstract>
 <m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mover><m:mi>a</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mo stretchy="false">→</m:mo></m:mrow></m:mstyle></m:mover></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ {a}  cSup { size 8{ rightarrow } } } {}</m:annotation></m:semantics></m:math> врз векторот 
 <m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mover><m:mi>b</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mo stretchy="false">→</m:mo></m:mrow></m:mstyle></m:mover></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ {b}  cSup { size 8{ rightarrow } } } {}</m:annotation></m:semantics></m:math> е вектор во правец на 
 <m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mover><m:mi>b</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mo stretchy="false">→</m:mo></m:mrow></m:mstyle></m:mover></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ {b}  cSup { size 8{ rightarrow } } } {}</m:annotation></m:semantics></m:math> и изразен како вектор е</para>
-        <para id="id1168804658150"><m:math><m:semantics><m:mrow/><m:annotation encoding="StarMath 5.0">{}</m:annotation></m:semantics></m:math><m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:msub><m:mtext>pr</m:mtext><m:mstyle fontsize="8pt"><m:mrow><m:mover><m:mi>b</m:mi><m:mstyle fontsize="6pt"><m:mrow><m:mo stretchy="false">→</m:mo></m:mrow></m:mstyle></m:mover></m:mrow></m:mstyle></m:msub><m:mover><m:mi>a</m:mi><m:mo stretchy="false">→</m:mo></m:mover></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{"pr" rSub { size 8{ {b}  cSup { size 6{ rightarrow } } } }  {a}  cSup { rightarrow } } {}</m:annotation></m:semantics></m:math> = 
+        <para id="id1168804658150"><m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:msub><m:mtext>pr</m:mtext><m:mstyle fontsize="8pt"><m:mrow><m:mover><m:mi>b</m:mi><m:mstyle fontsize="6pt"><m:mrow><m:mo stretchy="false">→</m:mo></m:mrow></m:mstyle></m:mover></m:mrow></m:mstyle></m:msub><m:mover><m:mi>a</m:mi><m:mo stretchy="false">→</m:mo></m:mover></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{"pr" rSub { size 8{ {b}  cSup { size 6{ rightarrow } } } }  {a}  cSup { rightarrow } } {}</m:annotation></m:semantics></m:math> = 
 <m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mfrac><m:mrow><m:mover><m:mi>a</m:mi><m:mo stretchy="false">→</m:mo></m:mover><m:mo stretchy="false">⋅</m:mo><m:mover><m:mi>b</m:mi><m:mo stretchy="false">→</m:mo></m:mover></m:mrow><m:mrow><m:mi/><m:mo stretchy="false">∣</m:mo><m:mover><m:mi>b</m:mi><m:mo stretchy="false">→</m:mo></m:mover><m:mo stretchy="false">∣</m:mo></m:mrow></m:mfrac><m:mover><m:msub><m:mi>b</m:mi><m:mstyle fontsize="9pt"><m:mrow><m:mn>0</m:mn></m:mrow></m:mstyle></m:msub><m:mo stretchy="false">→</m:mo></m:mover></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ {  { {a}  cSup { rightarrow }  cdot  {b}  cSup { rightarrow } }  over  {` \lline  {b}  cSup { rightarrow }  \lline } }  {b rSub { size 9{0}} }  cSup { rightarrow } } {}</m:annotation></m:semantics></m:math><emphasis effect="italics"/>,</para>
         <para id="id1168797821136">кеде 
 <m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mover><m:msub><m:mi>b</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mn>0</m:mn></m:mrow></m:mstyle></m:msub><m:mstyle fontsize="8pt"><m:mrow><m:mo stretchy="false">→</m:mo></m:mrow></m:mstyle></m:mover></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ {b rSub { size 8{0} } }  cSup { size 8{ rightarrow } } } {}</m:annotation></m:semantics></m:math> е единечниот вектор на 
 <m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mover><m:mi>b</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mo stretchy="false">→</m:mo></m:mrow></m:mstyle></m:mover></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ {b}  cSup { size 8{ rightarrow } } } {}</m:annotation></m:semantics></m:math>, или од 
 <m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mover><m:msub><m:mi>b</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mn>0</m:mn></m:mrow></m:mstyle></m:msub><m:mstyle fontsize="8pt"><m:mrow><m:mo stretchy="false">→</m:mo></m:mrow></m:mstyle></m:mover><m:mo stretchy="false">=</m:mo><m:mfrac><m:mover><m:mi>b</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mo stretchy="false">→</m:mo></m:mrow></m:mstyle></m:mover><m:mrow><m:mo stretchy="false">∣</m:mo><m:mover><m:mi>b</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mo stretchy="false">→</m:mo></m:mrow></m:mstyle></m:mover><m:mo stretchy="false">∣</m:mo></m:mrow></m:mfrac></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ {b rSub { size 8{0} } }  cSup { size 8{ rightarrow } } = {  { {b}  cSup { size 8{ rightarrow } } }  over  { \lline  {b}  cSup { size 8{ rightarrow } }  \lline } } } {}</m:annotation></m:semantics></m:math> следува</para>
-        <para id="id1168794012709"><m:math><m:semantics><m:mrow/><m:annotation encoding="StarMath 5.0">{}</m:annotation></m:semantics></m:math><m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:msub><m:mtext>pr</m:mtext><m:mstyle fontsize="8pt"><m:mrow><m:mover><m:mi>b</m:mi><m:mstyle fontsize="6pt"><m:mrow><m:mo stretchy="false">→</m:mo></m:mrow></m:mstyle></m:mover></m:mrow></m:mstyle></m:msub><m:mover><m:mi>a</m:mi><m:mo stretchy="false">→</m:mo></m:mover></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{"pr" rSub { size 8{ {b}  cSup { size 6{ rightarrow } } } }  {a}  cSup { rightarrow } } {}</m:annotation></m:semantics></m:math> = 
+        <para id="id1168794012709"><m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:msub><m:mtext>pr</m:mtext><m:mstyle fontsize="8pt"><m:mrow><m:mover><m:mi>b</m:mi><m:mstyle fontsize="6pt"><m:mrow><m:mo stretchy="false">→</m:mo></m:mrow></m:mstyle></m:mover></m:mrow></m:mstyle></m:msub><m:mover><m:mi>a</m:mi><m:mo stretchy="false">→</m:mo></m:mover></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{"pr" rSub { size 8{ {b}  cSup { size 6{ rightarrow } } } }  {a}  cSup { rightarrow } } {}</m:annotation></m:semantics></m:math> = 
 <m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mfrac><m:mrow><m:mover><m:mi>a</m:mi><m:mo stretchy="false">→</m:mo></m:mover><m:mo stretchy="false">⋅</m:mo><m:mover><m:mi>b</m:mi><m:mo stretchy="false">→</m:mo></m:mover></m:mrow><m:mrow><m:mi/><m:mo stretchy="false">∣</m:mo><m:mover><m:mi>b</m:mi><m:mo stretchy="false">→</m:mo></m:mover><m:msup><m:mo stretchy="false">∣</m:mo><m:mstyle fontsize="9pt"><m:mrow><m:mn>2</m:mn></m:mrow></m:mstyle></m:msup></m:mrow></m:mfrac><m:mover><m:mi>b</m:mi><m:mo stretchy="false">→</m:mo></m:mover></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ {  { {a}  cSup { rightarrow }  cdot  {b}  cSup { rightarrow } }  over  {` \lline  {b}  cSup { rightarrow }  \lline  rSup { size 9{2}} } }  {b}  cSup { rightarrow } } {}</m:annotation></m:semantics></m:math> . </para>
         <para id="id7811967">Ортогоналната проекција на вектор врз вектор има примена во задачи во кои се бара даден вектор да се претстави како сума од два взаемно нормални вектори од кои едниот е со зададен правец. Така на пример, векторот 
 <m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mover><m:mi>a</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mo stretchy="false">→</m:mo></m:mrow></m:mstyle></m:mover></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ {a}  cSup { size 8{ rightarrow } } } {}</m:annotation></m:semantics></m:math> може да се претстави како сума од два взаемно нормални вектори од кои едниот е во правец на векторот 
@@ -966,7 +966,7 @@ Definition of a scalar product and properties</md:abstract>
                   <m:mrow>
                     <m:mtable>
                       <m:mtr>
-                        <m:mrow>
+                        <m:mtd>
                           <m:mstyle fontsize="12pt">
                             <m:mrow>
                               <m:mrow>
@@ -985,10 +985,10 @@ Definition of a scalar product and properties</md:abstract>
                             </m:mrow>
                           </m:mstyle>
                           <m:mrow/>
-                        </m:mrow>
+                        </m:mtd>
                       </m:mtr>
                       <m:mtr>
-                        <m:mrow>
+                        <m:mtd>
                           <m:mstyle fontsize="12pt">
                             <m:mrow>
                               <m:mrow>
@@ -1013,10 +1013,10 @@ Definition of a scalar product and properties</md:abstract>
                             </m:mrow>
                           </m:mstyle>
                           <m:mrow/>
-                        </m:mrow>
+                        </m:mtd>
                       </m:mtr>
                       <m:mtr>
-                        <m:mrow>
+                        <m:mtd>
                           <m:mstyle fontsize="12pt">
                             <m:mrow>
                               <m:mrow>
@@ -1038,7 +1038,7 @@ Definition of a scalar product and properties</md:abstract>
                             </m:mrow>
                           </m:mstyle>
                           <m:mrow/>
-                        </m:mrow>
+                        </m:mtd>
                       </m:mtr>
                     </m:mtable>
                     <m:mrow/>
@@ -1081,7 +1081,7 @@ Definition of a scalar product and properties</md:abstract>
                   <m:mrow>
                     <m:mtable>
                       <m:mtr>
-                        <m:mrow>
+                        <m:mtd>
                           <m:mstyle fontsize="12pt">
                             <m:mrow>
                               <m:mrow>
@@ -1125,10 +1125,10 @@ Definition of a scalar product and properties</md:abstract>
                             </m:mrow>
                           </m:mstyle>
                           <m:mrow/>
-                        </m:mrow>
+                        </m:mtd>
                       </m:mtr>
                       <m:mtr>
-                        <m:mrow>
+                        <m:mtd>
                           <m:mrow>
                             <m:mrow>
                               <m:mrow>
@@ -1166,10 +1166,10 @@ Definition of a scalar product and properties</md:abstract>
                           </m:mrow>
                           <m:mi>,</m:mi>
                           <m:mrow/>
-                        </m:mrow>
+                        </m:mtd>
                       </m:mtr>
                       <m:mtr>
-                        <m:mrow>
+                        <m:mtd>
                           <m:mrow>
                             <m:mrow>
                               <m:mrow>
@@ -1207,7 +1207,7 @@ Definition of a scalar product and properties</md:abstract>
                           </m:mrow>
                           <m:mtext>.</m:mtext>
                           <m:mrow/>
-                        </m:mrow>
+                        </m:mtd>
                       </m:mtr>
                     </m:mtable>
                     <m:mrow/>
